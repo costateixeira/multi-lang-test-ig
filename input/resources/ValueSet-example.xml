@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="example"/>
+  <url value="http://hl7.org/fhir/test/multi-lang/ValueSet/example"/>
+
+  <name value="ExampleValueSet"/>
+  <title value="Example Value Set"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="HL7 Tooling group"/>
+  <description value="Example ValueSet Instance"/>
+
+
+
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/test/multi-lang/CodeSystem/example"/>
+      <concept>
+        <code value="01"/>
+        <display value="VS1"/>
+        <designation>
+          <value value="VS2"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

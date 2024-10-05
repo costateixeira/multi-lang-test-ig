@@ -1,0 +1,63 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "example",
+  "url": "http://hl7.org/fhir/test/multi-lang/SearchParameter/example",
+  
+  "name": "ExampleSearchParameter",
+  "status": "draft",
+  "publisher": "HL7 Tooling group",
+  "description" : "Example Search Parameter Instance",
+
+  "contact": [
+    {
+      "name": "[string]",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        }
+      ]
+    }
+  ],
+
+  "derivedFrom": "http://hl7.org/fhir/SearchParameter/Resource-id",
+  "useContext": [
+    {
+      "code": {
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code": "focus"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/variant-state",
+            "code": "positive"
+          }
+        ]
+      }
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America (the)"
+        }
+      ]
+    }
+  ],
+  "purpose": "Need to search by identifier for various infrastructural cases - mainly retrieving packages, and matching as part of a chain",
+  "code": "_id",
+  "base": [
+    "Resource"
+  ],
+  "type": "token",
+  "expression": "id",
+  "xpath": "f:*/f:id",
+  "xpathUsage": "normal",
+  "comparator": [
+    "eq"
+  ]
+}

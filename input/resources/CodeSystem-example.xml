@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="example"/>
+  <url value="http://hl7.org/fhir/test/multi-lang/CodeSystem/example"/>
+
+  <name value="ExampleCodeSystem"/>
+  <title value="Example Code System"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="HL7 Tooling group"/>
+  <description value="Example Code System Instance"/>
+  
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="CS1"/>
+    <designation>
+      <value value="CS2"/>
+    </designation>
+  </concept>
+</CodeSystem>

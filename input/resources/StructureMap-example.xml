@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><StructureMap xmlns="http://hl7.org/fhir">
+  <id value="example"/>
+  <url value="http://hl7.org/fhir/test/multi-lang/StructureMap/example"/>
+  
+  <name value="ExampleStructureMap"/>
+  <title value="Example Structure Map"/>
+  <status value="draft"/>
+  <publisher value="HL7 Tooling group"/> 
+  <description value="Example Structure Map Instance"/>
+
+  <group>
+    <name value="Examples"/>
+    <typeMode value="none"/>
+    <documentation value="test -&gt; testValue"/>
+    <input>
+      <name value="test"/>
+      <mode value="source"/>
+    </input>
+    <rule>
+      <name value="rule1"/>
+      <source>
+        <context value="Source"/>
+        <type value="SourceClassA"/>
+        <element value="test"/>
+        <variable value="t"/>
+      </source>
+      <target>
+        <context value="Destination"/>
+        <contextType value="variable"/>
+        <element value="testValue"/>
+        <transform value="copy"/>
+      </target>
+    </rule>
+  </group>
+  
+</StructureMap>
