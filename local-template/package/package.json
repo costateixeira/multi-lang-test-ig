@@ -1,12 +1,9 @@
 {
-    "name": "hl7.fhir.be.my.template",
-    "version": "0.0.1",
-    "type": "fhir.template",
-    "license": "CC0-1.0",
-    "description": "Multilingual template extension for FHIR IG",
-    "author": "http://hl7.org",
-    "base":  "fhir.base.template",
-    "dependencies": {
-      "fhir.base.template": "current"
-    }
-  }
+  "name" : "fhir.base2.template",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "FHIR IG Translated Base Template - foundational for use by anyone",
+  "author" : "http://hl7.org/fhir",
+  "canonical" : "http://fhir.org/templates/fhir.base2.template",
+  "version" : "0.0.1"
+}
