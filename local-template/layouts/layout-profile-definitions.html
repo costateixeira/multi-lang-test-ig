@@ -1,5 +1,6 @@
 ---
 ---
+<!-- layouts\layout-profile-definitions -->
 <!-- get modelType -->
 {% include fragment-modelType.html id='{{[id]}}' %}
 
@@ -9,10 +10,10 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='definition' %}
 
 <a name="root"> </a>
-<h2 id="root">{{modelType}}: {{[title]}} - Detailed Descriptions</h2>
+<h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['DetailedDescriptions']}}</h2>
 {% include fragment-simpletable.html %}
 
-<p>Definitions for the {{[id]}} {{modelType | downcase}}.</p>
+<p>{{site.data.strings['DefinitionsFor'] | replace: "%MODEL%", {{[id]}} | concat: " " | concat: modelType | downcase}}</p>
 
   <!-- insert intro if present -->
   {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' %}
@@ -20,13 +21,13 @@
   <div id="tabs">
     <ul>
       <li>
-        <a href="#tabs-key">Key Elements Table</a>
+        <a href="#tabs-key">{{site.data.strings['KeyElementsTable']}}</a>
       </li>
       <li>
-        <a href="#tabs-diff">Differential Elements Table</a>
+        <a href="#tabs-diff">{{site.data.strings['DifferentialTable']}}</a>
       </li>
       <li>
-        <a href="#tabs-snap">Snapshot Elements Table</a>
+        <a href="#tabs-snap">{{site.data.strings['SnapshotTable']}}</a>
       </li>
     </ul>
     <a name="tabs-key"> </a>

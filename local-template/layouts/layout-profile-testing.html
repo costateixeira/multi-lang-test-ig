@@ -1,5 +1,6 @@
 ---
 ---
+<!-- layouts\layout-profile-testing -->
 <!-- get modelType -->
 {% include fragment-modelType.html id='{{[id]}}' %}
 
@@ -9,7 +10,7 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='testing' %}
 
   <a name="root"> </a>
-  <h2 id="root">{{modelType}}: {{[title]}} - Testing</h2>
+  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['Testing']}}</h2>
 {% include fragment-simpletable.html %}
 
 {% assign basepath = page.path | replace: '-testing.html', '.html' %}
@@ -31,10 +32,10 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>No test plans are currently available for the {{id}} Profile.</b></p>
+  <p><b>{{ site.data.strings['NoTestPlan'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
 {% endif %}
 
-<h3>Test Scripts</h3>
+<h3>{{site.data.strings['TestScripts']}}</h3>
 {% if site.data.pages[basepath].testscripts.size > 0 %}
   <table style="grid">
     <tbody>
@@ -48,7 +49,7 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>No test scripts are currently available for the {{id}} Profile.</b></p>
+  <p><b>{{ site.data.strings['NoTestScript'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
 {% endif %}
 
 <!-- insert notes if present -->

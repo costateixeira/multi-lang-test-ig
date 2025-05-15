@@ -1,12 +1,13 @@
 ---
 ---
+<!-- layouts\layout-canonical-testing -->
 {% include fragment-pagebegin.html %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='testing' %}
   <a name="root"> </a>
   <h2 id="root">{{[type]}}: {{site.data.pages[page.path].title | escape_once}}
-{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+{% if site.data.resources[resource_].experimental == true %}({{site.data.strings['Experimental']}}){% endif %}
   </h2>
 
 {% include fragment-simpletable.html %}
@@ -30,7 +31,7 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>No test plans are currently available for the {{id}} {{[type]}}.</b></p>
+  <p><b>{{ site.data.strings['NoTestPlan'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
 {% endif %}
 
 <h3>Test Scripts</h3>
@@ -47,7 +48,7 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>No test scripts are currently available for the {{id}} {{[type]}}.</b></p>
+  <p><b>{{site.data.strings['NoTestScript'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
 {% endif %}
 
 <!-- insert notes if present -->

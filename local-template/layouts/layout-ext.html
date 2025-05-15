@@ -1,12 +1,13 @@
 ---
 ---
+<!-- layouts\layout-ext -->
 {% include fragment-pagebegin.html %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' %}
   <a name="root"> </a>
   <h2 id="root">Extension: {{site.data.pages[page.path].title | escape_once}}
-{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+{% if site.data.resources[resource_].experimental == true %}({{site.data.strings['Experimental']}}){% endif %}
   </h2>
 
 {% include fragment-resourceTable.html %}
@@ -29,45 +30,44 @@
 
   <!-- no uri -->
   <a name="profile"> </a>
-  <h3 id="profile">Formal Views of Extension Content</h3>
+  <h3 id="profile">{{site.data.strings['FormalExtension']}}</h3>
   <p>
-    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions">Description of Profiles, Differentials, Snapshots, and how the XML and JSON presentations work</a>.
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions">{{site.data.strings['ReadingStructures']}}</a>.
   </p>
   <div id="tabs">
     <ul>
       <li>
-        <a href="#tabs-diff">Differential Table</a>
+        <a href="#tabs-diff">{{site.data.strings['DifferentialTable']}}</a>
       </li>
       <li>
-        <a href="#tabs-snap">Snapshot Table</a>
+        <a href="#tabs-snap">{{site.data.strings['SnapshotTable']}}</a>
       </li>
 {% unless excludexml == 'y' %}
       <!--<li>
-        <a href="#tabs-xml">Pseudo-XML</a>
+        <a href="#tabs-xml">{{site.data.strings['PseudoXML']}}</a>
       </li>-->
 {% endunless %}
 {% unless excludejson == 'y' %}
       <!--<li>
-        <a href="#tabs-json">Pseudo-JSON</a>
+        <a href="#tabs-json">{{site.data.strings['PseudoJSON']}}</a>
       </li>-->
 {% endunless %}
 {% unless excludettl == 'y' %}
       <!--<li>
-        <a href="#tabs-ttl">Pseudo-TTL</a>
+        <a href="#tabs-ttl">{{site.data.strings['PseudoTTL']}}</a>
       </li>-->
 {% endunless %}
       <li>
-        <a href="#tabs-summ">Statistics/References</a>
+        <a href="#tabs-summ">{{site.data.strings['StatisticsReferences']}}</a>
       </li>
       <li>
-        <a href="#tabs-all">All</a>
+        <a href="#tabs-all">{{site.data.strings['AllTables']}}All</a>
       </li>
     </ul>
     <a name="tabs-diff"> </a>
     <div id="tabs-diff">
       <div id="tbl-diff">
-        <p>This structure is derived from <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
-        </p>
+        <p>{{site.data.strings['Derived'] | replace: "%ARTIFACT%", "<a href=\"site.data.structuredefinitions['{{[id]}}'].basepath\">site.data.structuredefinitions['{{[id]}}'].basename</a>"}}</p>
         <div id="tbl-diff-inner">
           {%include StructureDefinition-{{[id]}}-diff.xhtml%}
         </div>
@@ -114,8 +114,7 @@
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
       <div id="tbl-summ">
-        <p>This structure is derived from <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
-        </p>
+        <p>{{site.data.strings['Derived'] | replace: "%ARTIFACT%", "<a href=\"site.data.structuredefinitions['{{[id]}}'].basepath\">site.data.structuredefinitions['{{[id]}}'].basename</a>"}}</p>
         <div id="tbl-summ-inner">
           <a name="summary"> </a>
           {%include StructureDefinition-{{[id]}}-summary.xhtml%}
@@ -126,17 +125,16 @@
     <div id="tabs-all">
       <div id="all-tbl-diff">
         <p>
-          <b>Differential View</b>
+          <b>{{site.data.strings['DifferentialView']}}Differential View</b>
         </p>
-        <p>This structure is derived from <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
-        </p>
+        <p>{{site.data.strings['Derived'] | replace: "%ARTIFACT%", "<a href=\"site.data.structuredefinitions['{{[id]}}'].basepath\">site.data.structuredefinitions['{{[id]}}'].basename</a>"}}</p>
         <div id="all-tbl-diff-inner">
           {%include StructureDefinition-{{[id]}}-diff-all.xhtml%}
         </div>
       </div>
       <div id="all-tbl-snap">
         <p>
-          <b>Snapshot View</b>
+          <b>{{site.data.strings['SnapshotView']}}</b>
         </p>
         <div id="all-tbl-snap-inner">
           {%include StructureDefinition-{{[id]}}-snapshot-all.xhtml%}
@@ -145,7 +143,7 @@
 {% unless excludexml == 'y' %}
       <!--<div id="all-xml">
         <p>
-          <b>XML Template</b>
+          <b>{{site.data.strings['XMLTemplate']}}</b>
         </p>
         <div id="all-xml-inner">
           {%include StructureDefinition-{{[id]}}-pseudo-xml.xhtml%}
@@ -155,7 +153,7 @@
 {% unless excludejson == 'y' %}
       <!--<div id="all-json">
         <p>
-          <b>JSON Template</b>
+          <b>{{site.data.strings['JSONTemplate']}}</b>
         </p>
         <div id="all-json-inner">
           {%include StructureDefinition-{{[id]}}-pseudo-json.xhtml%}
@@ -165,7 +163,7 @@
 {% unless excludettl == 'y' %}
       <!--<div id="all-ttl">
         <p>
-          <b>TTL Template</b>
+          <b>{{site.data.strings['TTLTemplate']}}</b>
         </p>
         <div id="all-ttl-inner">
           {%include StructureDefinition-{{[id]}}-pseudo-ttl.xhtml%}
@@ -173,7 +171,7 @@
       </div>-->
 {% endunless %}
       <div id="all-summ">
-        <p>This structure is derived from <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
+        <p>{{site.data.strings['Derived'] | replace: "%ARTIFACT%", "<a href=\"site.data.structuredefinitions['{{[id]}}'].basepath\">site.data.structuredefinitions['{{[id]}}'].basename</a>"}}</p>
         </p>
         <div id="all-summ-inner">
           {%include StructureDefinition-{{[id]}}-summary-all.xhtml%}
@@ -182,7 +180,7 @@
     </div>
   </div>
   <p>&#160;</p>
-  <p>Other representations of profile: <a href="{{[type]}}-{{[id]}}.csv">CSV</a>, <a href="{{[type]}}-{{[id]}}.xlsx">Excel</a>, <a href="{{[type]}}-{{[id]}}.sch">Schematron</a>
+  <p>{{site.data.strings['OtherReps']}} <a href="{{[type]}}-{{[id]}}.csv">{{site.data.strings['CSV']}}</a>, <a href="{{[type]}}-{{[id]}}.xlsx">{{site.data.strings['Excel']}}</a>, <a href="{{[type]}}-{{[id]}}.sch">{{site.data.strings['Schematron']}}</a>
   </p>
   <a name="tx"> </a>
   <!--Terminology Bindings heading in the fragment -->

@@ -1,5 +1,6 @@
 ---
 ---
+<!-- layouts\layout-profile-mappings -->
 <!-- get modelType -->
 {% include fragment-modelType.html id='{{[id]}}' %}
 
@@ -9,10 +10,10 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='mapping' %}
 
 <a name="root"> </a>
-<h2 id="root">{{modelType}}: {{[title]}} - Mappings</h2>
+<h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['Mappings']}}</h2>
 {% include fragment-simpletable.html %}
 
-<p>Mappings for the {{[id]}} {{modelType | downcase }}.</p>
+  <p>{{site.data.strings['MappingsFor'] | replace: "%ID%", {{[id]}} | replace: "%TYPE%", modelType | downcase}}</p>
 
   <!-- insert intro if present -->
   {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' %}

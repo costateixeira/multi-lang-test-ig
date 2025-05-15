@@ -1,5 +1,6 @@
 ---
 ---
+<!-- layouts\layout-profile-history -->
 <!-- get modelType -->
 {% include fragment-modelType.html id='{{[id]}}' %}
 
@@ -10,9 +11,9 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='history' %}
 
   <a name="root"> </a>
-  <h2 id="root">{{modelType}}: {{[title]}} - Change History</h2>
+  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['ChangeHistory']}}</h2>
 {% include fragment-simpletable.html %}
-  <p>Changes in the {{[id]}} {{modelType | downcase}}.</p>
+  <p>{{site.data.strings['ChangesIn'] | replace: "%ID%", {{[id]}} | replace: "%TYPE%", modelType | downcase}}</p>
 
   {%include {{[type]}}-{{[id]}}-history.xhtml%}
 

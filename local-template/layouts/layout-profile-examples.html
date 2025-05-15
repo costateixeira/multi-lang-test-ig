@@ -1,5 +1,6 @@
 ---
 ---
+<!-- layouts\layout-profile-examples -->
 <!-- get modelType -->
 {% include fragment-modelType.html id='{{[id]}}' %}
 
@@ -9,7 +10,7 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='example' %}
 
   <a name="root"> </a>
-  <h2 id="root">{{modelType}}: {{[title]}} - Examples</h2>
+  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['Examples']}}</h2>
 {% include fragment-simpletable.html %}
 
    <!-- insert intro if present -->
@@ -17,7 +18,7 @@
 
 {% assign basepath = page.path | replace: '-examples.html', '.html' %}
 {% if site.data.pages[basepath].examples.size > 0 %}
-  <p>Examples for the {{[id]}} Profile.</p>
+  <p>{{site.data.strings['ExamplesForProfile'] | replace: "%ID%", "{{[id]}}"}}</p>
   <table style="grid">
     <tbody>
       {% for example in site.data.pages[basepath].examples %}
@@ -30,7 +31,7 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>No examples are currently available for the {{id}} Profile.</b></p>
+  <p><b>{{site.data.strings['NoExamples'] | replace: "%ID%", "{{[id]}}"}}</b></p>
 {% endif %}
 
 <!-- insert notes if present -->

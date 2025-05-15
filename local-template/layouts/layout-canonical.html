@@ -1,13 +1,16 @@
 ---
 ---
-{% include fragment-pagebegin.html %}
+<!-- layouts\layout-canonical -->
+{% assign _lang = "{{[lang]}}" %}
+Lang: {{_lang}}
+{% include fragment-pagebegin.html lang='{{[lang]}}' %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' %}
   <a name="root"> </a>
 
-  <h2 id="root">{{[type]}}: {{site.data.pages[page.path].title | escape_once}}
-{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+  <h2 id="root">{{[type]}}: {{site.data.pages[page.path].title{{[lang]}} | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}({{site.data.strings['Experimental']}}){% endif %}
   </h2>
 
 {% include fragment-resourceTable.html %}
@@ -31,7 +34,7 @@
 {% unless example %}
   {% if '{{[type]}}' == 'CapabilityStatement' %}
   <p>
-      <a href="{{[id]}}.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="{{[id]}}.openapi.json" download>Download</a>
+      <a href="{{[id]}}.openapi.json" no-download="true">{{site.data.strings['Swagger']}}</a> | <a href="{{[id]}}.openapi.json" download>{{site.data.strings['Download']}}</a>
   </p>
   {% endif %}
 {% endunless %}

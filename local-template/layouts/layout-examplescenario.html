@@ -1,5 +1,6 @@
 ---
 ---
+<!-- layouts\layout-examplescenario -->
 {% include fragment-pagebegin.html %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
@@ -7,7 +8,7 @@
   <a name="root"> </a>
 
   <h2 id="root">{{[type]}}: {{site.data.pages[page.path].title | escape_once}}
-{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+{% if site.data.resources[resource_].experimental == true %}({{site.data.strings['Experimental']}}){% endif %}
   </h2>
 
 {% include fragment-resourceTable.html %}

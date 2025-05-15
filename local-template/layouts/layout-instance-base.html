@@ -1,5 +1,6 @@
 ---
 ---
+<!-- layouts\layout-instance-base -->
 {% include fragment-pagebegin.html %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
@@ -8,7 +9,7 @@
 
   <a name="root"> </a>
 {% if site.data.artifacts[page.path].example %}
-  {% assign example = 'Example ' %}
+  {% assign example = site.data.strings['Example'] | concat: ' ' %}
 {% endif %}
 {% assign prefix = site.data.artifacts[page.path].type %}
   <h2 id="root">{{example}}{{prefix}}: {{site.data.pages[page.path].title | escape_once}}</h2>
@@ -17,7 +18,7 @@
 {% unless example %}
   {% if '{{[type]}}' == 'CapabilityStatement' %}
       <p>
-      <a href="{{[id]}}.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="{{[id]}}.openapi.json" download>Download</a>
+      <a href="{{[id]}}.openapi.json" no-download="true">{{site.data.strings['Swagger']}}</a> | <a href="{{[id]}}.openapi.json" download>{{site.data.strings['Download']}}</a>
       </p>
   {% endif %}
 {% endunless %}
@@ -28,7 +29,7 @@
   {% include {{[type]}}-{{[id]}}-html.xhtml %}
 
   {% if site.data.resources[resource_].contained != nil %}
-  <h4>Contained resources</h4>
+  <h4>{{site.data.strings['Contained']}}</h4>
   {% include {{[type]}}-{{[id]}}-contained-index.xhtml %}
   {% endif %}
 
