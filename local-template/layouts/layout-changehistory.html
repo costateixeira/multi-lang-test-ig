@@ -8,7 +8,7 @@
 
 <div style="counter-reset: section 10" class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
-  {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='history' %}
+  {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='history' lang="{{[lang]}}" %}
 
   <a name="root"> </a>
   <h2 id="root">{{type}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['ChangeHistory']}}</h2>
@@ -18,4 +18,4 @@
 
 </div>
 {% assign includetabscripts = 'true' %}
-{% include fragment-pageend.html %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

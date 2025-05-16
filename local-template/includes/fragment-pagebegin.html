@@ -19,7 +19,7 @@
     <link href="{{site.data.info.assets}}assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="{{site.data.info.assets}}assets/css/prism.css" rel="stylesheet" />
   	<link href="{{site.data.info.assets}}assets/css/cqf.css" rel="stylesheet" />
-    {% include fragment-css.html %}
+    {% include fragment-css.html lang=include.lang %}
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -48,11 +48,11 @@
 {% if site.data.info.fcpspec == 'true' %}
         <div id="fcp-nav">
           <a id="fcp-logo" no-external="true" href="https://confluence.hl7.org/display/FCP/FCP+Specification+Registry">
-            <img height="60" alt="Visit the FHIR Community Process Specification Registry" src="assets/images/fcp-logo.png"/>
+            <img height="60" alt="{{site.data.stringsBase[include.lang]['VisitFCP']}}" src="assets/images/fcp-logo.png"/>
           </a>
         </div>
 {% endif %}
-        {% include fragment-header.html %}
+        {% include fragment-header.html lang=include.lang %}
 {% if site.data.info.releaselabel != '' %}
 {% assign status = site.data.info.releaselabel %}
 {% else %}
@@ -65,7 +65,7 @@
 {% assign igId = site.data.fhir.ig.id | prepend: "ImplementationGuide/" %}
 {% for jurisdiction in site.data.resources[igId].jurisdictions %}
 {% if jurisdiction.flag %}
-  <img alt="{{jurisdiction.name}} flag" src="assets/images/{{jurisdiction.flag}}.svg" height="16" title="{{jurisdiction.name}}"/>
+  <img alt="{{jurisdiction.name}} {{site.data.stringsBase[include.lang]['CountryFlag']}}" src="assets/images/{{jurisdiction.flag}}.svg" height="16" title="{{jurisdiction.name}}"/>
 {% elsif jurisdiction.code %}
   <span title="{{jurisdiction.name}}">{{jurisdiction.code}}</span>
 {% else %}
@@ -110,11 +110,11 @@
 {% if shownav == 'y' %}
           <span style="float:right;">
 {% if site.data.pages[page.path].previous %}
-            <a href="{{site.data.pages[page.path].previous}}">&lt;prev</a> | 
+            <a href="{{site.data.pages[page.path].previous}}">{{site.data.stringsBase[include.lang]['PrevPage']}}</a> | 
 {% endif %}
-            <a href="#bottom">bottom</a>
+            <a href="#bottom">{{site.data.stringsBase[include.lang]['PageBottom']}}</a>
 {% if site.data.pages[page.path].next %}
-          | <a href="{{site.data.pages[page.path].next}}">next&gt;</a>
+          | <a href="{{site.data.pages[page.path].next}}">{{site.data.stringsBase[include.lang]['NextPage']}}</a>
 {% endif %}
           </span>
 {% endif %}

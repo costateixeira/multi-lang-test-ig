@@ -1,4 +1,4 @@
-{% include fragment-pagebegin.html %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
 <style type="text/css">
 h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
 h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
@@ -10,10 +10,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   <h2>{{site.data.pages[page.path].title | escape_once}}</h2>
   {% if page.path == 'index.html' %}
-  {% include fragment-igTable.html %}
+  {% include fragment-igTable.html lang="{{[lang]}}" %}
   {% endif %}
-  {% include fragment-pageTable.html %}
+  {% include fragment-pageTable.html lang="{{[lang]}}" %}
   {% assign path = page.path | split: '.html' %}
   {% include {{path}}.xml %}
 </div>
-{% include fragment-pageend.html %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

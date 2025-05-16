@@ -20,9 +20,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 {% endcapture %}
 
 {% if page.path == 'index.html' %}
-{% include fragment-igTable.html %}
+{% include fragment-igTable.html lang="{{[lang]}}" %}
 {% endif %}
-{% include fragment-pageTable.html %}
+{% include fragment-pageTable.html lang="{{[lang]}}" %}
 
 {% capture no-toc-content %} <!-- white space is critical inside of capture -->
 <div>
@@ -41,4 +41,4 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 {% endif %}
 
 </div>
-{% include fragment-pageend.html %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

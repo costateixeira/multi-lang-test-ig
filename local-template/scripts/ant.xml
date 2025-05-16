@@ -192,7 +192,7 @@
     </copy>
     <copy todir="${ig.temp}/_data" failonerror="false">
       <!-- TODO: Replace this copy with something that will default missing translations to English -->
-      <fileset file="${ig.template}/translations/stringsBase.json"/>
+      <fileset dir="${ig.template}/translations" includes="*.json"/>
     </copy>
   <!-- input/data already works, no need to add (commenting out in case we need to revisit due to conflicts and overlaps ) -->
   <!--
