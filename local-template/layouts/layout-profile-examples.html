@@ -10,7 +10,7 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='example' %}
 
   <a name="root"> </a>
-  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['Examples']}}</h2>
+  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['Examples']}}</h2>
 {% include fragment-simpletable.html %}
 
    <!-- insert intro if present -->
@@ -18,7 +18,7 @@
 
 {% assign basepath = page.path | replace: '-examples.html', '.html' %}
 {% if site.data.pages[basepath].examples.size > 0 %}
-  <p>{{site.data.strings['ExamplesForProfile'] | replace: "%ID%", "{{[id]}}"}}</p>
+  <p>{{site.data.stringsBase['{{[lang]}}']['ExamplesForProfile'] | replace: "%ID%", "{{[id]}}"}}</p>
   <table style="grid">
     <tbody>
       {% for example in site.data.pages[basepath].examples %}
@@ -31,7 +31,7 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>{{site.data.strings['NoExamples'] | replace: "%ID%", "{{[id]}}"}}</b></p>
+  <p><b>{{site.data.stringsBase['{{[lang]}}']['NoExamples'] | replace: "%ID%", "{{[id]}}"}}</b></p>
 {% endif %}
 
 <!-- insert notes if present -->

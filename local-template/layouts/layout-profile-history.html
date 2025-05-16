@@ -11,9 +11,9 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='history' %}
 
   <a name="root"> </a>
-  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['ChangeHistory']}}</h2>
+  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['ChangeHistory']}}</h2>
 {% include fragment-simpletable.html %}
-  <p>{{site.data.strings['ChangesIn'] | replace: "%ID%", {{[id]}} | replace: "%TYPE%", modelType | downcase}}</p>
+  <p>{{site.data.stringsBase['{{[lang]}}']['ChangesIn'] | replace: "%ID%", {{[id]}} | replace: "%TYPE%", modelType | downcase}}</p>
 
   {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
 

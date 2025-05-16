@@ -10,10 +10,10 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='definition' %}
 
 <a name="root"> </a>
-<h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['DetailedDescriptions']}}</h2>
+<h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['DetailedDescriptions']}}</h2>
 {% include fragment-simpletable.html %}
 
-<p>{{site.data.strings['DefinitionsFor'] | replace: "%MODEL%", {{[id]}} | append: " " | append: modelType | downcase}}</p>
+<p>{{site.data.stringsBase['{{[lang]}}']['DefinitionsFor'] | replace: "%MODEL%", {{[id]}} | append: " " | append: modelType | downcase}}</p>
 
   <!-- insert intro if present -->
   {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' %}
@@ -21,13 +21,13 @@
   <div id="tabs">
     <ul>
       <li>
-        <a href="#tabs-key">{{site.data.strings['KeyElementsTable']}}</a>
+        <a href="#tabs-key">{{site.data.stringsBase['{{[lang]}}']['KeyElementsTable']}}</a>
       </li>
       <li>
-        <a href="#tabs-diff">{{site.data.strings['DifferentialTable']}}</a>
+        <a href="#tabs-diff">{{site.data.stringsBase['{{[lang]}}']['DifferentialTable']}}</a>
       </li>
       <li>
-        <a href="#tabs-snap">{{site.data.strings['SnapshotTable']}}</a>
+        <a href="#tabs-snap">{{site.data.stringsBase['{{[lang]}}']['SnapshotTable']}}</a>
       </li>
     </ul>
     <a name="tabs-key"> </a>

@@ -10,7 +10,7 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='testing' %}
 
   <a name="root"> </a>
-  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.strings['Testing']}}</h2>
+  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['Testing']}}</h2>
 {% include fragment-simpletable.html %}
 
 {% assign basepath = page.path | replace: '-testing.html', '.html' %}
@@ -32,10 +32,10 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>{{ site.data.strings['NoTestPlan'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
+  <p><b>{{ site.data.stringsBase['{{[lang]}}']['NoTestPlan'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
 {% endif %}
 
-<h3>{{site.data.strings['TestScripts']}}</h3>
+<h3>{{site.data.stringsBase['{{[lang]}}']['TestScripts']}}</h3>
 {% if site.data.pages[basepath].testscripts.size > 0 %}
   <table style="grid">
     <tbody>
@@ -49,7 +49,7 @@
     </tbody>
   </table>
 {% else %}
-  <p><b>{{ site.data.strings['NoTestScript'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
+  <p><b>{{ site.data.stringsBase['{{[lang]}}']['NoTestScript'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}}"}}</b></p>
 {% endif %}
 
 <!-- insert notes if present -->
