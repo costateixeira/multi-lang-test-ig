@@ -2,7 +2,7 @@
 ---
 <!-- layouts\layout-profile-mappings -->
 <!-- get modelType -->
-{% include fragment-modelType.html id='{{[id]}}' %}
+{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
 
 {% include fragment-pagebegin.html %}
 <div style="counter-reset: section 5" class="col-12">
@@ -18,7 +18,7 @@
   <!-- insert intro if present -->
   {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' %}
 
-  {%include StructureDefinition-{{[id]}}-maps.xhtml%}
+  {% include StructureDefinition-{{[id]}}-maps-{{[lang]}}.xhtml %}
 
   <!-- insert notes if present -->
   {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}

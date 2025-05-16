@@ -15,7 +15,7 @@
 {% include fragment-simpletable.html %}
   <p>{{site.data.strings['ChangesIn'] | replace: "%ID%", {{[id]}} | replace: "%TYPE%", modelType | downcase}}</p>
 
-  {%include {{[type]}}-{{[id]}}-history.xhtml%}
+  {% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
 
 </div>
 {% assign includetabscripts = 'true' %}

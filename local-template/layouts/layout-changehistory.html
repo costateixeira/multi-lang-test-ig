@@ -4,7 +4,7 @@
 <!-- get modelType -->
 
 
-{% include fragment-pagebegin.html %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
 
 <div style="counter-reset: section 10" class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
@@ -14,7 +14,7 @@
   <h2 id="root">{{type}}: {{[title]}} - {{site.data.strings['ChangeHistory']}}</h2>
   <p>{{site.data.strings['HistoryOfChange'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}} | downcase"}}</p>
 
-  {%include {{[type]}}-{{[id]}}-history.xhtml%}
+  {% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
 
 </div>
 {% assign includetabscripts = 'true' %}

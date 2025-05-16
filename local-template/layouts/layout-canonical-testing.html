@@ -1,7 +1,7 @@
 ---
 ---
 <!-- layouts\layout-canonical-testing -->
-{% include fragment-pagebegin.html %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='testing' %}
@@ -54,7 +54,7 @@
 <!-- insert notes if present -->
 {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}
 
-{%include {{[type]}}-{{[id]}}-history.xhtml%}
+{% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
 
 </div>
 {% include fragment-pageend.html %}

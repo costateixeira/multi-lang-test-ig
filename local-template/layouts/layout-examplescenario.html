@@ -1,7 +1,7 @@
 ---
 ---
 <!-- layouts\layout-examplescenario -->
-{% include fragment-pagebegin.html %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' %}
@@ -28,24 +28,24 @@
 
 <a name="actors"> </a>
 <h4>Actors</h4>
-  {% include {{[type]}}-{{[id]}}-actor-table.xhtml %}
+  {% include {{[type]}}-{{[id]}}-actor-table-{{[lang]}}.xhtml %}
 
 <a name="diaram"> </a>
 <h4>Diagram</h4>
-  {% include {{[type]}}-{{[id]}}-process-diagram.xhtml %}
+  {% include {{[type]}}-{{[id]}}-process-diagram-{{[lang]}}.xhtml %}
 
 <a name="processes"> </a>
 <h4>Processes</h4>
-  {% include {{[type]}}-{{[id]}}-processes.xhtml %}
+  {% include {{[type]}}-{{[id]}}-processes-{{[lang]}}.xhtml %}
 
 <a name="instances"> </a>
 <h4>Instances</h4>
-  {% include {{[type]}}-{{[id]}}-instance-table.xhtml %}
+  {% include {{[type]}}-{{[id]}}-instance-table-{{[lang]}}.xhtml %}
 
   <!-- insert notes if present -->
   {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}
 
-  {%include {{[type]}}-{{[id]}}-history.xhtml%}
+  {% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
 
 </div>
 {% include fragment-pageend.html %}
