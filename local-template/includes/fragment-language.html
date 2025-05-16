@@ -1,0 +1,12 @@
+<div id="language" style="float: right;padding: 8px 0px;">
+  <label for="langselect" style="color:white;font-weight:normal">{{}}Language:</label>
+  <select name="langselect" id="langselect" onchange="location.href='../' + langselect.value + '/ActorDefinition-example.html';">
+    {% for alang in site.data.languages.langs %}
+      {% if alang.code == include.lang %}
+        <option value="{{alang.code}}" selected="selected">{{alang.display}}</option>
+      {% else %}
+        <option value="{{alang.code}}">{{alang.display}}</option>
+      {% endif %}
+    {% endfor %}
+  </select>
+</div>
