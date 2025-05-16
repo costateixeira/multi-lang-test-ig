@@ -28,24 +28,24 @@
 
 <a name="actors"> </a>
 <h4>Actors</h4>
-  {% include {{[type]}}-{{[id]}}-actor-table-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-actor-table{{[langsuffix]}}.xhtml %}
 
 <a name="diaram"> </a>
 <h4>Diagram</h4>
-  {% include {{[type]}}-{{[id]}}-process-diagram-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-process-diagram{{[langsuffix]}}.xhtml %}
 
 <a name="processes"> </a>
 <h4>Processes</h4>
-  {% include {{[type]}}-{{[id]}}-processes-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-processes{{[langsuffix]}}.xhtml %}
 
 <a name="instances"> </a>
 <h4>Instances</h4>
-  {% include {{[type]}}-{{[id]}}-instance-table-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-instance-table{{[langsuffix]}}.xhtml %}
 
   <!-- insert notes if present -->
   {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}
 
-  {% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
 
 </div>
 {% include fragment-pageend.html %}

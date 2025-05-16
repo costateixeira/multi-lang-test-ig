@@ -14,7 +14,7 @@
   <h2 id="root">{{type}}: {{[title]}} - {{site.data.strings['ChangeHistory']}}</h2>
   <p>{{site.data.strings['HistoryOfChange'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}} | downcase"}}</p>
 
-  {% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
 
 </div>
 {% assign includetabscripts = 'true' %}

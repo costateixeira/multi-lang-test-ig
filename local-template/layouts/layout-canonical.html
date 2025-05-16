@@ -39,12 +39,12 @@ Lang: {{_lang}}
   {% endif %}
 {% endunless %}
 
-  {% include {{[type]}}-{{[id]}}-html-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-html{{[langsuffix]}}.xhtml %}
 
   <!-- insert notes if present -->
   {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}
 
-  {% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
 
 </div>
 {% include fragment-pageend.html %}

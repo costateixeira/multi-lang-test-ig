@@ -25,19 +25,19 @@
 
   <p>{{site.data.strings['CodeSystemValuesets']}}</p>
 
-  {% include {{[type]}}-{{[id]}}-xref-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-xref{{[langsuffix]}}.xhtml %}
 
-  {% include {{[type]}}-{{[id]}}-content-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-content{{[langsuffix]}}.xhtml %}
 
   {% if site.data.resources[resource_].contained != nil %}
   <h4>{{site.data.strings['Contained']}}</h4>
-  {% include {{[type]}}-{{[id]}}-contained-index-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-contained-index{{[langsuffix]}}.xhtml %}
   {% endif %}
 
   <!-- insert notes if present -->
   {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}
 
-  {% include {{[type]}}-{{[id]}}-history-{{[lang]}}.xhtml %}
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
 
 </div>
 {% include fragment-pageend.html %}
