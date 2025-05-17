@@ -1,12 +1,13 @@
 ---
 ---
-<!-- layouts\layout-canonical-testing -->
+{% assign localPage = page.path | split: "/" | last %}
 {% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-canonical-testing -->
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='testing' lang="{{[lang]}}" %}
   <a name="root"> </a>
-  <h2 id="root">{{[type]}}: {{site.data.pages[page.path].title | escape_once}}
+  <h2 id="root">{{[type]}}: {{site.data.pages[localPage].titlelang["{{[lang]}}"] | escape_once}}
 {% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
   </h2>
 

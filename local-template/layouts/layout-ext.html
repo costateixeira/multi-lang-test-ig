@@ -1,12 +1,13 @@
 ---
 ---
-<!-- layouts\layout-ext -->
+{% assign localPage = page.path | split: "/" | last %}
 {% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-ext -->
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
   <a name="root"> </a>
-  <h2 id="root">Extension: {{site.data.pages[page.path].title | escape_once}}
+  <h2 id="root">Extension: {{site.data.pages[localPage].titlelang["{{[lang]}}"] | escape_once}}
 {% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
   </h2>
 

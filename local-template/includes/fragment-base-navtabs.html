@@ -7,8 +7,8 @@
 {% if site.data.resources[resource_].sourceTail contains "#" %}
 {% assign contained_resource = 'y' %}
 {% endif %}
-{% if excludelogbinaryformat == 'y' and site.data.artifacts[page.path].type == 'Binary' %}
-{% assign profile_path = site.data.artifacts[page.path].exampleOf.url %}
+{% if excludelogbinaryformat == 'y' and site.data.artifacts[localPage].type == 'Binary' %}
+{% assign profile_path = site.data.artifacts[localPage].exampleOf.url %}
 {% assign profile_structure = site.data.structuredefinitions | where: "path", profile_path | first %}
 {% if profile_structure.kind == 'logical' %}
 {% assign suppressformat = 'y' %}

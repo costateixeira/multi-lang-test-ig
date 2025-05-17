@@ -1,6 +1,6 @@
-{% assign intro = site.data.pages[page.path].intro %}
+{% assign intro = site.data.pages[localPage].intro %}
 {% if intro != null %}
-{% if site.data.pages[page.path].intro-type == 'xml' %}
+{% if site.data.pages[localPage].intro-type == 'xml' %}
 <div style="display:inline-block">
 {% include {{intro}} type=include.type id=include.id %}
 </div>

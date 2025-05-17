@@ -1,6 +1,6 @@
 ---
 ---
-<!-- layouts\layout-instance-format -->
+{% assign localPage = page.path | split: "/" | last %}
 
 {% if '{{[fmt]}}' == 'xml' %}
 {% assign section = '7' %}
@@ -11,16 +11,17 @@
 {% endif %}
 
 {% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-instance-format -->
 <div style="counter-reset: section {{section}}" class="col-12">
 <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
 {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='{{[fmt]}}' lang="{{[lang]}}" %}
 
 <a name="root"> </a>
-{% if site.data.artifacts[page.path].example %}
+{% if site.data.artifacts[localPage].example %}
   {% assign example = site.data.stringsBase['{{[lang]}}']['Example'] | append: ' ' %}
 {% endif %}
-{% assign prefix = site.data.artifacts[page.path].type %}
-<h2 id="root">{{example}}{{prefix}}: {{site.data.pages[page.path].title | escape_once}}</h2>
+{% assign prefix = site.data.artifacts[localPage].type %}
+<h2 id="root">{{example}}{{prefix}}: {{site.data.pages[localPage].titlelang["{{[lang]}}"] | escape_once}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
 <p><a href="{{[type]}}-{{[id]}}.{{[fmt]}}" no-download="true">{{site.data.stringsBase['{{[lang]}}']['Raw'] | replace: "%FMT%", {{[fmt]}}}}</a> | <a href="{{[type]}}-{{[id]}}.{{[fmt]}}" download>{{site.data.stringsBase['{{[lang]}}']['Download']}}</a></p>

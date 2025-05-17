@@ -1,11 +1,9 @@
 ---
 ---
-<!-- layouts\layout-profile-format -->
-<!-- get modelType -->
-{% include fragment-modelType.html id='{{[id]}}' %}
-
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
 {% assign format = page.path | split: '.html'| first | split: '.' | last %}
-
+<!-- layouts\layout-profile-format -->
 {% if format == 'xml' %}
 {% assign section = '7' %}
 {% elsif format == 'json' %}
@@ -23,7 +21,7 @@
 <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['FormatProfile'] | replace: "%FMT%", format | upcase}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
-<p>{{site.data.stringsBase['{{[lang]}}']['FormatRep'] | replace: "%FMT%", format | upcase | replace: "%ID%", "{{[id]}}" | replace: "%TYPE%", "{{modelType}}" | downcase}}</p>
+<p>{{site.data.stringsBase['{{[lang]}}']['FormatRep'] | replace: "%FMT%", format | upcase | replace: "%ID%", "{{[id]}}" | replace: "%TYPE%", modelType | downcase}}</p>
 
 <p><a href="{{[type]}}-{{[id]}}.{{format}}" no-download="true">Raw {{format}}</a> | <a href="{{[type]}}-{{[id]}}.{{format}}" download>Download</a></p>
 

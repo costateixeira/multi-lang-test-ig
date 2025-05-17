@@ -1,10 +1,9 @@
 ---
 ---
-<!-- layouts\layout-profile -->
-<!-- get modelType -->
-{% include fragment-modelType.html id='{{[id]}}' %}
-
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
 {% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-profile -->
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
@@ -12,9 +11,9 @@
   <a name="root"> </a>
   <h2 id="root">{{modelType}}:
 {% if site.data.structuredefinitions["{{[id]}}"].abstract == true %}
-    <i>{{site.data.pages[page.path].title | escape_once}}</i>
+    <i>{{site.data.pages[localPage].titlelang["{{[lang]}}"] | escape_once}}</i>
 {% else %}
-    {{site.data.pages[page.path].title}}
+    {{site.data.pages[localPage].titlelang["{{[lang]}}"]}}
 {% endif %}
 {% if site.data.resources[resource_].experimental == true or site.data.structuredefinitions["{{[id]}}"].abstract == true %}({% endif %}
 {% if site.data.structuredefinitions["{{[id]}}"].abstract == true %}{{site.data.stringsBase['{{[lang]}}']['Abstract']}}{% endif %}
@@ -41,7 +40,7 @@
 
   <!-- no uri -->
   <a name="profile"> </a>
-  <h3 id="profile">{{site.data.stringsBase['{{[lang]}}']['Abstract']}}</h3>
+  <h3 id="profile">{{site.data.stringsBase['{{[lang]}}']['FormalProfile']}}</h3>
   <p>
     <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions">{{site.data.stringsBase['{{[lang]}}']['ReadingStructures']}}</a>.
   </p>
@@ -75,7 +74,7 @@
         <a href="#tabs-summ">{{site.data.stringsBase['{{[lang]}}']['StatisticsReferences']}}</a>
       </li>
       <li>
-        <a href="#tabs-all">{{site.data.stringsBase['{{[lang]}}']['AllTable']}}</a>
+        <a href="#tabs-all">{{site.data.stringsBase['{{[lang]}}']['AllTables']}}</a>
       </li>
     </ul>
     <a name="tabs-key"> </a>
