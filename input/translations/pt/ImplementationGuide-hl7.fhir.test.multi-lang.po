@@ -1,0 +1,285 @@
+#
+msgid ""
+msgstr ""
+"Language: pt\n"
+"X-Generator: Poedit 3.5\n"
+
+# en -> pt
+#. A natural language name identifying the implementation guide. This name
+#. should be usable as an identifier for the module by machine processing
+#. applications such as code generation.
+msgctxt "ImplementationGuide.ImplementationGuide.name"
+msgid "MultiLanguageTestIG"
+msgstr "MultiLanguageTestIG"
+
+#. A short, descriptive, user-friendly title for the implementation guide.
+msgctxt "ImplementationGuide.ImplementationGuide.title"
+msgid "Multi-Language Test IG"
+msgstr "Teste multilingue IG"
+
+#. The name of the organization or individual that published the
+#. implementation guide.
+msgctxt "ImplementationGuide.ImplementationGuide.publisher"
+msgid "HL7 Tooling group"
+msgstr "Grupo de ferramentas HL7"
+
+#. A free text natural language description of the implementation guide from a
+#. consumer's perspective.
+msgctxt "ImplementationGuide.ImplementationGuide.description"
+msgid ""
+"This IG exists to test out the generation of multi-language IGs. Primary "
+"language is en, also does nl, pt, and ar (rtl test)"
+msgstr ""
+"Este IG existe para testar a geração de IGs multi-linguagem. A língua "
+"principal é o en, também faz nl, pt, e ar (teste rtl)"
+
+#. The version of the IG that is depended on, when the correct version is
+#. required to understand the IG correctly.
+msgctxt "ImplementationGuide.ImplementationGuide.dependsOn.version"
+msgid "6.3.0"
+msgstr "6.3.0"
+
+#. The version of the IG that is depended on, when the correct version is
+#. required to understand the IG correctly.
+msgctxt "ImplementationGuide.ImplementationGuide.dependsOn.version"
+msgid "5.2.0"
+msgstr "5.2.0"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "A demonstration code system"
+msgstr "Um sistema de códigos de demonstração"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "Example Code System Instance"
+msgstr "Exemplo de código Instância do sistema"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "a demonstration Value set"
+msgstr "uma demonstração Conjunto de valores"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "Example ValueSet Instance"
+msgstr "Exemplo de instância ValueSet"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Structure Definition"
+msgstr "Exemplo de estrutura Definição"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "Test Patient Profile"
+msgstr "Perfil do paciente de teste"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Simple patient example"
+msgstr "Exemplo simples de um doente"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A simple example showing how examples are defined and referenced"
+msgstr ""
+"Um exemplo simples que mostra como os exemplos são definidos e referenciados"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Library"
+msgstr "Biblioteca de exemplo"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test example Library"
+msgstr "Um exemplo de teste Biblioteca"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Questionnaire"
+msgstr "Exemplo de questionário"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test Questionnaire"
+msgstr "Um questionário de teste"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Concept Map"
+msgstr "Exemplo de mapa concetual"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test ConceptMap"
+msgstr "Um ConceptMap de teste"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Structure Map"
+msgstr "Exemplo de mapa de estrutura"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test StructureMap"
+msgstr "Um StructureMap de teste"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Operation Definition"
+msgstr "Exemplo de operação Definição"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test OperationDefinition"
+msgstr "Um teste OperationDefinition"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "ExampleExampleScenario"
+msgstr "ExemploExemploCenário"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test ExampleScenario"
+msgstr "Um teste ExemploCenário"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Actor Definition"
+msgstr "Exemplo de definição de ator"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test ActorDefinition"
+msgstr "Um teste ActorDefinition"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Requirements"
+msgstr "Exemplo de requisitos"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test Requirements"
+msgstr "Um teste Requisitos"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example Capability Statement"
+msgstr "Exemplo de declaração de capacidade"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test CapabilityStatement"
+msgstr "Um teste CapabilityStatement"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "ExampleSearchParameter"
+msgstr "ExampleSearchParameter"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "A test SearchParameter"
+msgstr "Um SearchParameter de teste"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Observation patient example"
+msgstr "Exemplo de observação de um doente"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "1st Observation example"
+msgstr "Exemplo da 1ª observação"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "Example binary"
+msgstr "Exemplo de binário"
+
+#. A description of the reason that a resource has been included in the
+#. implementation guide.
+msgctxt ""
+"ImplementationGuide.ImplementationGuide.definition.resource.description"
+msgid "Example showing binary content"
+msgstr "Exemplo de conteúdo binário"
+
+#. A human assigned name for the resource. All resources SHOULD have a name,
+#. but the name may be extracted from the resource (e.g. ValueSet.name).
+msgctxt "ImplementationGuide.ImplementationGuide.definition.resource.name"
+msgid "null (Bundle)"
+msgstr "nulo (pacote)"
+
+#. A short title used to represent this page in navigational structures such
+#. as table of contents, bread crumbs, etc.
+msgctxt "ImplementationGuide.ImplementationGuide.definition.page.title"
+msgid "Table of Contents"
+msgstr "Índice"
+
+#. A short title used to represent this page in navigational structures such
+#. as table of contents, bread crumbs, etc.
+msgctxt "ImplementationGuide.ImplementationGuide.definition.page.page.title"
+msgid "Test IG Home Page"
+msgstr "Página inicial do Teste IG"
+
+#. A short title used to represent this page in navigational structures such
+#. as table of contents, bread crumbs, etc.
+msgctxt "ImplementationGuide.ImplementationGuide.definition.page.page.title"
+msgid "Translated"
+msgstr "Traduzido"
+
+#. A short title used to represent this page in navigational structures such
+#. as table of contents, bread crumbs, etc.
+msgctxt "ImplementationGuide.ImplementationGuide.definition.page.page.title"
+msgid "Not Translated"
+msgstr "Não traduzido"
