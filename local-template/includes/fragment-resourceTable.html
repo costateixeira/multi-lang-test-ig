@@ -108,7 +108,7 @@
     </tr>
 {% endif %}
 {%if site.data.resources[resource_].copyright %}
-{% assign copyrightLabel = "*" | append: site.data.stringsBase[include.lang]['Copyright/Legal'] | append: "*" %}
+{% assign copyrightLabel = "*" | append: site.data.stringsBase[include.lang]['CopyrightLegal'] | append: "*: " %}
     <tr>
       <td colspan="5">{{site.data.resources[resource_].copyright | prepend: copyrightLabel | markdownify}}</td>
     </tr>

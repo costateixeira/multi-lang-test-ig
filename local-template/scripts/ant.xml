@@ -117,18 +117,19 @@
     <xslt in="${onGenerate.ig.source}1.xml" out="${onGenerate.ig.source}2.xml" style="${ig.scripts}/onGenerate.groupSort.xslt"/>
     <xslt in="${onGenerate.ig.source}2.xml" out="${onGenerate.ig.dest}xml" style="${ig.scripts}/onGenerate.final.xslt"/>
   </target>
-  <target name="onGenerate.processIncludes" depends="onGenerate.processIncludes.simple, onGenerate.processIncludes.langs">
+<!--  <target name="onGenerate.processIncludes" depends="onGenerate.processIncludes.simple, onGenerate.processIncludes.langs">-->
+  <target name="onGenerate.processIncludes">
     <copy todir="${dir.temp.includes}">
       <fileset dir="${dir.template.includes}" includes="*"/>
     </copy>
   </target>
-  <target name="onGenerate.processIncludes.simple" unless="langs">
-<!--    <copy todir="${dir.temp.includes}">
+<!--  <target name="onGenerate.processIncludes.simple" unless="langs">
+    <copy todir="${dir.temp.includes}">
       <fileset dir="${dir.template.includes}" includes="*"/>
-    </copy>-->
+    </copy>
   </target>
   <target name="onGenerate.processIncludes.langs" if="langs">
-<!--    <copy todir="${dir.temp.includes}">
+    <copy todir="${dir.temp.includes}">
       <fileset dir="${dir.template.includes}" includes="*"/>
     </copy>
     <script language="javascript">
@@ -142,13 +143,13 @@
         }
       }
     ]]>
-    </script>-->
+    </script>
   </target>
   <target name="onGenerate.processIncludes.lang">
     <copy todir="${dir.temp.includes}/${lang}">
       <fileset dir="${dir.template.includes}" includes="*"/>
     </copy>
-  </target>
+  </target>-->
   <target name="onGenerate.igQa" depends="onGenerate.processIg">
     <xslt in="${onGenerate.ig.dest}xml" out="${ig.template}/ongenerate-validation-igqa.json" style="${ig.scripts}/onGenerate.qa.xslt"/>
   </target>

@@ -23,7 +23,7 @@
             <td>
               <img src="work-98936_640.png" alt="Work in Progress icon" height="30" width="30"/>
             </td>
-            <td>The content in this section has not undergone work group review and may be significantly revised prior to the next ballot.</td>
+            <td>{{site.data.stringsBase['{{[lang]}}']['WorkInProgress']}}</td>
           </tr>
         </tbody>
       </table>
@@ -35,7 +35,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:if test="count(html:h3)>1">
         <div class="markdown-toc">
-          <p>Contents:</p>
+          <p>{{site.data.stringsBase['{{[lang]}}']['Contents']}}:</p>
           <ul>
             <xsl:for-each select="html:h3">
               <li>

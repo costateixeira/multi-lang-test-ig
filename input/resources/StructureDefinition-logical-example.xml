@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+	<id value="LogicalExample"/>
+	<url value="http://hl7.org/fhir/test/multi-lang/StructureDefinition/LogicalExample"/>
+	<name value="ExampleLogicalStructureDefinition"/>
+	<title value="Example Logical Structure Definition"/>
+	<status value="draft"/>
+	<publisher value="HL7 Tooling group"/>
+	<description value="Example Logical Structure Definition Instance"/>
+	<fhirVersion value="5.0.0"/>
+	<kind value="logical"/>
+	<abstract value="false"/>
+	<type value="http://hl7.org/fhir/test/multi-lang/StructureDefinition/LogicalExample"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="LogicalExample">
+			<path value="LogicalExample"/>
+		</element>
+		<element id="LogicalExample.foo">
+			<path value="LogicalExample.foo"/>
+			<type>
+        <code value="string"/>
+      </type>
+		</element>
+	</differential>
+</StructureDefinition>

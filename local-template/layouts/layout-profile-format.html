@@ -18,10 +18,12 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active=format lang="{{[lang]}}" %}
 
 <a name="root"> </a>
-<h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['FormatProfile'] | replace: "%FMT%", format | upcase}}</h2>
+{% assign formatUpper = format | upcase %}
+<h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['FormatProfile'] | replace: "%FMT%", formatUpper}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
-<p>{{site.data.stringsBase['{{[lang]}}']['FormatRep'] | replace: "%FMT%", format | upcase | replace: "%ID%", "{{[id]}}" | replace: "%TYPE%", modelType | downcase}}</p>
+{% assign modelLower = modelType | downcase %}
+<p>{{site.data.stringsBase['{{[lang]}}']['FormatRep'] | replace: "%FMT%", formatUpper | replace: "%ID%", "{{[id]}}" | replace: "%TYPE%", modelLower}}</p>
 
 <p><a href="{{[type]}}-{{[id]}}.{{format}}" no-download="true">Raw {{format}}</a> | <a href="{{[type]}}-{{[id]}}.{{format}}" download>Download</a></p>
 
