@@ -1,0 +1,20 @@
+# Plain text narrative that identifies the resource in addition to the resource reference.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Basic.Basic.extension.extension.valueReference.display
+msgid "Lloyd Mackenzie"
+msgstr "Lloyd Mackenzie"
+
+# Plain text narrative that identifies the resource in addition to the resource reference.
+#: Basic.Basic.extension.extension.valueReference.display
+msgid "Robert Hausam"
+msgstr "Robert Hausam"

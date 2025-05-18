@@ -1,0 +1,40 @@
+# A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SearchParameter.SearchParameter.name
+msgid "ExampleSearchParameter"
+msgstr "ExampleSearchParameter"
+
+# The name of the organization or individual that published the search parameter.
+#: SearchParameter.SearchParameter.publisher
+msgid "HL7 Tooling group"
+msgstr "Grupo de ferramentas HL7"
+
+# The name of an individual to contact.
+#: SearchParameter.SearchParameter.contact.name
+msgid "[string]"
+msgstr "[string]"
+
+# And how it used.
+#: SearchParameter.SearchParameter.description
+msgid "Example Search Parameter Instance"
+msgstr "Exemplo de instância de parâmetro de pesquisa"
+
+# Explanation of why this search parameter is needed and why it has been designed as it has.
+#: SearchParameter.SearchParameter.purpose
+msgid "Need to search by identifier for various infrastructural cases - mainly retrieving packages, and matching as part of a chain"
+msgstr "Necessidade de pesquisar por identificador em vários casos de infra-estruturas - principalmente na recuperação de pacotes e na correspondência como parte de uma cadeia"
+
+# A FHIRPath expression that returns a set of elements for the search parameter.
+#: SearchParameter.SearchParameter.expression
+msgid "id"
+msgstr "id"

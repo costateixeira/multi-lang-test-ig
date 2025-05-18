@@ -1,0 +1,76 @@
+# Plain text narrative that identifies the resource in addition to the resource reference.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Patient.Patient.identifier.assigner.display
+msgid "Acme Healthcare"
+msgstr "Cuidados de saúde Acme"
+
+# The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
+#: Patient.Patient.name.family
+msgid "Chalmers"
+msgstr "Chalmers"
+
+# Given name.
+#: Patient.Patient.name.given
+msgid "Peter"
+msgstr "Pedro"
+
+# Given name.
+#: Patient.Patient.name.given
+msgid "James"
+msgstr "Tiago"
+
+# Given name.
+#: Patient.Patient.name.given
+msgid "Jim"
+msgstr "Jim"
+
+# The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
+#: Patient.Patient.name.family
+msgid "Windsor"
+msgstr "Windsor"
+
+# Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts.
+#: Patient.Patient.address.text
+msgid "534 Erewhon St PeasantVille, Rainbow, Vic  3999"
+msgstr "534 Erewhon St PeasantVille, Rainbow, Vic 3999"
+
+# This component contains the house number, apartment number, street name, street direction,  P.O. Box number, delivery hints, and similar address information.
+#: Patient.Patient.address.line
+msgid "534 Erewhon St"
+msgstr "534 Erewhon St"
+
+# The name of the city, town, suburb, village or other community or delivery center.
+#: Patient.Patient.address.city
+msgid "PleasantVille"
+msgstr "PleasantVille"
+
+# The name of the administrative area (county).
+#: Patient.Patient.address.district
+msgid "Rainbow"
+msgstr "Arco-íris"
+
+# Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes).
+#: Patient.Patient.address.state
+msgid "Vic"
+msgstr "Vic"
+
+# A postal code designating a region defined by the postal service.
+#: Patient.Patient.address.postalCode
+msgid "3999"
+msgstr "3999"
+
+# The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
+#: Patient.Patient.contact.name.family
+msgid "du Marché"
+msgstr "du Marché"
+

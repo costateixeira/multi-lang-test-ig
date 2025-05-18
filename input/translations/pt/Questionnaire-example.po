@@ -1,0 +1,75 @@
+# A natural language name identifying the questionnaire. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Questionnaire.Questionnaire.name
+msgid "ExampleQuestionnaire"
+msgstr "ExemploQuestionário"
+
+# A short, descriptive, user-friendly title for the questionnaire.
+#: Questionnaire.Questionnaire.title
+msgid "Example Questionnaire"
+msgstr "Exemplo de questionário"
+
+# The name of the organization or individual that published the questionnaire.
+#: Questionnaire.Questionnaire.publisher
+msgid "HL7 Tooling group"
+msgstr "Grupo de ferramentas HL7"
+
+# A free text natural language description of the questionnaire from a consumer's perspective.
+#: Questionnaire.Questionnaire.description
+msgid "Example Questionnaire Instance"
+msgstr "Exemplo de instância de questionário"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.Questionnaire.item.item.prefix
+msgid "1"
+msgstr "1"
+
+# The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.
+#: Questionnaire.Questionnaire.item.item.item.enableWhen.question
+msgid "1.1"
+msgstr "1.1"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Questionnaire.Questionnaire.item.item.item.item.item.code.display
+msgid "Angina Pectoris"
+msgstr "Angina de peito"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Questionnaire.Questionnaire.item.item.item.item.item.code.display
+msgid "Angina (disorder)"
+msgstr "Angina (doença)"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.Questionnaire.item.item.item.item.item.prefix
+msgid "1.1.1"
+msgstr "1.1.1"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Questionnaire.Questionnaire.item.item.item.item.item.code.display
+msgid "Myocardial infarction (disorder)"
+msgstr "Enfarte do miocárdio (doença)"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.Questionnaire.item.item.item.item.item.prefix
+msgid "1.1.2"
+msgstr "1.1.2"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.Questionnaire.item.item.item.item.prefix
+msgid "1.2"
+msgstr "1.2"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Questionnaire.Questionnaire.item.item.item.code.display
+msgid "pT category"
+msgstr "Categoria pT"

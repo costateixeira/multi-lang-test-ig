@@ -1,0 +1,46 @@
+# A representation of the meaning of the code in the system, following the rules of the system.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Observation.Observation.category.coding.display
+msgid "Vital Signs"
+msgstr "Sinais vitais"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Observation.Observation.code.coding.display
+msgid "Oxygen saturation in Arterial blood"
+msgstr "Saturação de oxigénio no sangue arterial"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Observation.Observation.code.coding.display
+msgid "Oxygen saturation in Arterial blood by Pulse oximetry"
+msgstr "Saturação de oxigénio no sangue arterial por oximetria de pulso"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Observation.Observation.code.coding.display
+msgid "MDC_PULS_OXIM_SAT_O2"
+msgstr "MDC_PULS_OXIM_SAT_O2"
+
+# A human-readable form of the unit.
+#: Observation.Observation.valueQuantity.unit
+msgid "%"
+msgstr "%"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Observation.Observation.interpretation.coding.display
+msgid "Normal"
+msgstr "Normal"
+
+# A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.
+#: Observation.Observation.interpretation.text
+msgid "Normal (applies to non-numeric results)"
+msgstr "Normal (aplica-se a resultados não numéricos)"
+

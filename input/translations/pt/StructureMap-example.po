@@ -1,0 +1,50 @@
+# A natural language name identifying the structure map. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: StructureMap.StructureMap.name
+msgid "ExampleStructureMap"
+msgstr "Exemplo de mapa de estrutura"
+
+# A short, descriptive, user-friendly title for the structure map.
+#: StructureMap.StructureMap.title
+msgid "Example Structure Map"
+msgstr "Exemplo de mapa de estrutura"
+
+# The name of the organization or individual that published the structure map.
+#: StructureMap.StructureMap.publisher
+msgid "HL7 Tooling group"
+msgstr "Grupo de ferramentas HL7"
+
+# A free text natural language description of the structure map from a consumer's perspective.
+#: StructureMap.StructureMap.description
+msgid "Example Structure Map Instance"
+msgstr "Exemplo de instância de mapa de estrutura"
+
+# Additional supporting documentation that explains the purpose of the group and the types of mappings within it.
+#: StructureMap.StructureMap.group.documentation
+msgid "test -> testValue"
+msgstr "teste -> testValue"
+
+# Specified type for the element. This works as a condition on the mapping - use for polymorphic elements.
+#: StructureMap.StructureMap.group.rule.source.type
+msgid "SourceClassA"
+msgstr "FonteClassA"
+
+# Optional field for this source.
+#: StructureMap.StructureMap.group.rule.source.element
+msgid "test"
+msgstr "teste"
+
+# Field to create in the context.
+#: StructureMap.StructureMap.group.rule.target.element
+msgid "testValue"
+msgstr "valor de teste"

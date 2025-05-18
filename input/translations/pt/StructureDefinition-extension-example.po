@@ -1,0 +1,25 @@
+# A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: name
+msgid "ExampleExtensionStructureDefinition"
+msgstr "Exemplo de definição da estrutura de extensão"
+
+# A short, descriptive, user-friendly title for the structure definition.
+#: title
+msgid "Example Extension Structure Definition"
+msgstr "Exemplo de definição de estrutura de extensão"
+
+# The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
+#: publisher
+msgid "HL7 Tooling group"
+msgstr "Grupo de ferramentas HL7"

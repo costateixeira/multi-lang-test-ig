@@ -1,0 +1,80 @@
+# A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-05-18 18:14+0000\n"
+"PO-Revision-Date: 2025-05-18 18:14+0000\n"
+"Language: pt-PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: OperationDefinition.OperationDefinition.name
+msgid "ExampleOperationDefinition"
+msgstr "ExampleOperationDefinition (definição de operação de exemplo)"
+
+# A short, descriptive, user-friendly title for the operation definition.
+#: OperationDefinition.OperationDefinition.title
+msgid "Example Operation Definition"
+msgstr "Exemplo de operação Definição"
+
+# The name of the organization or individual that published the operation definition.
+#: OperationDefinition.OperationDefinition.publisher
+msgid "HL7 Tooling group"
+msgstr "Grupo de ferramentas HL7"
+
+# A free text natural language description of the operation definition from a consumer's perspective.
+#: OperationDefinition.OperationDefinition.description
+msgid "Example Operation Definition Instance"
+msgstr "Exemplo de operação Definição da instância"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: OperationDefinition.OperationDefinition.useContext.code.display
+msgid "Clinical Venue"
+msgstr "Local clínico"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: OperationDefinition.OperationDefinition.useContext.valueCodeableConcept.coding.display
+msgid "inpatient encounter"
+msgstr "encontro com paciente internado"
+
+# Additional information about how to use this operation or named query.
+#: OperationDefinition.OperationDefinition.comment
+msgid "Only implemented for Labs and Medications so far"
+msgstr "Até à data, só foi implementado para laboratórios e medicamentos"
+
+# The maximum number of times this element is permitted to appear in the request or response.
+#: OperationDefinition.OperationDefinition.parameter.max
+msgid "1"
+msgstr "1"
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.OperationDefinition.parameter.documentation
+msgid "The resource that is to be the *QuestionnaireResponse.subject*. The [[[QuestionnaireResponse]]]      instance will reference the provided subject.  In addition, if the *local* parameter is      set to true, server information about the specified subject will be used to populate the      instance."
+msgstr "O recurso que deve ser o *QuestionnaireResponse.subject*. A instância [[[QuestionnaireResponse]]] fará referência ao assunto fornecido.  Além disso, se o parâmetro *local* for definido como verdadeiro, as informações do servidor sobre o assunto especificado serão usadas para preencher a instância."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.OperationDefinition.parameter.documentation
+msgid "If the *local* parameter is set to true, server information about the specified subject will be used to populate the instance."
+msgstr "Se o parâmetro *local* for definido como verdadeiro, as informações do servidor sobre o assunto especificado serão utilizadas para preencher a instância."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.OperationDefinition.parameter.documentation
+msgid "The partially (or fully)-populated set of answers for the specified Questionnaire"
+msgstr "O conjunto de respostas parcialmente (ou totalmente) preenchido para o Questionário especificado"
+
+# Name of parameter to include in overload.
+#: OperationDefinition.OperationDefinition.overload.parameterName
+msgid "subject"
+msgstr "assunto"
+
+# Name of parameter to include in overload.
+#: OperationDefinition.OperationDefinition.overload.parameterName
+msgid "local"
+msgstr "local"
+
+# Comments to go on overload.
+#: OperationDefinition.OperationDefinition.overload.comment
+msgid "local defaults to false when not passed as a parameter"
+msgstr "a predefinição local é falsa quando não é passada como parâmetro"
