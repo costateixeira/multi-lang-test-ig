@@ -20,12 +20,8 @@ msgstr "Grupo de ferramentas HL7"
 # A free text natural language description of the implementation guide from a
 # consumer's perspective.
 #: ImplementationGuide.description"
-msgid ""
-"This IG exists to test out the generation of multi-language IGs. Primary "
-"language is en, also does nl, pt, and ar (rtl test)"
-msgstr ""
-"Este IG existe para testar a geração de IGs multi-linguagem. A língua "
-"principal é o en, também faz nl, pt, e ar (teste rtl)"
+msgid "This IG exists to test out the generation of multi-language IGs. Primary language is en, also does nl, pt, and ar (rtl test)"
+msgstr "Este IG existe para testar a geração de IGs multi-linguagem. A língua principal é o en, também faz nl, pt, e ar (teste rtl)"
 
 # The version of the IG that is depended on, when the correct version is
 # required to understand the IG correctly.
@@ -86,11 +82,9 @@ msgstr "Exemplo simples de um doente"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A simple example showing how examples are defined and referenced"
-msgstr ""
-"Um exemplo simples que mostra como os exemplos são definidos e referenciados"
+msgstr "Um exemplo simples que mostra como os exemplos são definidos e referenciados"
 
 # A human assigned name for the resource. All resources SHOULD have a name,
 # but the name may be extracted from the resource (e.g. ValueSet.name).
@@ -100,8 +94,7 @@ msgstr "Biblioteca de exemplo"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test example Library"
 msgstr "Um exemplo de teste Biblioteca"
 
@@ -113,8 +106,7 @@ msgstr "Exemplo de questionário"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test Questionnaire"
 msgstr "Um questionário de teste"
 
@@ -126,8 +118,7 @@ msgstr "Exemplo de mapa concetual"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test ConceptMap"
 msgstr "Um ConceptMap de teste"
 
@@ -139,8 +130,7 @@ msgstr "Exemplo de mapa de estrutura"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test StructureMap"
 msgstr "Um StructureMap de teste"
 
@@ -152,8 +142,7 @@ msgstr "Exemplo de operação Definição"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test OperationDefinition"
 msgstr "Um teste OperationDefinition"
 
@@ -165,8 +154,7 @@ msgstr "ExemploExemploCenário"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test ExampleScenario"
 msgstr "Um teste ExemploCenário"
 
@@ -178,8 +166,7 @@ msgstr "Exemplo de definição de ator"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test ActorDefinition"
 msgstr "Um teste ActorDefinition"
 
@@ -191,8 +178,7 @@ msgstr "Exemplo de requisitos"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test Requirements"
 msgstr "Um teste Requisitos"
 
@@ -204,8 +190,7 @@ msgstr "Exemplo de declaração de capacidade"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test CapabilityStatement"
 msgstr "Um teste CapabilityStatement"
 
@@ -217,8 +202,7 @@ msgstr "ExampleSearchParameter"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "A test SearchParameter"
 msgstr "Um SearchParameter de teste"
 
@@ -230,8 +214,7 @@ msgstr "Exemplo de observação de um doente"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "1st Observation example"
 msgstr "Exemplo da 1ª observação"
 
@@ -243,8 +226,7 @@ msgstr "Exemplo de binário"
 
 # A description of the reason that a resource has been included in the
 # implementation guide.
-#: "
-"ImplementationGuide.definition.resource.description"
+#: ImplementationGuide.definition.resource.description"
 msgid "Example showing binary content"
 msgstr "Exemplo de conteúdo binário"
 
