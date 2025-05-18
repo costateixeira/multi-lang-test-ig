@@ -150,17 +150,18 @@
         <generation value="markdown"/>
       </page>
     </page>
-
     <parameter>
       <code value="copyrightyear"/>
       <value value="2024+"/>
     </parameter>
-
     <parameter>
       <code value="releaselabel"/>
       <value value="Test Build"/>
     </parameter>
-
+<!--    <parameter>
+      <code value="shownav"/>
+      <value value="true"/>
+    </parameter>-->
     <parameter>
       <code value="i18n-default-lang"/>
       <value value="en"/>

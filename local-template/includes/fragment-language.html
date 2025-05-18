@@ -1,3 +1,4 @@
+{% if site.data.languages.langs.size() != 1 %}
 <div id="language" style="float: right;padding: 8px 8px;">
   <label for="langselect" style="color:white;font-weight:normal">{{}}Language:</label>
   <select name="langselect" id="langselect" onchange="location.href='../' + langselect.value + '/{{page.name}}';">
@@ -10,3 +11,4 @@
     {% endfor %}
   </select>
 </div>
+{% endif %}

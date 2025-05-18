@@ -12,7 +12,9 @@
 <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['DetailedDescriptions']}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
-<p>{{site.data.stringsBase['{{[lang]}}']['DefinitionsFor'] | replace: "%MODEL%", {{[id]}} | append: " " | append: modelType | downcase}}</p>
+{% assign modelTypeLower = modelType | downcase %}
+{% assign model = "{{[id]}} " | append: modelTypeLower %}
+<p>{{site.data.stringsBase['{{[lang]}}']['DefinitionsFor'] | replace: "%MODEL%", model}}</p>
 
   <!-- insert intro if present -->
   {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}

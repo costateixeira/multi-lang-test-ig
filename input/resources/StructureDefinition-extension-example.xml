@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+	<id value="extension-example"/>
+	<url value="http://hl7.org/fhir/test/multi-lang/StructureDefinition/extension-example"/>
+	<name value="ExampleExtensionStructureDefinition"/>
+	<title value="Example Extension Structure Definition"/>
+	<status value="draft"/>
+	<publisher value="HL7 Tooling group"/>
+	<description value="Example Extension Structure Definition Instance"/>
+	<fhirVersion value="5.0.0"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<context>
+    <type value="element"/>
+    <expression value="http://hl7.org/fhir/Patient"/>
+  </context>
+	<type value="Extension"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Extension">
+			<path value="Extension"/>
+		</element>
+		<element id="Extension.url">
+			<path value="Extension.url"/>
+			<fixedUrl value="http://hl7.org/fhir/test/multi-lang/StructureDefinition/extension-example"/>
+		</element>
+		<element id="Extension.value[x]">
+			<path value="Extension.value[x]"/>
+      <min value="1"/>
+			<type>
+        <code value="boolean"/>
+      </type>
+		</element>
+	</differential>
+</StructureDefinition>
