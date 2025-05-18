@@ -361,6 +361,12 @@
       <xsl:with-param name="value" select="'true'"/>
       <xsl:with-param name="extensionMode" select="$extensionMode"/>
     </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'i18n-default-lang'"/>
+      <xsl:with-param name="system" select="$toolsSystem"/>
+      <xsl:with-param name="value" select="'en'"/>
+      <xsl:with-param name="extensionMode" select="$extensionMode"/>
+    </xsl:call-template>
   </xsl:template>
 	<xsl:template name="getParameter">
 	  <xsl:param name="name"/>
