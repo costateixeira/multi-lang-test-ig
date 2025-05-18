@@ -118,6 +118,8 @@
     "KeyElementsTable": "Tabela de Elementos-Chave",
     "DifferentialTable": "Tabela Diferencial",
     "SnapshotTable": "Tabela Total",
+    "KeyElementsTable": "Tabela de elementos-chave",
+    "SnapshotTable": "Tabela de instantâneos",
     "PseudoXML": "Pseudo XML",
     "PseudoJSON": "Pseudo JSON",
     "PseudoTTL": "Pseudo TTL",
