@@ -27,6 +27,9 @@ input-cache/schemas/
 
 input-cache/txcache/
 
-/output2
+# Ignore all files in the 'translations' directory
+/translations/*
 
-translations/
+# Exclude 'input/translations' from being ignored
+!input/translations/
+!input/translations/**

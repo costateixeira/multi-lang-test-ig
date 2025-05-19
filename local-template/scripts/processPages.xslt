@@ -35,7 +35,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:if test="count(html:h3)>1">
         <div class="markdown-toc">
-          <p>{% assign lang = page.path | split: "/" first %}{{site.data.stringsBase[lang]['Contents']}}:</p>
+          <p>{% assign lang = page.path | split: "/" | first %}{{site.data.stringsBase[lang]['Contents']}}:</p>
           <ul>
             <xsl:for-each select="html:h3">
               <li>

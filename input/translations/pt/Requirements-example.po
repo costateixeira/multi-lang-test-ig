@@ -1,0 +1,15 @@
+# Plain text narrative that identifies the resource in addition to the resource reference.
+msgid ""
+msgstr ""
+
+# en -> pt
+
+
+#: Basic.Basic.extension.extension.valueReference.display
+msgid "Lloyd Mackenzie"
+msgstr "Lloyd Mackenzie"
+
+# Plain text narrative that identifies the resource in addition to the resource reference.
+#: Basic.Basic.extension.extension.valueReference.display
+msgid "Robert Hausam"
+msgstr "Robert Hausam"
