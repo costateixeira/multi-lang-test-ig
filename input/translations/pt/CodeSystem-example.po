@@ -1,10 +1,6 @@
-# A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-msgid ""
-msgstr ""
-
 # en -> pt
 
-
+# CodeSystem resource translation
 #: CodeSystem.CodeSystem.name
 msgid "ExampleCodeSystem"
 msgstr "Sistema de código de exemplo"

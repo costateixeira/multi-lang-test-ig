@@ -1,10 +1,6 @@
-# A representation of the meaning of the code in the system, following the rules of the system.
-msgid ""
-msgstr ""
-
 # en -> pt
 
-
+# Observation resource translation
 #: Observation.Observation.category.coding.display
 msgid "Vital Signs"
 msgstr "Sinais vitais"

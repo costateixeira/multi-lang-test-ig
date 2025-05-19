@@ -1,5 +1,4 @@
-#
-msgid ""
-msgstr ""
-
 # en -> pt
+
+# The Binary
+

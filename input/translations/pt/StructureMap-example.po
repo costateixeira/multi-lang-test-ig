@@ -1,9 +1,6 @@
-# A natural language name identifying the structure map. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-msgid ""
-msgstr ""
-
 # en -> pt
 
+# StructureMap translation file for Portuguese 
 #: StructureMap.StructureMap.name
 msgid "ExampleStructureMap"
 msgstr "Exemplo de mapa de estrutura"
