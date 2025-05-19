@@ -1,3 +1,4 @@
+# A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.
 msgid ""
 msgstr ""
 

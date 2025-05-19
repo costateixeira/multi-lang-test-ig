@@ -2,6 +2,8 @@
 msgid ""
 msgstr ""
 
+# en -> pt
+
 #: Provenance.reason.text
 msgid "Some random edit"
 msgstr "Willekeurige bewerking"

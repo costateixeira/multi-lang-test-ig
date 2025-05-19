@@ -1,10 +1,8 @@
+# A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
 
-# A natural language name identifying the implementation guide. This name
-# should be usable as an identifier for the module by machine processing
-# applications such as code generation.
-#: ImplementationGuide.name"
-msgid "MultiLanguageTestIG"
-msgstr "MultiLanguageTestIG"
+# en -> pt
 
 # A short, descriptive, user-friendly title for the implementation guide.
 #: ImplementationGuide.title"
