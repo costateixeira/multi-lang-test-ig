@@ -33,3 +33,4 @@ input-cache/txcache/
 # Exclude 'input/translations' from being ignored
 !input/translations/
 !input/translations/**
+input/translations/.DS_Store
