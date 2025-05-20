@@ -1,67 +1,72 @@
 # en -> pt
 
-# Patient resource translation
-#: Patient.Patient.identifier.assigner.display
+# Plain text narrative that identifies the resource in addition to the resource reference.
+#: Reference.display
 msgid "Acme Healthcare"
 msgstr "Cuidados de saúde Acme"
 
 # The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
-#: Patient.Patient.name.family
+#: HumanName.family
 msgid "Chalmers"
 msgstr "Chalmers"
 
 # Given name.
-#: Patient.Patient.name.given
+#: HumanName.given
 msgid "Peter"
 msgstr "Pedro"
 
 # Given name.
-#: Patient.Patient.name.given
+#: HumanName.given
 msgid "James"
 msgstr "Tiago"
 
 # Given name.
-#: Patient.Patient.name.given
+#: HumanName.given
 msgid "Jim"
 msgstr "Jim"
 
 # The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
-#: Patient.Patient.name.family
+#: HumanName.family
 msgid "Windsor"
 msgstr "Windsor"
 
 # Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts.
-#: Patient.Patient.address.text
+#: Address.text
 msgid "534 Erewhon St PeasantVille, Rainbow, Vic  3999"
 msgstr "534 Erewhon St PeasantVille, Rainbow, Vic 3999"
 
 # This component contains the house number, apartment number, street name, street direction,  P.O. Box number, delivery hints, and similar address information.
-#: Patient.Patient.address.line
+#: Address.line
 msgid "534 Erewhon St"
 msgstr "534 Erewhon St"
 
 # The name of the city, town, suburb, village or other community or delivery center.
-#: Patient.Patient.address.city
+#: Address.city
 msgid "PleasantVille"
 msgstr "PleasantVille"
 
 # The name of the administrative area (county).
-#: Patient.Patient.address.district
+#: Address.district
 msgid "Rainbow"
 msgstr "Arco-íris"
 
 # Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes).
-#: Patient.Patient.address.state
+#: Address.state
 msgid "Vic"
 msgstr "Vic"
 
 # A postal code designating a region defined by the postal service.
-#: Patient.Patient.address.postalCode
+#: Address.postalCode
 msgid "3999"
 msgstr "3999"
 
 # The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
-#: Patient.Patient.contact.name.family
+#: HumanName.family
 msgid "du Marché"
 msgstr "du Marché"
+
+# Given name.
+#: HumanName.given
+msgid "Bénédicte"
+msgstr "Bénédicte"
 

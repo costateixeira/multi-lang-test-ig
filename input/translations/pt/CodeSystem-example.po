@@ -1,31 +1,32 @@
 # en -> pt
 
-# CodeSystem resource translation
-#: CodeSystem.CodeSystem.name
+# A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: CodeSystem.name
 msgid "ExampleCodeSystem"
 msgstr "Sistema de código de exemplo"
 
 # A short, descriptive, user-friendly title for the code system.
-#: CodeSystem.CodeSystem.title
+#: CodeSystem.title
 msgid "Example Code System"
 msgstr "Exemplo de sistema de códigos"
 
 # The name of the organization or individual that published the code system.
-#: CodeSystem.CodeSystem.publisher
+#: CodeSystem.publisher
 msgid "HL7 Tooling group"
 msgstr "Grupo de ferramentas HL7"
 
 # A free text natural language description of the code system from a consumer's perspective.
-#: CodeSystem.CodeSystem.description
+#: CodeSystem.description
 msgid "Example Code System Instance"
 msgstr "Exemplo de código Instância do sistema"
 
 # A human readable string that is the recommended default way to present this concept to a user.
-#: CodeSystem.CodeSystem.concept.display
+#: CodeSystem.concept.display
 msgid "CS1"
 msgstr "CS1"
 
 # The text value for this designation.
-#: CodeSystem.CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
 msgid "CS2"
 msgstr "CS2"
+

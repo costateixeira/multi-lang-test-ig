@@ -1,583 +1,337 @@
 # en -> pt
 
-# ExampleScenario translation for Portuguese
-#: ExampleScenario.ExampleScenario.name
+# A natural language name identifying the example scenario. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: ExampleScenario.name
 msgid "ExampleExampleScenario"
 msgstr "ExemploExemploCenário"
 
 # The name of the organization or individual that published the example scenario.
-#: ExampleScenario.ExampleScenario.publisher
+#: ExampleScenario.publisher
 msgid "HL7 Tooling group"
 msgstr "Grupo de ferramentas HL7"
 
 # What the example scenario resource is created for. This should not be used to show the business purpose of the scenario itself, but the purpose of documenting a scenario.
-#: ExampleScenario.ExampleScenario.purpose
+#: ExampleScenario.purpose
 msgid "Purpose: this serves to demonstrate the performing of medication administration, by using remote / mobile devices to a) Get the planned medication administrations and b) Record the performing of these administrations without a permanent connection to the EHR."
 msgstr "Objetivo: serve para demonstrar a realização da administração de medicamentos, utilizando dispositivos remotos / móveis para a) obter as administrações de medicamentos planeadas e b) registar a realização dessas administrações sem uma ligação permanente ao sistema de registo de dados."
 
-# ID or acronym of actor.
-#: ExampleScenario.ExampleScenario.actor.actorId
-msgid "Nurse"
-msgstr "Enfermeira"
-
 # The name of the actor as shown in the page.
-#: ExampleScenario.ExampleScenario.actor.name
+#: ExampleScenario.actor.name
 msgid "Nurse"
 msgstr "Enfermeira"
 
 # The description of the actor.
-#: ExampleScenario.ExampleScenario.actor.description
+#: ExampleScenario.actor.description
 msgid "The Nurse"
 msgstr "A enfermeira"
 
-# ID or acronym of actor.
-#: ExampleScenario.ExampleScenario.actor.actorId
-msgid "MAP"
-msgstr "MAPA"
-
 # The name of the actor as shown in the page.
-#: ExampleScenario.ExampleScenario.actor.name
+#: ExampleScenario.actor.name
 msgid "Nurse's Tablet"
 msgstr "Tablete de enfermeiro"
 
 # The description of the actor.
-#: ExampleScenario.ExampleScenario.actor.description
+#: ExampleScenario.actor.description
 msgid "The entity that receives the Administration Requests to show the nurse to perform them"
 msgstr "A entidade que recebe os Pedidos de Administração para indicar o enfermeiro para os efetuar"
 
-# ID or acronym of actor.
-#: ExampleScenario.ExampleScenario.actor.actorId
-msgid "OP"
-msgstr "OP"
-
 # The name of the actor as shown in the page.
-#: ExampleScenario.ExampleScenario.actor.name
+#: ExampleScenario.actor.name
 msgid "MAR / Scheduler"
 msgstr "MAR / Programador"
 
 # The description of the actor.
-#: ExampleScenario.ExampleScenario.actor.description
+#: ExampleScenario.actor.description
 msgid "The Medication Administration Order Placer"
 msgstr "O localizador de ordens de administração de medicamentos"
 
-# ID or acronym of actor.
-#: ExampleScenario.ExampleScenario.actor.actorId
-msgid "MAC"
-msgstr "MAC"
-
 # The name of the actor as shown in the page.
-#: ExampleScenario.ExampleScenario.actor.name
+#: ExampleScenario.actor.name
 msgid "MAR / EHR"
 msgstr "MAR / EHR"
 
 # The description of the actor.
-#: ExampleScenario.ExampleScenario.actor.description
+#: ExampleScenario.actor.description
 msgid "The entity that receives the Medication Administration reports"
 msgstr "A entidade que recebe os relatórios de administração de medicamentos"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001"
-msgstr "iherx001"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Initial Prescription"
 msgstr "Prescrição inicial"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The initial prescription which describes \"medication X, 3 times per day\" - the exact scheduling is not   in the initial prescription (it is left for the care teams to decide on the schedule)."
 msgstr "A receita inicial que descreve \"medicação X, 3 vezes por dia\" - o horário exato não consta da receita inicial (cabe às equipas de cuidados decidir o horário)."
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001.001"
-msgstr "iherx001.001"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Request for day 1, morning"
 msgstr "Pedido para o dia 1, manhã"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The administration request for day 1, morning"
 msgstr "O pedido da administração para o dia 1, de manhã"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001.002"
-msgstr "iherx001.002"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Request for day 1, lunch"
 msgstr "Pedido para o dia 1, almoço"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The administration request for day 1, lunch"
 msgstr "O pedido da administração para o dia 1, almoço"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001.003"
-msgstr "iherx001.003"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Request for day 1, evening"
 msgstr "Pedido para o dia 1, à noite"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The administration request for day 1, evening"
 msgstr "O pedido da administração para o dia 1, à noite"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001.004"
-msgstr "iherx001.004"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Request for day 2, morning"
 msgstr "Pedido para o dia 2, manhã"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The administration request for day 2, morning"
 msgstr "O pedido da administração para o dia 2, de manhã"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001.005"
-msgstr "iherx001.005"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Request for day 2, lunch"
 msgstr "Pedido para o dia 2, almoço"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The administration request for day 2, lunch"
 msgstr "O pedido da administração para o dia 2, almoço"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001.006"
-msgstr "iherx001.006"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Request for day 2, evening"
 msgstr "Pedido para o dia 2, à noite"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The administration request for day 2, evening"
 msgstr "O pedido da administração para o dia 2, à noite"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iheadm001a"
-msgstr "iheadm001a"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Morning meds - taken"
 msgstr "Medicamentos matinais - tomados"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "Administration report for day 1, morning: Taken"
 msgstr "Relatório administrativo do dia 1, manhã: Tomado"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iheadm001b"
-msgstr "iheadm001b"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Morning meds - not taken"
 msgstr "Medicamentos matinais - não tomados"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "Administration report for day 1, morning: NOT Taken"
 msgstr "Relatório administrativo do dia 1, manhã: NÃO tomado"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherx001bundle"
-msgstr "iherx001bundle"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Bundle of Medication Requests"
 msgstr "Pacote de pedidos de medicamentos"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "All the medication Requests for Day 1"
 msgstr "Todos os pedidos de medicamentos para o dia 1"
 
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.instance.containedInstance.resourceId
-msgid "iherx001.001"
-msgstr "iherx001.001"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.instance.containedInstance.resourceId
-msgid "iherx001.002"
-msgstr "iherx001.002"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.instance.containedInstance.resourceId
-msgid "iherx001.003"
-msgstr "iherx001.003"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.instance.containedInstance.resourceId
-msgid "iherx001.004"
-msgstr "iherx001.004"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.instance.containedInstance.resourceId
-msgid "iherx001.005"
-msgstr "iherx001.005"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.instance.containedInstance.resourceId
-msgid "iherx001.006"
-msgstr "iherx001.006"
-
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iheadm002"
-msgstr "iheadm002"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Lunch meds - taken"
 msgstr "Medicamentos para o almoço - tomados"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "Administration report for day 1, lunch: Taken"
 msgstr "Relatório administrativo do dia 1, almoço: Tomado"
 
 # The identifier of a specific version of a resource.
-#: ExampleScenario.ExampleScenario.instance.version.versionId
+#: ExampleScenario.instance.version.versionId
 msgid "iheadm002v1"
 msgstr "iheadm002v1"
 
 # The description of the resource version.
-#: ExampleScenario.ExampleScenario.instance.version.description
+#: ExampleScenario.instance.version.description
 msgid "Medication just taken"
 msgstr "Medicamentos acabados de tomar"
 
 # The identifier of a specific version of a resource.
-#: ExampleScenario.ExampleScenario.instance.version.versionId
+#: ExampleScenario.instance.version.versionId
 msgid "iheadm002v2"
 msgstr "iheadm002v2"
 
 # The description of the resource version.
-#: ExampleScenario.ExampleScenario.instance.version.description
+#: ExampleScenario.instance.version.description
 msgid "Medication rejected"
 msgstr "Rejeição de medicamentos"
 
-# The id of the resource for referencing.
-#: ExampleScenario.ExampleScenario.instance.resourceId
-msgid "iherxqry"
-msgstr "iherxqry"
-
 # A short name for the resource instance.
-#: ExampleScenario.ExampleScenario.instance.name
+#: ExampleScenario.instance.name
 msgid "Search query1"
 msgstr "Consulta de pesquisa1"
 
 # Human-friendly description of the resource instance.
-#: ExampleScenario.ExampleScenario.instance.description
+#: ExampleScenario.instance.description
 msgid "The search administration request for day 1, morning"
 msgstr "O pedido da administração da pesquisa para o dia 1, de manhã"
 
 # The diagram title of the group of operations.
-#: ExampleScenario.ExampleScenario.process.title
+#: ExampleScenario.process.title
 msgid "Mobile Medication Administration"
 msgstr "Administração móvel de medicamentos"
 
 # A longer description of the group of operations.
-#: ExampleScenario.ExampleScenario.process.description
+#: ExampleScenario.process.description
 msgid "This scenario demonstrates the process of getting the relevant medication instructions for a patient visit and reporting the results of administration. The scenario is as follows: After the prescription is issued, the institution schedules each individual administration event in the Medication Administration Record (MAR). When preparing for a visit, the nurse queries the MAR for the scheduled administrations, obtaining a bundle of records. The nurse then performs the care activities and registers the results in the device. Upon synchronization of the device and the institution, the results of administration are uploaded to the EHR, thus updating the MAR."
 msgstr "Este cenário demonstra o processo de obtenção das instruções de medicação relevantes para a visita de um doente e a comunicação dos resultados da administração. O cenário é o seguinte: Após a prescrição ser emitida, a instituição agenda cada evento de administração individual no Registo de Administração de Medicamentos (MAR). Quando se prepara para uma visita, o enfermeiro consulta o MAR para as administrações programadas, obtendo um conjunto de registos. O enfermeiro executa então as actividades de cuidados e regista os resultados no dispositivo. Após a sincronização entre o dispositivo e a instituição, os resultados da administração são carregados no EHR, actualizando assim o MAR."
 
 # Description of initial status before the process starts.
-#: ExampleScenario.ExampleScenario.process.preConditions
+#: ExampleScenario.process.preConditions
 msgid "Medication administration requests are in the EHR / MAR, scheduled for each individual intake."
 msgstr "Os pedidos de administração de medicamentos estão no EHR / MAR, programados para cada admissão individual."
 
 # Description of final status after the process ends.
-#: ExampleScenario.ExampleScenario.process.postConditions
+#: ExampleScenario.process.postConditions
 msgid "Medication administration Reports are submitted, EHR is updated."
 msgstr "Os relatórios de administração de medicamentos são apresentados e o sistema informático é atualizado."
 
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.operation.number
-msgid "1"
-msgstr "1"
-
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "1. Get today's schedule"
 msgstr "1. Obter o horário de hoje"
 
-# Who starts the transaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.initiator
-msgid "Nurse"
-msgstr "Enfermeira"
-
-# Who receives the transaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.receiver
-msgid "MAP"
-msgstr "MAPA"
-
 # The diagram title of the group of operations.
-#: ExampleScenario.ExampleScenario.process.step.process.title
+#: ExampleScenario.process.title
 msgid "P1. Query Administration Requests"
 msgstr "P1. Pedidos de administração de consultas"
 
 # A longer description of the group of operations.
-#: ExampleScenario.ExampleScenario.process.step.process.description
-msgid ""
-"Query for medication administration orders,\n"
-"- For today's shifts\n"
-"- For today's patients"
+#: ExampleScenario.process.description
+msgid "Query for medication administration orders,\n- For today's shifts\n- For today's patients"
 msgstr ""
-"Consulta de ordens de administração de medicamentos,\n"
-"- Para os turnos de hoje\n"
-"- Para os doentes de hoje"
-
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.number
-msgid "2"
-msgstr "2"
 
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.name
-msgid ""
-"2.Query for medication administration orders,\n"
-"- For today's shifts\n"
-"- For today's patients"
+#: ExampleScenario.process.step.operation.name
+msgid "2.Query for medication administration orders,\n- For today's shifts\n- For today's patients"
 msgstr ""
-"2. consulta de ordens de administração de medicamentos,\n"
-"- Para os turnos de hoje\n"
-"- Para os doentes de hoje"
-
-# Who starts the transaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.initiator
-msgid "MAP"
-msgstr "MAPA"
-
-# Who receives the transaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.receiver
-msgid "OP"
-msgstr "OP"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.request.resourceId
-msgid "iherxqry"
-msgstr "iherxqry"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.response.resourceId
-msgid "iherx001bundle"
-msgstr "iherx001bundle"
-
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.operation.number
-msgid "4"
-msgstr "4"
 
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Notify (alert)"
 msgstr "Notificar (alertar)"
 
-# Who starts the transaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.initiator
-msgid "MAP"
-msgstr "MAPA"
-
-# Who receives the transaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.receiver
-msgid "Nurse"
-msgstr "Enfermeira"
-
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.operation.number
-msgid "5"
-msgstr "5"
-
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Read orders"
 msgstr "Pedidos de leitura"
 
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Ask if patient took meds"
 msgstr "Perguntar se o doente tomou os medicamentos"
 
 # The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
-#: ExampleScenario.ExampleScenario.process.step.alternative.title
+#: ExampleScenario.process.step.alternative.title
 msgid "Patient took drugs"
 msgstr "O doente tomou medicamentos"
 
 # A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
-#: ExampleScenario.ExampleScenario.process.step.alternative.description
+#: ExampleScenario.process.step.alternative.description
 msgid "Invoke if patient took medications"
 msgstr "Invocar se o doente tomou medicamentos"
 
 # The diagram title of the group of operations.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.title
+#: ExampleScenario.process.title
 msgid "Register Meds taken"
 msgstr "Registar os medicamentos tomados"
-
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.step.operation.number
-msgid "1a"
-msgstr "1a"
 
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Register Meds taken"
 msgstr "Registar os medicamentos tomados"
 
-# Who starts the transaction.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.step.operation.initiator
-msgid "Nurse"
-msgstr "Enfermeira"
-
-# Who receives the transaction.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.step.operation.receiver
-msgid "MAP"
-msgstr "MAPA"
-
 # The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
-#: ExampleScenario.ExampleScenario.process.step.alternative.title
+#: ExampleScenario.process.step.alternative.title
 msgid "No drugs"
 msgstr "Sem drogas"
 
 # A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
-#: ExampleScenario.ExampleScenario.process.step.alternative.description
+#: ExampleScenario.process.step.alternative.description
 msgid "No, patient did not take drugs"
 msgstr "Não, o doente não tomava medicamentos"
 
 # The diagram title of the group of operations.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.title
+#: ExampleScenario.process.title
 msgid "Register Meds NOT taken"
 msgstr "Registar os medicamentos não tomados"
 
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.step.operation.number
-msgid "1b"
-msgstr "1b"
-
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.alternative.step.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Register Meds NOT taken"
 msgstr "Registar os medicamentos não tomados"
 
 # The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
-#: ExampleScenario.ExampleScenario.process.step.alternative.title
+#: ExampleScenario.process.step.alternative.title
 msgid "Not clear"
 msgstr "Não é claro"
 
 # A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
-#: ExampleScenario.ExampleScenario.process.step.alternative.description
+#: ExampleScenario.process.step.alternative.description
 msgid "Unknown whether patient took medications or not"
 msgstr "Não se sabe se o doente tomou ou não medicamentos"
 
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.operation.number
-msgid "6"
-msgstr "6"
-
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Administer drug"
 msgstr "Administrar o medicamento"
 
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.operation.number
-msgid "7"
-msgstr "7"
-
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Register administration"
 msgstr "Administração do registo"
 
 # The diagram title of the group of operations.
-#: ExampleScenario.ExampleScenario.process.step.process.title
+#: ExampleScenario.process.title
 msgid "P2. Update administration reports"
 msgstr "P2. Atualizar os relatórios administrativos"
 
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.number
-msgid "8"
-msgstr "8"
-
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Nurse updates administration report"
 msgstr "Enfermeiro actualiza relatório administrativo"
 
-# Who starts the transaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.initiator
-msgid "Nurse"
-msgstr "Enfermeira"
-
-# Who receives the transaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.receiver
-msgid "MAP"
-msgstr "MAPA"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.request.resourceId
-msgid "iheadm002"
-msgstr "iheadm002"
-
 # The diagram title of the group of operations.
-#: ExampleScenario.ExampleScenario.process.step.process.title
+#: ExampleScenario.process.title
 msgid "P3. Upload administration reports"
 msgstr "P3. Carregar relatórios administrativos"
 
 # A longer description of the group of operations.
-#: ExampleScenario.ExampleScenario.process.step.process.description
+#: ExampleScenario.process.description
 msgid "The nurse's system uploads the administration results to the server"
 msgstr "O sistema do enfermeiro carrega os resultados da administração para o servidor"
 
-# The sequential number of the interaction, e.g. 1.2.5.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.number
-msgid "9"
-msgstr "9"
-
 # The human-friendly name of the interaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.name
+#: ExampleScenario.process.step.operation.name
 msgid "Refresh"
 msgstr "Atualizar"
 
-# Who receives the transaction.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.receiver
-msgid "MAC"
-msgstr "MAC"
-
-# Each resource contained in the instance.
-#: ExampleScenario.ExampleScenario.process.step.process.step.operation.request.resourceId
-msgid "iheadm001"
-msgstr "iheadm001"

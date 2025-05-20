@@ -1,106 +1,87 @@
 # en -> pt
 
-# A CapStatement is a statement of the capabilities of a system or application. It is a formal expression of the system's capabilities, including the resources and interactions it supports, as well as any constraints or requirements that apply to those capabilities.
-#: CapabilityStatement.CapabilityStatement.name
+# A natural language name identifying the capability statement. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: CapabilityStatement.name
 msgid "ExampleCapabilityStatement"
 msgstr "Exemplo de declaração de capacidade"
 
 # A short, descriptive, user-friendly title for the capability statement.
-#: CapabilityStatement.CapabilityStatement.title
+#: CapabilityStatement.title
 msgid "Example Capability Statement"
 msgstr "Exemplo de declaração de capacidade"
 
 # The name of the organization or individual that published the capability statement.
-#: CapabilityStatement.CapabilityStatement.publisher
+#: CapabilityStatement.publisher
 msgid "HL7 Tooling group"
 msgstr "Grupo de ferramentas HL7"
 
 # The name of an individual to contact.
-#: CapabilityStatement.CapabilityStatement.contact.name
+#: ContactDetail.name
 msgid "System Administrator"
 msgstr "Administrador do sistema"
 
 # A free text natural language description of the capability statement from a consumer's perspective. Typically, this is used when the capability statement describes a desired rather than an actual solution, for example as a formal expression of requirements as part of an RFP.
-#: CapabilityStatement.CapabilityStatement.description
+#: CapabilityStatement.description
 msgid "Example Capability Statement Instance"
 msgstr "Exemplo de instância de declaração de capacidade"
 
 # Explanation of why this capability statement is needed and why it has been designed as it has.
-#: CapabilityStatement.CapabilityStatement.purpose
+#: CapabilityStatement.purpose
 msgid "Main EHR capability statement, published for contracting and operational support"
 msgstr "Declaração de capacidade principal do sistema de gestão de recursos humanos eletrónico, publicada para contratação e apoio operacional"
 
 # A copyright statement relating to the capability statement and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the capability statement.
-#: CapabilityStatement.CapabilityStatement.copyright
+#: CapabilityStatement.copyright
 msgid "Copyright © Acme Healthcare and GoodCorp EHR Systems"
 msgstr "Direitos de autor © Acme Healthcare e GoodCorp EHR Systems"
 
 # Name the software is known by.
-#: CapabilityStatement.CapabilityStatement.software.name
+#: CapabilityStatement.software.name
 msgid "EHR"
 msgstr "RSE"
 
 # The version identifier for the software covered by this statement.
-#: CapabilityStatement.CapabilityStatement.software.version
+#: CapabilityStatement.software.version
 msgid "0.00.020.2134"
 msgstr "0.00.020.2134"
 
 # Information about the specific installation that this capability statement relates to.
-#: CapabilityStatement.CapabilityStatement.implementation.description
+#: CapabilityStatement.implementation.description
 msgid "main EHR at ACME"
 msgstr "principal EHR na ACME"
 
 # Information about the system's restful capabilities that apply across all applications, such as security.
-#: CapabilityStatement.CapabilityStatement.rest.documentation
+#: CapabilityStatement.rest.documentation
 msgid "Main FHIR endpoint for acem health"
 msgstr "Ponto de extremidade FHIR principal para acem health"
 
 # General description of how security works.
-#: CapabilityStatement.CapabilityStatement.rest.security.description
+#: CapabilityStatement.rest.security.description
 msgid "See Smart on FHIR documentation"
 msgstr "Ver Smart na documentação FHIR"
 
 # Additional information about the resource type used by the system.
-#: CapabilityStatement.CapabilityStatement.rest.resource.documentation
+#: CapabilityStatement.rest.resource.documentation
 msgid "This server does not let the clients create identities."
 msgstr "Este servidor não permite que os clientes criem identidades."
 
 # Guidance specific to the implementation of this operation, such as 'delete is a logical delete' or 'updates are only allowed with version id' or 'creates permitted from pre-authorized certificates only'.
-#: CapabilityStatement.CapabilityStatement.rest.resource.interaction.documentation
+#: CapabilityStatement.rest.resource.interaction.documentation
 msgid "Only supported for patient records since 12-Dec 2012"
 msgstr "Apenas suportado para registos de doentes desde 12 de dezembro de 2012"
 
-# A list of _include values supported by the server.
-#: CapabilityStatement.CapabilityStatement.rest.resource.searchInclude
-msgid "Organization"
-msgstr "Organização"
-
-# A list of _revinclude (reverse include) values supported by the server.
-#: CapabilityStatement.CapabilityStatement.rest.resource.searchRevInclude
-msgid "Person"
-msgstr "Pessoa"
-
-# The name of the search parameter used in the interface.
-#: CapabilityStatement.CapabilityStatement.rest.resource.searchParam.name
-msgid "identifier"
-msgstr "identificar"
-
 # This allows documentation of any distinct behaviors about how the search parameter is used.  For example, text matching algorithms.
-#: CapabilityStatement.CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
 msgid "Only supports search by institution MRN"
 msgstr "Apenas suporta a pesquisa por instituição MRN"
 
-# The name of the search parameter used in the interface.
-#: CapabilityStatement.CapabilityStatement.rest.resource.searchParam.name
-msgid "general-practitioner"
-msgstr "médico de clínica geral"
-
 # Documentation about the system's messaging capabilities for this endpoint not otherwise documented by the capability statement.  For example, the process for becoming an authorized messaging exchange partner.
-#: CapabilityStatement.CapabilityStatement.messaging.documentation
+#: CapabilityStatement.messaging.documentation
 msgid "ADT A08 equivalent for external system notifications"
 msgstr "Equivalente ADT A08 para notificações de sistemas externos"
 
 # A description of how the application supports or uses the specified document profile.  For example, when documents are created, what action is taken with consumed documents, etc.
-#: CapabilityStatement.CapabilityStatement.document.documentation
+#: CapabilityStatement.document.documentation
 msgid "Basic rules for all documents in the EHR system"
 msgstr "Regras de base para todos os documentos no sistema EHR"
+

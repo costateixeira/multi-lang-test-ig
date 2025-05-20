@@ -1,11 +1,12 @@
 # en -> pt
 
-# Translation of Basic.en.po
-#: Basic.Basic.extension.extension.valueReference.display
+# Plain text narrative that identifies the resource in addition to the resource reference.
+#: Reference.display
 msgid "Lloyd Mackenzie"
 msgstr "Lloyd Mackenzie"
 
 # Plain text narrative that identifies the resource in addition to the resource reference.
-#: Basic.Basic.extension.extension.valueReference.display
+#: Reference.display
 msgid "Robert Hausam"
 msgstr "Robert Hausam"
+

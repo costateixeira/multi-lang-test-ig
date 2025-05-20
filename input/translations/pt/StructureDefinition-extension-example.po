@@ -1,6 +1,6 @@
 # en -> pt
 
-# StructureDefinition for Extension
+# A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
 #: name
 msgid "ExampleExtensionStructureDefinition"
 msgstr "Exemplo de definição da estrutura de extensão"
@@ -14,3 +14,4 @@ msgstr "Exemplo de definição de estrutura de extensão"
 #: publisher
 msgid "HL7 Tooling group"
 msgstr "Grupo de ferramentas HL7"
+
