@@ -208,7 +208,7 @@ msgstr "Aucun exemple n'est actuellement disponible pour le profil %ID%."
 # FormatProfile
 #: FormatProfile
 msgid "%FMT% Profile"
-msgstr "Profil %FMT"
+msgstr "Profil %FMT%"
 
 # FormatRep
 #: FormatRep

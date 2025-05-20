@@ -1,6 +1,7 @@
-# en -> pt
-
 # A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
 #: ImplementationGuide.name
 msgid "MultiLanguageTestIG"
 msgstr "MultiLanguageTestIG"
@@ -8,220 +9,219 @@ msgstr "MultiLanguageTestIG"
 # A short, descriptive, user-friendly title for the implementation guide.
 #: ImplementationGuide.title
 msgid "Multi-Language Test IG"
-msgstr "Teste multilingue IG"
+msgstr "Test IG multilingue"
 
 # The name of the organization or individual that published the implementation guide.
 #: ImplementationGuide.publisher
 msgid "HL7 Tooling group"
-msgstr "Grupo de ferramentas HL7"
+msgstr "Groupe d'outils HL7"
 
 # A free text natural language description of the implementation guide from a consumer's perspective.
 #: ImplementationGuide.description
 msgid "This IG exists to test out the generation of multi-language IGs. Primary language is en, also does nl, pt, and ar (rtl test)"
-msgstr "Este IG existe para testar a geração de IGs multi-linguagem. A língua principal é o en, também faz nl, pt, e ar (teste rtl)"
+msgstr "Cet IG existe pour tester la génération d'IG multilingues. La langue principale est l'anglais, mais aussi le néerlandais, le portugais et l'allemand (test rtl)."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "A demonstration code system"
-msgstr "Um sistema de códigos de demonstração"
+msgstr "Un système de code de démonstration"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Example Code System Instance"
-msgstr "Exemplo de código Instância do sistema"
+msgstr "Exemple de code Instance du système"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "a demonstration Value set"
-msgstr "uma demonstração Conjunto de valores"
+msgstr "une démonstration Ensemble de valeurs"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Example ValueSet Instance"
-msgstr "Exemplo de instância ValueSet"
+msgstr "Exemple d'instance de jeu de valeurs"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Structure Definition"
-msgstr "Exemplo de Definição de Estrutura"
+msgstr "Exemple Structure Définition"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Test Patient Profile"
-msgstr "Perfil do paciente de teste"
+msgstr "Profil du patient testé"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Simple patient example"
-msgstr "Exemplo simples de um doente"
+msgstr "Exemple simple de patient"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A simple example showing how examples are defined and referenced"
-msgstr "Um exemplo simples que mostra como os exemplos são definidos e referenciados"
+msgstr "Un exemple simple montrant comment les exemples sont définis et référencés"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Library"
-msgstr "Biblioteca de exemplo"
+msgstr "Exemple de bibliothèque"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test example Library"
-msgstr "Um exemplo de teste Biblioteca"
+msgstr "Un exemple de test Bibliothèque"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Questionnaire"
-msgstr "Exemplo de questionário"
+msgstr "Example Questionnaire"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test Questionnaire"
-msgstr "Um questionário de teste"
+msgstr "A test Questionnaire"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Concept Map"
-msgstr "Exemplo de mapa concetual"
+msgstr "Exemple de schéma conceptuel"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test ConceptMap"
-msgstr "Um ConceptMap de teste"
+msgstr "Une carte conceptuelle test"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Structure Map"
-msgstr "Exemplo de mapa de estrutura"
+msgstr "Exemple de carte de structure"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test StructureMap"
-msgstr "Um StructureMap de teste"
+msgstr "Un test StructureMap"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Operation Definition"
-msgstr "Exemplo de operação Definição"
+msgstr "Exemple Opération Définition"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test OperationDefinition"
-msgstr "Um teste OperationDefinition"
+msgstr "Un test OperationDefinition"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "ExampleExampleScenario"
-msgstr "ExemploExemploCenário"
+msgstr "ExempleExempleScénario"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test ExampleScenario"
-msgstr "Um teste ExemploCenário"
+msgstr "Un test Exemple de scénario"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Actor Definition"
-msgstr "Exemplo de definição de ator"
+msgstr "Exemple Définition de l'acteur"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test ActorDefinition"
-msgstr "Um teste ActorDefinition"
+msgstr "Un test ActorDefinition"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Requirements"
-msgstr "Exemplo de requisitos"
+msgstr "Exemple d'exigences"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test Requirements"
-msgstr "Um teste Requisitos"
+msgstr "Un test Exigences"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Capability Statement"
-msgstr "Exemplo de declaração de capacidade"
+msgstr "Exemple de déclaration de capacité"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test CapabilityStatement"
-msgstr "Um teste CapabilityStatement"
+msgstr "Un test CapabilityStatement"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "ExampleSearchParameter"
-msgstr "ExampleSearchParameter"
+msgstr "Exemple de paramètre de recherche"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "A test SearchParameter"
-msgstr "Um SearchParameter de teste"
+msgstr "Un paramètre de recherche test"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Observation patient example"
-msgstr "Exemplo de observação de um doente"
+msgstr "Exemple de patient observé"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "1st Observation example"
-msgstr "Exemplo da 1ª observação"
+msgstr "1er exemple d'observation"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example binary"
-msgstr "Exemplo de binário"
+msgstr "Exemple binaire"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Example showing binary content"
-msgstr "Exemplo de conteúdo binário"
+msgstr "Exemple de contenu binaire"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "null (Bundle)"
-msgstr "zero (Pacote)"
+msgstr "zéro (bundle)"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Extension Structure Definition"
-msgstr "Exemplo de definição de estrutura de extensão"
+msgstr "Exemple de structure d'extension Définition"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Example Extension Structure Definition Instance"
-msgstr "Exemplo de estrutura de extensão Definição de instância"
+msgstr "Exemple Extension Structure Définition Instance"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Logical Structure Definition"
-msgstr "Exemplo de definição de estrutura lógica"
+msgstr "Exemple de structure logique Définition"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Example Logical Structure Definition Instance"
-msgstr "Exemplo de estrutura lógica Definição de instância"
+msgstr "Exemple de structure logique Définition Instance"
 
 # A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
 #: ImplementationGuide.definition.page.title
 msgid "Table of Contents"
-msgstr "Índice"
+msgstr "Table des matières"
 
 # A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
 #: ImplementationGuide.definition.page.title
 msgid "Test IG Home Page"
-msgstr "Página inicial do Teste IG"
+msgstr "Page d'accueil de Test IG"
 
 # A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
 #: ImplementationGuide.definition.page.title
 msgid "Translated"
-msgstr "Traduzido"
+msgstr "Traduit de l'anglais"
 
 # A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
 #: ImplementationGuide.definition.page.title
 msgid "Not Translated"
-msgstr "Não traduzido"
-
+msgstr "Non traduit"

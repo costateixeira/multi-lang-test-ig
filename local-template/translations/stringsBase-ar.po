@@ -1,153 +1,155 @@
-
 # NO_TRANS
+msgid ""
+msgstr ""
+
 #: NO_TRANS
 msgid "There is no translation page available for the current page, so it has been rendered in the default language"
-msgstr "Não existe uma tradução disponível para esta página, por isso está apresentada na língua padrão"
+msgstr "لا توجد صفحة ترجمة متاحة للصفحة الحالية، لذلك تم تقديمها باللغة الافتراضية"
 
 # TRANS_HLP
 #: TRANS_HLP
 msgid "This page includes translations from the original source language in which the guide was authored.  Information on these translations and instructions on how to provide feedback on the translations can be found [here](translationinfo.html)."
-msgstr "Esta página inclui traduções a partir da língua original em que o guia foi criado. Informações sobre estas traduções e instruções para fornecer feedback podem ser encontradas [aqui](translationinfo.html)."
+msgstr "تتضمن هذه الصفحة ترجمات من لغة المصدر الأصلية التي تم تأليف الدليل بها.  يمكن العثور على معلومات عن هذه الترجمات وتعليمات حول كيفية تقديم الملاحظات على الترجمات [هنا] (translationinfo.html)."
 
 # Experimental
 #: Experimental
 msgid "Experimental"
-msgstr "Experimental"
+msgstr "تجريبي"
 
 # Swagger
 #: Swagger
 msgid "Raw OpenAPI-Swagger Definition file"
-msgstr "Ficheiro OpenAPI-Swagger"
+msgstr "ملف تعريف OpenAPI-Swagger الخام"
 
 # Download
 #: Download
 msgid "Download"
-msgstr "Transferir"
+msgstr "تنزيل"
 
 # NoTestPlan
 #: NoTestPlan
 msgid "No test plans are currently available for the %ARTIFACT%."
-msgstr "Não há planos de teste disponíveis atualmente para %ARTIFACT%."
+msgstr "لا توجد خطط اختبار متوفرة حالياً ل %ARTIFACT%."
 
 # NoTestScript
 #: NoTestScript
 msgid "No test scripts are currently available for the %ARTIFACT%."
-msgstr "Não há scripts de teste disponíveis atualmente para %ARTIFACT%."
+msgstr "لا تتوفر حالياً أي برامج نصية للاختبار ل %ARTIFACT%."
 
 # ChangeHistory
 #: ChangeHistory
 msgid "Change History"
-msgstr "Histórico de alterações"
+msgstr "تغيير التاريخ"
 
 # HistoryOfChange
 #: HistoryOfChange
 msgid "History of changes for %ARTIFACT%."
-msgstr "Histórico de alterações de %ARTIFACT%."
+msgstr "تاريخ التغييرات في %ARTIFACT%."
 
 # CodeSystemValuesets
 #: CodeSystemValuesets
 msgid "This Code system is referenced in the definition of the following value sets:"
-msgstr "Este sistema de códigos é referenciado na definição dos seguintes conjuntos de valores:"
+msgstr "تتم الإشارة إلى نظام الرموز هذا في تعريف مجموعات القيم التالية:"
 
 # Contained
 #: Contained
 msgid "Contained resources"
-msgstr "Recursos contidos"
+msgstr "الموارد المحتواة"
 
 # FormalExtension
 #: FormalExtension
 msgid "Formal Views of Extension Content"
-msgstr "Vistas formais do conteúdo da extensão"
+msgstr "الآراء الرسمية لمحتوى الإرشاد"
 
 # FormalProfile
 #: FormalProfile
 msgid "Formal Views of Profile Content"
-msgstr "Vistas formais do conteúdo do perfil"
+msgstr "طرق العرض الرسمية لمحتوى الملف الشخصي"
 
 # ReadingStructures
 #: ReadingStructures
 msgid "Description of Profiles, Differentials, Snapshots, and their representations"
-msgstr "Descrição de perfis, diferenciais, instantâneos e suas representações"
+msgstr "وصف الملامح والفوارق واللقطات وتمثيلاتها"
 
 # KeyElementsTable
 #: KeyElementsTable
 msgid "Key Elements Table"
-msgstr "Tabela de elementos-chave"
+msgstr "جدول العناصر الرئيسية"
 
 # DifferentialTable
 #: DifferentialTable
 msgid "Differential Table"
-msgstr "Tabela diferencial"
+msgstr "الجدول التفاضلي"
 
 # SnapshotTable
 #: SnapshotTable
 msgid "Snapshot Table"
-msgstr "Tabela de instantâneos"
+msgstr "جدول اللقطات"
 
 # PseudoXML
 #: PseudoXML
 msgid "Pseudo XML"
-msgstr "Pseudo XML"
+msgstr "Pseudo XML الزائف"
 
 # PseudoJSON
 #: PseudoJSON
 msgid "Pseudo JSON"
-msgstr "Pseudo JSON"
+msgstr "JSON الزائف"
 
 # PseudoTTL
 #: PseudoTTL
 msgid "Pseudo TTL"
-msgstr "Pseudo TTL"
+msgstr "TTL زائف TTL"
 
 # StatisticsReferences
 #: StatisticsReferences
 msgid "Statistics/References"
-msgstr "Estatísticas/Referências"
+msgstr "الإحصائيات/المراجع"
 
 # AllTables
 #: AllTables
 msgid "All"
-msgstr "Todas"
+msgstr "الكل"
 
 # Derive
 #: Derive
 msgid "This structure is derived from %ARTIFACT%"
-msgstr "Esta estrutura deriva de %ARTIFACT%"
+msgstr "هذا التركيب مشتق من %ARTIFACT%"
 
 # KeyElementsView
 #: KeyElementsView
 msgid "Key Elements View"
-msgstr "Vista de Elementos-Chave"
+msgstr "عرض العناصر الرئيسية"
 
 # DifferentialView
 #: DifferentialView
 msgid "Differential View"
-msgstr "Vista Diferencial"
+msgstr "العرض التفاضلي"
 
 # SnapshotView
 #: SnapshotView
 msgid "Snapshot View"
-msgstr "Vista Total"
+msgstr "عرض اللقطة"
 
 # XMLTemplate
 #: XMLTemplate
 msgid "XML Template"
-msgstr "Modelo XML"
+msgstr "قالب XML"
 
 # JSONTemplate
 #: JSONTemplate
 msgid "JSON Template"
-msgstr "Modelo JSON"
+msgstr "قالب JSON"
 
 # TTLTemplate
 #: TTLTemplate
 msgid "TTL Template"
-msgstr "Modelo TTL"
+msgstr "قالب TTL"
 
 # OtherReps
 #: OtherReps
 msgid "Other representations of profile:"
-msgstr "Outras representações do perfil:"
+msgstr "تمثيلات أخرى للملف الشخصي:"
 
 # CSV
 #: CSV
@@ -157,96 +159,97 @@ msgstr "CSV"
 # Excel
 #: Excel
 msgid "Excel"
-msgstr "Excel"
+msgstr "إكسل"
 
 # Schematron
 #: Schematron
 msgid "Schematron"
-msgstr "Schematron"
+msgstr "سكيماترون"
 
 # Example
 #: Example
 msgid "Example"
-msgstr "Exemplo"
+msgstr "مثال على ذلك"
 
 # Examples
 #: Examples
 msgid "Examples"
-msgstr "Exemplos"
+msgstr "أمثلة"
 
 # Raw
 #: Raw
 msgid "Raw %FMT%"
-msgstr "Bruto %FMT%"
+msgstr "النسبة المئوية الخام %FMT%"
 
 # Abstract
 #: Abstract
 msgid "Abstract"
-msgstr "Resumo"
+msgstr "الخلاصة"
 
 # DetailedDescriptions
 #: DetailedDescriptions
 msgid "Detailed Descriptions"
-msgstr "Descrições detalhadas"
+msgstr "الأوصاف التفصيلية"
 
 # DefinitionsFor
 #: DefinitionsFor
 msgid "Definitions for the %MODEL%"
-msgstr "Definições para o %MODEL%"
+msgstr "تعريفات ل %MODEL%"
 
 # NoExamples
 #: NoExamples
 msgid "No examples are currently available for the %ID% Profile."
-msgstr "Não há exemplos disponíveis para o Perfil %ID%."
+msgstr "لا توجد أمثلة متوفرة حالياً لملف التعريف %ID%."
 
 # ExamplesForProfile
 #: ExamplesForProfile
 msgid "Examples for the %ID% Profile."
-msgstr "Exemplos para o perfil %ID%."
+msgstr "أمثلة لـ %ID% الملف الشخصي"
 
 # FormatProfile
 #: FormatProfile
 msgid "%FMT% Profile"
-msgstr "Perfil %FMT%"
+msgstr "%ملف تعريف %FMT%"
 
 # FormatRep
 #: FormatRep
 msgid "%FMT% representation of the %ID% %TYPE%."
+msgstr "%تمثيل %FMT% لـ %ID% %النوع %النوع %."
 
 # Mappings
 #: Mappings
 msgid "Mappings"
-msgstr "Mapeamentos"
+msgstr "التعيينات"
 
 # MappingsFor
 #: MappingsFor
 msgid "Mappings for the %ID% %TYPE%."
-msgstr "Mapeamentos para %ID% %TYPE%."
+msgstr "التعيينات الخاصة بـ %ID% %النوع %النوع %."
 
 # ChangesIn
 #: ChangesIn
 msgid "Changes in the %ID% %TYPE%."
-msgstr "Alterações em %ID% %TYPE%."
+msgstr "التغييرات في %ID% %النوع %النوع %."
 
 # Testing
 #: Testing
 msgid "Testing"
-msgstr "Testes"
+msgstr "الاختبار"
 
 # TestScripts
 #: TestScripts
 msgid "Test Scripts"
-msgstr "Scripts de Teste"
+msgstr "البرامج النصية للاختبار"
 
 # Expansion
 #: Expansion
 msgid "Expansion"
-msgstr "Expansão"
+msgstr "التوسعة"
 
 # Content
 #: Content
 msgid "Content"
-msgstr "Conteúdo"
+msgstr "المحتوى"
 
 # XML
 #: XML
@@ -266,230 +269,229 @@ msgstr "TTL"
 # History
 #: History
 msgid "History"
-msgstr "História"
+msgstr "التاريخ"
 
 # Extension
 #: Extension
 msgid "Extension"
-msgstr "Extensão"
+msgstr "التمديد"
 
 # LogicalModel
 #: LogicalModel
 msgid "Logical Model"
-msgstr "Modelo lógico"
+msgstr "النموذج المنطقي"
 
 # ResourceProfile
 #: ResourceProfile
 msgid "Resource Profile"
-msgstr "Perfil do recurso"
+msgstr "الملف الشخصي للموارد"
 
 # DataTypeProfile
 #: DataTypeProfile
 msgid "Data Type Profile"
-msgstr "Perfil do tipo de dados"
+msgstr "ملف تعريف نوع البيانات"
 
 # Links
 #: Links
 msgid "Links"
-msgstr "Ligações"
+msgstr "الروابط"
 
 # Notes
 #: Notes
 msgid "Notes"
-msgstr "Notas"
+msgstr "الملاحظات"
 
 # VisitFCP
 #: VisitFCP
 msgid "Visit the FHIR Community Process Specification Registry"
-msgstr "Visite o Registo de Especificação de Processos da Comunidade FHIR"
+msgstr "تفضل بزيارة سجل مواصفات عملية مجتمع FHIR"
 
 # CountryFlag
 #: CountryFlag
 msgid "flag"
-msgstr "bandeira"
+msgstr "العلم"
 
 # PrevPage
 #: PrevPage
 msgid "< prev"
-msgstr "< anterior"
+msgstr "<السابق"
 
 # NextPage
 #: NextPage
 msgid "next >"
-msgstr "seguinte >"
+msgstr "التالي >"
 
 # PageBottom
 #: PageBottom
 msgid "bottom"
-msgstr "fundo"
+msgstr "القاع"
 
 # PageTop
 #: PageTop
 msgid "top"
-msgstr "topo"
+msgstr "أعلى"
 
 # IGCopyright
 #: IGCopyright
 msgid "IG © %YEAR%"
-msgstr "IG © %YEAR%"
+msgstr "IG © %YEAR%."
 
 # IGPackage
 #: IGPackage
 msgid "Package %PKG% based on %FHIRVER%."
-msgstr "Pacote %PKG% baseado em %FHIRVER%."
+msgstr "الحزمة %PKG% استناداً إلى %FHIRVER%."
 
 # GeneratedDate
 #: GeneratedDate
 msgid "Generated %DATE%"
-msgstr "Gerado %DATE%"
+msgstr "تم إنشاء %التاريخ٪٪"
 
 # PageStandardsStatus
 #: PageStandardsStatus
 msgid "Page standards status"
-msgstr "Estado das normas da página"
+msgstr "حالة معايير الصفحة"
 
 # StandardsStatus
 #: StandardsStatus
 msgid "Standards Status"
-msgstr "Estado das normas"
+msgstr "حالة المعايير"
 
 # FromNormative
 #: FromNormative
 msgid "from v%NORMVER%"
-msgstr "de v%NORMVER%"
+msgstr "من v%NORMVER%"
 
 # MaturityLevel
 #: MaturityLevel
 msgid "Maturity Level"
-msgstr "Nível de maturidade"
+msgstr "مستوى النضج"
 
 # OfficialURL
 #: OfficialURL
 msgid "Official URL"
-msgstr "URL oficial"
+msgstr "عنوان URL الرسمي"
 
 # CopyURL
 #: CopyURL
 msgid "Click to copy URL"
-msgstr "Clique para copiar o URL"
+msgstr "انقر لنسخ عنوان URL"
 
 # CopyVersioned
 #: CopyVersioned
 msgid "Click to copy versioned URL"
-msgstr "Clique para copiar o URL com versão"
+msgstr "انقر لنسخ عنوان URL المنسوخ"
 
 # Version
 #: Version
 msgid "Version"
-msgstr "Versão"
+msgstr "الإصدار"
 
 # ResourceDate
 #: ResourceDate
 msgid "as of %RESDATE%"
-msgstr "a partir de %RESDATE%"
+msgstr "اعتبارًا من %RESDATE%"
 
 # Responsible
 #: Responsible
 msgid "Responsible"
-msgstr "Responsável"
+msgstr "مسؤول"
 
 # Realm
 #: Realm
 msgid "Realm"
-msgstr "Reino"
+msgstr "عالم"
 
 # ComputableName
 #: ComputableName
 msgid "Computable Name"
-msgstr "Nome computável"
+msgstr "اسم قابل للحساب"
 
 # OtherIdentifiers
 #: OtherIdentifiers
 msgid "Other Identifiers"
-msgstr "Outros identificadores"
+msgstr "معرّفات أخرى"
 
 # Keywords
 #: Keywords
 msgid "Keywords"
-msgstr "Palavras-chave"
+msgstr "الكلمات المفتاحية"
 
 # Usage
 #: Usage
 msgid "Usage"
-msgstr "Utilização"
+msgstr "الاستخدام"
 
 # CopyrightLegal
 #: CopyrightLegal
 msgid "Copyright/Legal"
-msgstr "Direitos de autor/legais"
+msgstr "حقوق الطبع والنشر/قانوني"
 
 # NarrativeContent
 #: NarrativeContent
 msgid "Narrative Content"
-msgstr "Conteúdo narrativo"
+msgstr "المحتوى السردي"
 
 # TableOfContents
 #: TableOfContents
 msgid "Table of Contents"
-msgstr "Índice"
+msgstr "جدول المحتويات"
 
 # QAReport
 #: QAReport
 msgid "QA Report"
-msgstr "Relatório de QA"
+msgstr "تقرير ضمان الجودة"
 
 # ReadingTerminology
 #: ReadingTerminology
 msgid "Description of the above table(s)"
-msgstr ""
+msgstr "وصف الجدول (الجداول) أعلاه"
 
 # TestPlans
 #: TestPlans
 msgid "Test Plans"
-msgstr ""
+msgstr "خطط الاختبار"
 
 # Actors
 #: Actors
 msgid "Actors"
-msgstr ""
+msgstr "الممثلون"
 
 # Diagram
 #: Diagram
 msgid "Diagram"
-msgstr ""
+msgstr "الرسم البياني"
 
 # Processes
 #: Processes
 msgid "Processes"
-msgstr ""
+msgstr "العمليات"
 
 # Instances
 #: Instances
 msgid "Instances"
-msgstr ""
+msgstr "المثيلات"
 
 # WorkInProgress
 #: WorkInProgress
 msgid "The content in this section has not undergone work group review and may be significantly revised prior to the next ballot."
-msgstr ""
+msgstr "لم يخضع محتوى هذا القسم لمراجعة مجموعة العمل وقد يتم تنقيحه بشكل كبير قبل الاقتراع التالي."
 
 # Contents
 #: Contents
 msgid "Contents"
-msgstr ""
+msgstr "المحتويات"
 
 # Globals
 #: Globals
 msgid "Globals"
-msgstr ""
+msgstr "غلوبالز"
 
 # GlobalProfiles
 #: GlobalProfiles
 msgid "Global Profiles"
-msgstr ""
+msgstr "الملامح العالمية"
 
 # ArtifactsIntro
 #: ArtifactsIntro
 msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
-msgstr ""
-
+msgstr "توفر هذه الصفحة قائمة بأدوات FHIR المحددة كجزء من دليل التنفيذ هذا."

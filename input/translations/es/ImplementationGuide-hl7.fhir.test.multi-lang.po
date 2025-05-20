@@ -43,7 +43,7 @@ msgstr "Ejemplo de instancia ValueSet"
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Example Structure Definition"
-msgstr "Ejemplo Estructura Definición"
+msgstr "Ejemplo de Definición de Estructura"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
@@ -53,7 +53,7 @@ msgstr "Perfil del paciente"
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Simple patient example"
-msgstr "Ejemplo de paciente sencillo"
+msgstr "Ejemplo sencillo de paciente"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description

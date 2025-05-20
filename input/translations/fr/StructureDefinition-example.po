@@ -1,17 +1,17 @@
-# en -> pt
+# A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
 
-# StructureDefinition translation for ExampleStructureDefinition
 #: StructureDefinition.name
 msgid "ExampleStructureDefinition"
-msgstr "Exemplo de definição de estrutura"
+msgstr "Exemple de définition de structure"
 
 # A short, descriptive, user-friendly title for the structure definition.
 #: StructureDefinition.title
 msgid "Example Structure Definition"
-msgstr "Exemplo de Definição de Estrutura"
+msgstr "Exemple Structure Définition"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
 #: StructureDefinition.publisher
 msgid "HL7 Tooling group"
-msgstr "Grupo de ferramentas HL7"
-
+msgstr "Groupe d'outils HL7"
