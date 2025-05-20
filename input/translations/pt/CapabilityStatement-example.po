@@ -1,10 +1,6 @@
-# A natural language name identifying the capability statement. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-msgid ""
-msgstr ""
-
 # en -> pt
 
-
+# A CapStatement is a statement of the capabilities of a system or application. It is a formal expression of the system's capabilities, including the resources and interactions it supports, as well as any constraints or requirements that apply to those capabilities.
 #: CapabilityStatement.CapabilityStatement.name
 msgid "ExampleCapabilityStatement"
 msgstr "Exemplo de declaração de capacidade"

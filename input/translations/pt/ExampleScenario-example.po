@@ -1,10 +1,6 @@
-# A natural language name identifying the example scenario. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-msgid ""
-msgstr ""
-
 # en -> pt
 
-
+# ExampleScenario translation for Portuguese
 #: ExampleScenario.ExampleScenario.name
 msgid "ExampleExampleScenario"
 msgstr "ExemploExemploCenário"

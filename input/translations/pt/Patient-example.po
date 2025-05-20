@@ -1,9 +1,6 @@
-# Plain text narrative that identifies the resource in addition to the resource reference.
-msgid ""
-msgstr ""
-
 # en -> pt
 
+# Patient resource translation
 #: Patient.Patient.identifier.assigner.display
 msgid "Acme Healthcare"
 msgstr "Cuidados de saúde Acme"

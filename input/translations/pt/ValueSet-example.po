@@ -1,10 +1,6 @@
-# A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-msgid ""
-msgstr ""
-
 # en -> pt
 
-
+# ValueSet Example translation
 #: ValueSet.ValueSet.name
 msgid "ExampleValueSet"
 msgstr "ExampleValueSet"

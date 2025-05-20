@@ -1,10 +1,6 @@
-# A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-msgid ""
-msgstr ""
-
 # en -> pt
 
-
+# OperationDefinition translation for FHIR
 #: OperationDefinition.OperationDefinition.name
 msgid "ExampleOperationDefinition"
 msgstr "ExampleOperationDefinition (definição de operação de exemplo)"
