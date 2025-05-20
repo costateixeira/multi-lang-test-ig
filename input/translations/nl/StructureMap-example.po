@@ -1,0 +1,27 @@
+# en -> nl
+
+# A natural language name identifying the structure map. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: StructureMap.name
+msgid "ExampleStructureMap"
+msgstr "VoorbeeldStructuurMap"
+
+# A short, descriptive, user-friendly title for the structure map.
+#: StructureMap.title
+msgid "Example Structure Map"
+msgstr "Voorbeeld Structuurkaart"
+
+# The name of the organization or individual that published the structure map.
+#: StructureMap.publisher
+msgid "HL7 Tooling group"
+msgstr "HL7 Tooling groep"
+
+# A free text natural language description of the structure map from a consumer's perspective.
+#: StructureMap.description
+msgid "Example Structure Map Instance"
+msgstr "Voorbeeld Instantie Structuurkaart"
+
+# Additional supporting documentation that explains the purpose of the group and the types of mappings within it.
+#: StructureMap.group.documentation
+msgid "test -> testValue"
+msgstr "test -> testWaarde"
+

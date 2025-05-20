@@ -59,3 +59,4 @@ msgstr "Dit element is vereist omdat ouders meestal niet uitleggen waarom"
 #: LogicalExample.foo.bar/constraint
 msgid "Length SHOULD be <50 for data minimization."
 msgstr "De lengte ZOU <50 moeten zijn om de gegevens te minimaliseren."
+

@@ -1,0 +1,57 @@
+# en -> nl
+
+# A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: OperationDefinition.name
+msgid "ExampleOperationDefinition"
+msgstr "VoorbeeldOperatieDefinitie"
+
+# A short, descriptive, user-friendly title for the operation definition.
+#: OperationDefinition.title
+msgid "Example Operation Definition"
+msgstr "Voorbeeld Werking Definitie"
+
+# The name of the organization or individual that published the operation definition.
+#: OperationDefinition.publisher
+msgid "HL7 Tooling group"
+msgstr "HL7 Tooling groep"
+
+# A free text natural language description of the operation definition from a consumer's perspective.
+#: OperationDefinition.description
+msgid "Example Operation Definition Instance"
+msgstr "Voorbeeld Operation Definition Instance"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Clinical Venue"
+msgstr "Klinische locatie"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "inpatient encounter"
+msgstr "ziekenhuisopname"
+
+# Additional information about how to use this operation or named query.
+#: OperationDefinition.comment
+msgid "Only implemented for Labs and Medications so far"
+msgstr "Tot nu toe alleen geïmplementeerd voor labonderzoeken en medicijnen"
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "The resource that is to be the *QuestionnaireResponse.subject*. The [[[QuestionnaireResponse]]]      instance will reference the provided subject.  In addition, if the *local* parameter is      set to true, server information about the specified subject will be used to populate the      instance."
+msgstr "De bron die het *VragenlijstRespons.onderwerp* moet worden. De [[[QuestionnaireResponse]] instantie zal verwijzen naar het opgegeven onderwerp.  Bovendien, als de *lokaal* parameter is ingesteld op waar, zal serverinformatie over het gespecificeerde onderwerp worden gebruikt om de instantie te vullen."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "If the *local* parameter is set to true, server information about the specified subject will be used to populate the instance."
+msgstr "Als de parameter *local* is ingesteld op true, wordt serverinformatie over het gespecificeerde subject gebruikt om de instantie te vullen."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "The partially (or fully)-populated set of answers for the specified Questionnaire"
+msgstr "De gedeeltelijk (of volledig) ingevulde set antwoorden voor de gespecificeerde vragenlijst."
+
+# Comments to go on overload.
+#: OperationDefinition.overload.comment
+msgid "local defaults to false when not passed as a parameter"
+msgstr "lokaal is standaard false als het niet als parameter wordt doorgegeven"
+

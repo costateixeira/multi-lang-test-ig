@@ -1,0 +1,17 @@
+# en -> nl
+
+# A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: name
+msgid "ExampleExtensionStructureDefinition"
+msgstr "VoorbeeldExtensieStructuurDefinitie"
+
+# A short, descriptive, user-friendly title for the structure definition.
+#: title
+msgid "Example Extension Structure Definition"
+msgstr "Voorbeeld Extension Structure Definition"
+
+# The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
+#: publisher
+msgid "HL7 Tooling group"
+msgstr "HL7 Tooling groep"
+
