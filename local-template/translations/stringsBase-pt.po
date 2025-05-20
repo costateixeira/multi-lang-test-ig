@@ -1,3 +1,4 @@
+# en -> pt
 
 # NO_TRANS
 #: NO_TRANS
@@ -212,6 +213,7 @@ msgstr "Perfil %FMT%"
 # FormatRep
 #: FormatRep
 msgid "%FMT% representation of the %ID% %TYPE%."
+msgstr "Representação %FMT% de %ID% %TYPE%."
 
 # Mappings
 #: Mappings
@@ -281,12 +283,12 @@ msgstr "Modelo lógico"
 # ResourceProfile
 #: ResourceProfile
 msgid "Resource Profile"
-msgstr "Perfil do recurso"
+msgstr "Perfil de recurso"
 
 # DataTypeProfile
 #: DataTypeProfile
 msgid "Data Type Profile"
-msgstr "Perfil do tipo de dados"
+msgstr "Perfil de tipo de dados"
 
 # Links
 #: Links
@@ -441,55 +443,55 @@ msgstr "Relatório de QA"
 # ReadingTerminology
 #: ReadingTerminology
 msgid "Description of the above table(s)"
-msgstr ""
+msgstr "Descrição do(s) quadro(s) acima"
 
 # TestPlans
 #: TestPlans
 msgid "Test Plans"
-msgstr ""
+msgstr "Planos de teste"
 
 # Actors
 #: Actors
 msgid "Actors"
-msgstr ""
+msgstr "Actores"
 
 # Diagram
 #: Diagram
 msgid "Diagram"
-msgstr ""
+msgstr "Diagrama"
 
 # Processes
 #: Processes
 msgid "Processes"
-msgstr ""
+msgstr "Processos"
 
 # Instances
 #: Instances
 msgid "Instances"
-msgstr ""
+msgstr "Instâncias"
 
 # WorkInProgress
 #: WorkInProgress
 msgid "The content in this section has not undergone work group review and may be significantly revised prior to the next ballot."
-msgstr ""
+msgstr "O conteúdo desta secção não foi submetido a uma revisão pelo grupo de trabalho e pode ser significativamente revisto antes da próxima votação."
 
 # Contents
 #: Contents
 msgid "Contents"
-msgstr ""
+msgstr "Conteúdo"
 
 # Globals
 #: Globals
 msgid "Globals"
-msgstr ""
+msgstr "Globais"
 
 # GlobalProfiles
 #: GlobalProfiles
 msgid "Global Profiles"
-msgstr ""
+msgstr "Perfis globais"
 
 # ArtifactsIntro
 #: ArtifactsIntro
 msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
-msgstr ""
+msgstr "Esta página fornece uma lista dos artefactos FHIR definidos como parte deste guia de implementação."
 
