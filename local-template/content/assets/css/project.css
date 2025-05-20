@@ -84,6 +84,8 @@ var(--publish-box-border); */
   --dragon-background-color: #fffbf7; /* 29. Dragon background color */
   --dragon-text-color: #101020; /* 30. Dragon font color */
 
+  --translation-background-color: whitesmoke; /* 31. Translation box background color */
+  --translation-box-border: 1px solid #000000; /*32. Translation box border */
 }
 
 

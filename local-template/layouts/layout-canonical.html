@@ -1,6 +1,7 @@
 ---
 ---
 {% assign localPage = page.path | split: "/" | last %}
+{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
 {% include fragment-pagebegin.html lang='{{[lang]}}' lang="{{[lang]}}" %}
 <!-- layouts\layout-canonical -->
 <div class="col-12">
@@ -8,7 +9,7 @@
   {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
   <a name="root"> </a>
 
-  <h2 id="root">{{[type]}}: {{site.data.pages[localPage].titlelang["{{[lang]}}"] | escape_once}}
+  <h2 id="root">{{modelType}}: {{site.data.pages[localPage].titlelang["{{[lang]}}"] | escape_once}}
 {% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
   </h2>
 
@@ -16,12 +17,12 @@
 
 {%if site.data.resources[resource_].description %}
 <p>
-{{site.data.resources[resource_].description|markdownify}}
+{{site.data.resources[resource_].descriptionlang['{{[lang]}}']|markdownify}}
 </p>
 {% endif %}
 {%if site.data.resources[resource_].purpose %}
 <p>
-{{site.data.resources[resource_].purpose|markdownify}}
+{{site.data.resources[resource_].purposelang['{{[lang]}}']|markdownify}}
 </p>
 {% endif %}
   <!-- insert intro if present -->

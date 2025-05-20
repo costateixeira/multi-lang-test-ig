@@ -10,6 +10,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   <h2>{{site.data.pages[localPage].titlelang[include.lang] | escape_once}}</h2>
+  {% if site.data.languages.defLang != include.lang %}
+  <p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+  {% if site.data.pages[localPage].translated[include.lang] == 'true' %}
+  {{site.data.stringsBase[include.lang]['NO_TRANS']}}
+  {% else %}
+  {{site.data.stringsBase[include.lang]['TRANS_HLP']}}
+  {% endif %}
+  </p>
+  {% endif %}
   {% if localPage == 'index.html' %}
   {% include fragment-igTable.html lang=include.lang %}
   {% endif %}

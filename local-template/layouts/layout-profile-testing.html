@@ -9,7 +9,7 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='testing' lang="{{[lang]}}" %}
 
   <a name="root"> </a>
-  <h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['Testing']}}</h2>
+  <h2 id="root">{{modelType}}: {{site.data.resources[resource_].titlelang['{{[lang]}}']}} - {{site.data.stringsBase['{{[lang]}}']['Testing']}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
 {% assign basepath = page.path | replace: '-testing.html', '.html' %}
@@ -24,7 +24,7 @@
       {% for testplan in site.data.pages[basepath].testplans %}
         <tr>
           <td>
-            <a href="{{testplan.url}}">{{testplan.title | escape_once}}</a>
+            <a href="{{testplan.url}}">{{testplan.titlelang["{{[lang]}}"] | escape_once}}</a>
           </td>
         </tr>
       {% endfor %}
@@ -41,7 +41,7 @@
       {% for testscript in site.data.pages[basepath].testscripts %}
         <tr>
           <td>
-            <a href="{{testscript.url}}">{{testscript.title | escape_once}}</a>
+            <a href="{{testscript.url}}">{{testscript.titlelang["{{[lang]}}"] | escape_once}}</a>
           </td>
         </tr>
       {% endfor %}

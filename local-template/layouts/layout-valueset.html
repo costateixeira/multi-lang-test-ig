@@ -11,13 +11,13 @@
 {% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
   </h2>
 {% include fragment-resourceTable.html lang="{{[lang]}}" %}
-{%if site.data.resources[resource_].description %}
+{%if site.data.resources[resource_].descriptionlang['{{[lang]}}'] %}
 <p>
 {{site.data.resources[resource_].description|markdownify}}
 </p>
 {% endif %}{%if site.data.resources[resource_].purpose %}
 <p>
-{{site.data.resources[resource_].purpose|markdownify}}
+{{site.data.resources[resource_].purposelang['{{[lang]}}']|markdownify}}
 </p>
 {% endif %}
 

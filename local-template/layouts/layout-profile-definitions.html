@@ -9,7 +9,7 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='definition' lang="{{[lang]}}" %}
 
 <a name="root"> </a>
-<h2 id="root">{{modelType}}: {{[title]}} - {{site.data.stringsBase['{{[lang]}}']['DetailedDescriptions']}}</h2>
+<h2 id="root">{{modelType}}: {{site.data.resources[resource_].titlelang['{{[lang]}}']}} - {{site.data.stringsBase['{{[lang]}}']['DetailedDescriptions']}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
 {% assign modelTypeLower = modelType | downcase %}
