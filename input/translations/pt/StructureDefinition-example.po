@@ -14,3 +14,4 @@ msgstr "Exemplo de estrutura Definição"
 #: StructureDefinition.publisher
 msgid "HL7 Tooling group"
 msgstr "Grupo de ferramentas HL7"
+

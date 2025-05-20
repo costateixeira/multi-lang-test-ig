@@ -1,4 +1,2 @@
 # en -> pt
 
-# A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-# en -> pt

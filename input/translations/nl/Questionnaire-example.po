@@ -1,24 +1,24 @@
-# en -> pt
+# en -> nl
 
 # A natural language name identifying the questionnaire. This name should be usable as an identifier for the module by machine processing applications such as code generation.
 #: Questionnaire.name
 msgid "ExampleQuestionnaire"
-msgstr "ExemploQuestionário"
+msgstr "Voorbeeldvragenlijst"
 
 # A short, descriptive, user-friendly title for the questionnaire.
 #: Questionnaire.title
 msgid "Example Questionnaire"
-msgstr "Exemplo de questionário"
+msgstr "Voorbeeld vragenlijst"
 
 # The name of the organization or individual that published the questionnaire.
 #: Questionnaire.publisher
 msgid "HL7 Tooling group"
-msgstr "Grupo de ferramentas HL7"
+msgstr "HL7 Tooling groep"
 
 # A free text natural language description of the questionnaire from a consumer's perspective.
 #: Questionnaire.description
 msgid "Example Questionnaire Instance"
-msgstr "Exemplo de instância de questionário"
+msgstr "Voorbeeld van een vragenlijst"
 
 # A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
 #: Questionnaire.item.prefix
@@ -38,12 +38,12 @@ msgstr "1.1"
 # A representation of the meaning of the code in the system, following the rules of the system.
 #: Coding.display
 msgid "Angina Pectoris"
-msgstr "Angina de peito"
+msgstr "Angina pectoris"
 
 # A representation of the meaning of the code in the system, following the rules of the system.
 #: Coding.display
 msgid "Angina (disorder)"
-msgstr "Angina (doença)"
+msgstr "Angina (aandoening)"
 
 # A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
 #: Questionnaire.item.prefix
@@ -53,7 +53,7 @@ msgstr "1.1.1"
 # A representation of the meaning of the code in the system, following the rules of the system.
 #: Coding.display
 msgid "Myocardial infarction (disorder)"
-msgstr "Enfarte do miocárdio (doença)"
+msgstr "Myocardinfarct (aandoening)"
 
 # A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
 #: Questionnaire.item.prefix
@@ -68,5 +68,5 @@ msgstr "1.2"
 # A representation of the meaning of the code in the system, following the rules of the system.
 #: Coding.display
 msgid "pT category"
-msgstr "Categoria pT"
+msgstr "pT categorie"
 

@@ -1,49 +1,49 @@
-# en -> pt
+# en -> nl
 
 # A natural language name identifying the example scenario. This name should be usable as an identifier for the module by machine processing applications such as code generation.
 #: ExampleScenario.name
 msgid "ExampleExampleScenario"
-msgstr "ExemploExemploCenário"
+msgstr "VoorbeeldScenario"
 
 # The name of the organization or individual that published the example scenario.
 #: ExampleScenario.publisher
 msgid "HL7 Tooling group"
-msgstr "Grupo de ferramentas HL7"
+msgstr "HL7 Tooling groep"
 
 # What the example scenario resource is created for. This should not be used to show the business purpose of the scenario itself, but the purpose of documenting a scenario.
 #: ExampleScenario.purpose
 msgid "Purpose: this serves to demonstrate the performing of medication administration, by using remote / mobile devices to a) Get the planned medication administrations and b) Record the performing of these administrations without a permanent connection to the EHR."
-msgstr "Objetivo: serve para demonstrar a realização da administração de medicamentos, utilizando dispositivos remotos / móveis para a) obter as administrações de medicamentos planeadas e b) registar a realização dessas administrações sem uma ligação permanente ao sistema de registo de dados."
+msgstr "Doel: dit dient om het uitvoeren van medicatietoedieningen te demonstreren, door gebruik te maken van externe/mobiele apparaten om a) de geplande medicatietoedieningen op te halen en b) het uitvoeren van deze toedieningen vast te leggen zonder permanente verbinding met het EHR."
 
 # The name of the actor as shown in the page.
 #: ExampleScenario.actor.name
 msgid "Nurse"
-msgstr "Enfermeira"
+msgstr "Verpleegkundige"
 
 # The description of the actor.
 #: ExampleScenario.actor.description
 msgid "The Nurse"
-msgstr "A enfermeira"
+msgstr "De Verpleegster"
 
 # The name of the actor as shown in the page.
 #: ExampleScenario.actor.name
 msgid "Nurse's Tablet"
-msgstr "Tablete de enfermeiro"
+msgstr "Tablet voor verpleegkundigen"
 
 # The description of the actor.
 #: ExampleScenario.actor.description
 msgid "The entity that receives the Administration Requests to show the nurse to perform them"
-msgstr "A entidade que recebe os Pedidos de Administração para indicar o enfermeiro para os efetuar"
+msgstr "De entiteit die de toedieningsverzoeken ontvangt om de verpleegkundige te tonen om ze uit te voeren"
 
 # The name of the actor as shown in the page.
 #: ExampleScenario.actor.name
 msgid "MAR / Scheduler"
-msgstr "MAR / Programador"
+msgstr "MAR / planner"
 
 # The description of the actor.
 #: ExampleScenario.actor.description
 msgid "The Medication Administration Order Placer"
-msgstr "O localizador de ordens de administração de medicamentos"
+msgstr "De plaatser voor toedieningsopdrachten voor medicijnen"
 
 # The name of the actor as shown in the page.
 #: ExampleScenario.actor.name
@@ -53,117 +53,117 @@ msgstr "MAR / EHR"
 # The description of the actor.
 #: ExampleScenario.actor.description
 msgid "The entity that receives the Medication Administration reports"
-msgstr "A entidade que recebe os relatórios de administração de medicamentos"
+msgstr "De entiteit die de Medicatie Administratie rapporten ontvangt"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Initial Prescription"
-msgstr "Prescrição inicial"
+msgstr "Initieel Voorschrift"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The initial prescription which describes \"medication X, 3 times per day\" - the exact scheduling is not   in the initial prescription (it is left for the care teams to decide on the schedule)."
-msgstr "A receita inicial que descreve \"medicação X, 3 vezes por dia\" - o horário exato não consta da receita inicial (cabe às equipas de cuidados decidir o horário)."
+msgstr "Het initiële recept dat beschrijft \"medicatie X, 3 keer per dag\" - de exacte planning staat niet in het initiële recept (het wordt aan de zorgteams overgelaten om het schema te bepalen)."
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Request for day 1, morning"
-msgstr "Pedido para o dia 1, manhã"
+msgstr "Verzoek voor dag 1, ochtend"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The administration request for day 1, morning"
-msgstr "O pedido da administração para o dia 1, de manhã"
+msgstr "Het administratieverzoek voor dag 1, 's ochtends"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Request for day 1, lunch"
-msgstr "Pedido para o dia 1, almoço"
+msgstr "Verzoek voor dag 1, lunch"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The administration request for day 1, lunch"
-msgstr "O pedido da administração para o dia 1, almoço"
+msgstr "Het administratieverzoek voor dag 1, lunch"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Request for day 1, evening"
-msgstr "Pedido para o dia 1, à noite"
+msgstr "Verzoek voor dag 1, 's avonds"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The administration request for day 1, evening"
-msgstr "O pedido da administração para o dia 1, à noite"
+msgstr "Het administratieverzoek voor dag 1, 's avonds"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Request for day 2, morning"
-msgstr "Pedido para o dia 2, manhã"
+msgstr "Verzoek voor dag 2, ochtend"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The administration request for day 2, morning"
-msgstr "O pedido da administração para o dia 2, de manhã"
+msgstr "Het administratieverzoek voor dag 2, ochtend"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Request for day 2, lunch"
-msgstr "Pedido para o dia 2, almoço"
+msgstr "Verzoek voor dag 2, lunch"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The administration request for day 2, lunch"
-msgstr "O pedido da administração para o dia 2, almoço"
+msgstr "Het administratieverzoek voor dag 2, lunch"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Request for day 2, evening"
-msgstr "Pedido para o dia 2, à noite"
+msgstr "Verzoek voor dag 2, 's avonds"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The administration request for day 2, evening"
-msgstr "O pedido da administração para o dia 2, à noite"
+msgstr "Het administratieverzoek voor dag 2, 's avonds"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Morning meds - taken"
-msgstr "Medicamentos matinais - tomados"
+msgstr "Ochtendmedicijnen - ingenomen"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "Administration report for day 1, morning: Taken"
-msgstr "Relatório administrativo do dia 1, manhã: Tomado"
+msgstr "Administratief rapport voor dag 1, 's ochtends: Genomen op"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Morning meds - not taken"
-msgstr "Medicamentos matinais - não tomados"
+msgstr "Ochtendmedicijnen - niet ingenomen"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "Administration report for day 1, morning: NOT Taken"
-msgstr "Relatório administrativo do dia 1, manhã: NÃO tomado"
+msgstr "Administratief rapport voor dag 1, ochtend: NIET Genomen"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Bundle of Medication Requests"
-msgstr "Pacote de pedidos de medicamentos"
+msgstr "Bundel medicijnaanvragen"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "All the medication Requests for Day 1"
-msgstr "Todos os pedidos de medicamentos para o dia 1"
+msgstr "Alle medicatie-aanvragen voor dag 1"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Lunch meds - taken"
-msgstr "Medicamentos para o almoço - tomados"
+msgstr "Lunchpillen - ingenomen"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "Administration report for day 1, lunch: Taken"
-msgstr "Relatório administrativo do dia 1, almoço: Tomado"
+msgstr "Administratief verslag voor dag 1, lunch: Genomen"
 
 # The identifier of a specific version of a resource.
 #: ExampleScenario.instance.version.versionId
@@ -173,7 +173,7 @@ msgstr "iheadm002v1"
 # The description of the resource version.
 #: ExampleScenario.instance.version.description
 msgid "Medication just taken"
-msgstr "Medicamentos acabados de tomar"
+msgstr "Medicatie net ingenomen"
 
 # The identifier of a specific version of a resource.
 #: ExampleScenario.instance.version.versionId
@@ -183,47 +183,47 @@ msgstr "iheadm002v2"
 # The description of the resource version.
 #: ExampleScenario.instance.version.description
 msgid "Medication rejected"
-msgstr "Rejeição de medicamentos"
+msgstr "Medicatie geweigerd"
 
 # A short name for the resource instance.
 #: ExampleScenario.instance.name
 msgid "Search query1"
-msgstr "Consulta de pesquisa1"
+msgstr "Zoekopdracht1"
 
 # Human-friendly description of the resource instance.
 #: ExampleScenario.instance.description
 msgid "The search administration request for day 1, morning"
-msgstr "O pedido da administração da pesquisa para o dia 1, de manhã"
+msgstr "Het verzoek van de zoekadministratie voor dag 1, ochtend"
 
 # The diagram title of the group of operations.
 #: ExampleScenario.process.title
 msgid "Mobile Medication Administration"
-msgstr "Administração móvel de medicamentos"
+msgstr "Mobiele medicatietoediening"
 
 # A longer description of the group of operations.
 #: ExampleScenario.process.description
 msgid "This scenario demonstrates the process of getting the relevant medication instructions for a patient visit and reporting the results of administration. The scenario is as follows: After the prescription is issued, the institution schedules each individual administration event in the Medication Administration Record (MAR). When preparing for a visit, the nurse queries the MAR for the scheduled administrations, obtaining a bundle of records. The nurse then performs the care activities and registers the results in the device. Upon synchronization of the device and the institution, the results of administration are uploaded to the EHR, thus updating the MAR."
-msgstr "Este cenário demonstra o processo de obtenção das instruções de medicação relevantes para a visita de um doente e a comunicação dos resultados da administração. O cenário é o seguinte: Após a prescrição ser emitida, a instituição agenda cada evento de administração individual no Registo de Administração de Medicamentos (MAR). Quando se prepara para uma visita, o enfermeiro consulta o MAR para as administrações programadas, obtendo um conjunto de registos. O enfermeiro executa então as actividades de cuidados e regista os resultados no dispositivo. Após a sincronização entre o dispositivo e a instituição, os resultados da administração são carregados no EHR, actualizando assim o MAR."
+msgstr "Dit scenario demonstreert het proces van het verkrijgen van de relevante medicatie-instructies voor een patiëntbezoek en het rapporteren van de toedieningsresultaten. Het scenario ziet er als volgt uit: Nadat het recept is uitgeschreven, plant de instelling elke afzonderlijke toediening in het Medication Administration Record (MAR). Bij de voorbereiding van een bezoek raadpleegt de verpleegkundige het MAR voor de geplande toedieningen en verkrijgt zo een bundel records. De verpleegkundige voert vervolgens de zorgactiviteiten uit en registreert de resultaten in het apparaat. Na synchronisatie van het apparaat en de instelling worden de toedieningsresultaten geüpload naar het EHR, waardoor het MAR wordt bijgewerkt."
 
 # Description of initial status before the process starts.
 #: ExampleScenario.process.preConditions
 msgid "Medication administration requests are in the EHR / MAR, scheduled for each individual intake."
-msgstr "Os pedidos de administração de medicamentos estão no EHR / MAR, programados para cada admissão individual."
+msgstr "Aanvragen voor toediening van medicatie staan in het EHR / MAR, gepland voor elke individuele intake."
 
 # Description of final status after the process ends.
 #: ExampleScenario.process.postConditions
 msgid "Medication administration Reports are submitted, EHR is updated."
-msgstr "Os relatórios de administração de medicamentos são apresentados e o sistema informático é atualizado."
+msgstr "Medicatiebeheerrapporten worden ingediend, EHR wordt bijgewerkt."
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "1. Get today's schedule"
-msgstr "1. Obter o horário de hoje"
+msgstr "1. Ontvang de planning voor vandaag"
 
 # The diagram title of the group of operations.
 #: ExampleScenario.process.title
 msgid "P1. Query Administration Requests"
-msgstr "P1. Pedidos de administração de consultas"
+msgstr "P1. Query Administratieverzoeken"
 
 # A longer description of the group of operations.
 #: ExampleScenario.process.description
@@ -238,100 +238,100 @@ msgstr ""
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Notify (alert)"
-msgstr "Notificar (alertar)"
+msgstr "Melden (alert)"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Read orders"
-msgstr "Pedidos de leitura"
+msgstr "Bestellingen lezen"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Ask if patient took meds"
-msgstr "Perguntar se o doente tomou os medicamentos"
+msgstr "Vraag of patiënt medicijnen heeft ingenomen"
 
 # The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
 #: ExampleScenario.process.step.alternative.title
 msgid "Patient took drugs"
-msgstr "O doente tomou medicamentos"
+msgstr "Patient took drugs"
 
 # A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
 #: ExampleScenario.process.step.alternative.description
 msgid "Invoke if patient took medications"
-msgstr "Invocar se o doente tomou medicamentos"
+msgstr "Opvragen als patiënt medicijnen nam"
 
 # The diagram title of the group of operations.
 #: ExampleScenario.process.title
 msgid "Register Meds taken"
-msgstr "Registar os medicamentos tomados"
+msgstr "Registratie ingenomen medicijnen"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Register Meds taken"
-msgstr "Registar os medicamentos tomados"
+msgstr "Registratie ingenomen medicijnen"
 
 # The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
 #: ExampleScenario.process.step.alternative.title
 msgid "No drugs"
-msgstr "Sem drogas"
+msgstr "Geen drugs"
 
 # A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
 #: ExampleScenario.process.step.alternative.description
 msgid "No, patient did not take drugs"
-msgstr "Não, o doente não tomava medicamentos"
+msgstr "Nee, patiënt gebruikte geen drugs"
 
 # The diagram title of the group of operations.
 #: ExampleScenario.process.title
 msgid "Register Meds NOT taken"
-msgstr "Registar os medicamentos não tomados"
+msgstr "Registreren van NIET ingenomen medicijnen"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Register Meds NOT taken"
-msgstr "Registar os medicamentos não tomados"
+msgstr "Registreren van NIET ingenomen medicijnen"
 
 # The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
 #: ExampleScenario.process.step.alternative.title
 msgid "Not clear"
-msgstr "Não é claro"
+msgstr "Niet duidelijk"
 
 # A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
 #: ExampleScenario.process.step.alternative.description
 msgid "Unknown whether patient took medications or not"
-msgstr "Não se sabe se o doente tomou ou não medicamentos"
+msgstr "Onbekend of patiënt medicijnen nam of niet"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Administer drug"
-msgstr "Administrar o medicamento"
+msgstr "Geneesmiddel toedienen"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Register administration"
-msgstr "Administração do registo"
+msgstr "Registeradministratie"
 
 # The diagram title of the group of operations.
 #: ExampleScenario.process.title
 msgid "P2. Update administration reports"
-msgstr "P2. Atualizar os relatórios administrativos"
+msgstr "P2. Administratieve verslagen bijwerken"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Nurse updates administration report"
-msgstr "Enfermeiro actualiza relatório administrativo"
+msgstr "Verpleegkundige werkt administratief rapport bij"
 
 # The diagram title of the group of operations.
 #: ExampleScenario.process.title
 msgid "P3. Upload administration reports"
-msgstr "P3. Carregar relatórios administrativos"
+msgstr "P3. Administratieve rapporten uploaden"
 
 # A longer description of the group of operations.
 #: ExampleScenario.process.description
 msgid "The nurse's system uploads the administration results to the server"
-msgstr "O sistema do enfermeiro carrega os resultados da administração para o servidor"
+msgstr "Het systeem van de verpleegkundige uploadt de toedieningsresultaten naar de server"
 
 # The human-friendly name of the interaction.
 #: ExampleScenario.process.step.operation.name
 msgid "Refresh"
-msgstr "Atualizar"
+msgstr "Vernieuw"
 
