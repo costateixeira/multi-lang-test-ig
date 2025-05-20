@@ -1,3 +1,4 @@
+# en -> nl
 
 # NO_TRANS
 #: NO_TRANS
@@ -442,55 +443,55 @@ msgstr "QA-rapport"
 # ReadingTerminology
 #: ReadingTerminology
 msgid "Description of the above table(s)"
-msgstr ""
+msgstr "Beschrijving van bovenstaande tabel(len)"
 
 # TestPlans
 #: TestPlans
 msgid "Test Plans"
-msgstr ""
+msgstr "Testplannen"
 
 # Actors
 #: Actors
 msgid "Actors"
-msgstr ""
+msgstr "Acteurs"
 
 # Diagram
 #: Diagram
 msgid "Diagram"
-msgstr ""
+msgstr "Diagram"
 
 # Processes
 #: Processes
 msgid "Processes"
-msgstr ""
+msgstr "Processen"
 
 # Instances
 #: Instances
 msgid "Instances"
-msgstr ""
+msgstr "Instanties"
 
 # WorkInProgress
 #: WorkInProgress
 msgid "The content in this section has not undergone work group review and may be significantly revised prior to the next ballot."
-msgstr ""
+msgstr "De inhoud van dit deel is niet door de werkgroep beoordeeld en kan vóór de volgende stemming aanzienlijk worden herzien."
 
 # Contents
 #: Contents
 msgid "Contents"
-msgstr ""
+msgstr "Inhoud"
 
 # Globals
 #: Globals
 msgid "Globals"
-msgstr ""
+msgstr "Wereldwijd"
 
 # GlobalProfiles
 #: GlobalProfiles
 msgid "Global Profiles"
-msgstr ""
+msgstr "Wereldwijde profielen"
 
 # ArtifactsIntro
 #: ArtifactsIntro
 msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
-msgstr ""
+msgstr "Deze pagina geeft een lijst van de FHIR artefacten die gedefinieerd zijn als onderdeel van deze implementatiegids."
 
