@@ -1,16 +1,16 @@
 # en -> pt
 
 # StructureDefinition translation for ExampleStructureDefinition
-#: name
+#: StructureDefinition.name
 msgid "ExampleStructureDefinition"
 msgstr "Exemplo de definição de estrutura"
 
 # A short, descriptive, user-friendly title for the structure definition.
-#: title
+#: StructureDefinition.title
 msgid "Example Structure Definition"
 msgstr "Exemplo de estrutura Definição"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
-#: publisher
+#: StructureDefinition.publisher
 msgid "HL7 Tooling group"
 msgstr "Grupo de ferramentas HL7"

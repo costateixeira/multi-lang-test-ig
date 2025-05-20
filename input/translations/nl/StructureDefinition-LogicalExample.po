@@ -1,17 +1,17 @@
 # en -> nl
 
 # A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
-#: name
+#: StructureDefinition.name
 msgid "ExampleLogicalStructureDefinition"
 msgstr "VoorbeeldLogischeStructuurDefinitie"
 
 # A short, descriptive, user-friendly title for the structure definition.
-#: title
+#: StructureDefinition.title
 msgid "Example Logical Structure Definition"
 msgstr "Voorbeeld Logische Structuur Definitie"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
-#: publisher
+#: StructureDefinition.publisher
 msgid "HL7 Tooling group"
 msgstr "HL7 Tooling groep"
 
