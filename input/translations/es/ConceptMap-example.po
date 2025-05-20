@@ -1,0 +1,92 @@
+# en -> es
+
+# A natural language name identifying the concept map. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: ConceptMap.name
+msgid "ExampleConceptMap"
+msgstr "EjemploConceptMap"
+
+# A short, descriptive, user-friendly title for the concept map.
+#: ConceptMap.title
+msgid "Example Concept Map"
+msgstr "Ejemplo de mapa conceptual"
+
+# The name of the organization or individual that published the concept map.
+#: ConceptMap.publisher
+msgid "HL7 Tooling group"
+msgstr "Grupo de herramientas HL7"
+
+# The name of an individual to contact.
+#: ContactDetail.name
+msgid "FHIR project team (example)"
+msgstr "Equipo del proyecto FHIR (ejemplo)"
+
+# A free text natural language description of the concept map from a consumer's perspective.
+#: ConceptMap.description
+msgid "Example Concept Map Instance"
+msgstr "Ejemplo de mapa conceptual"
+
+# A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.
+#: CodeableConcept.text
+msgid "for CCDA Usage"
+msgstr "para el uso de CCDA"
+
+# Explanation of why this concept map is needed and why it has been designed as it has.
+#: ConceptMap.purpose
+msgid "To help implementers map from HL7 v3/CDA to FHIR"
+msgstr "Para ayudar a los implementadores a pasar de HL7 v3/CDA a FHIR"
+
+# A copyright statement relating to the concept map and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the concept map.
+#: ConceptMap.copyright
+msgid "Creative Commons 0"
+msgstr "Creative Commons 0"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.display
+msgid "home"
+msgstr "Inicio"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.target.display
+msgid "home"
+msgstr "Inicio"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.display
+msgid "work"
+msgstr "trabajo"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.target.display
+msgid "work place"
+msgstr "lugar de trabajo"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.display
+msgid "temp"
+msgstr "temp"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.target.display
+msgid "temporary address"
+msgstr "dirección temporal"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.display
+msgid "old"
+msgstr "antiguo"
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.element.target.display
+msgid "bad address"
+msgstr "dirección incorrecta"
+
+# A description of status/issues in mapping that conveys additional information not represented in  the structured data.
+#: ConceptMap.group.element.target.comment
+msgid "In the HL7 v3 AD, old is handled by the usablePeriod element, but you have to provide a time, there's no simple equivalent of flagging an address as old"
+msgstr "En el AD HL7 v3, el elemento usablePeriod se encarga de la antigüedad, pero hay que indicar una hora, no existe un equivalente sencillo para marcar una dirección como antigua."
+
+# The display for the code. The display is only provided to help editors when editing the concept map.
+#: ConceptMap.group.unmapped.display
+msgid "temp"
+msgstr "temp"
+

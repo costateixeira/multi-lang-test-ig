@@ -1,0 +1,227 @@
+# en -> es
+
+# A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: ImplementationGuide.name
+msgid "MultiLanguageTestIG"
+msgstr "MultiLanguageTestIG"
+
+# A short, descriptive, user-friendly title for the implementation guide.
+#: ImplementationGuide.title
+msgid "Multi-Language Test IG"
+msgstr "Prueba multilingüe IG"
+
+# The name of the organization or individual that published the implementation guide.
+#: ImplementationGuide.publisher
+msgid "HL7 Tooling group"
+msgstr "Grupo de herramientas HL7"
+
+# A free text natural language description of the implementation guide from a consumer's perspective.
+#: ImplementationGuide.description
+msgid "This IG exists to test out the generation of multi-language IGs. Primary language is en, also does nl, pt, and ar (rtl test)"
+msgstr "Este IG existe para probar la generación de IGs multilingües. El idioma principal es el en, pero también funciona en nl, pt y ar (prueba de rtl)."
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "A demonstration code system"
+msgstr "Un sistema de códigos de demostración"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example Code System Instance"
+msgstr "Ejemplo de código Instancia del sistema"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "a demonstration Value set"
+msgstr "una demostración Conjunto de valores"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example ValueSet Instance"
+msgstr "Ejemplo de instancia ValueSet"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Structure Definition"
+msgstr "Ejemplo Estructura Definición"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Test Patient Profile"
+msgstr "Perfil del paciente"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Simple patient example"
+msgstr "Ejemplo de paciente sencillo"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A simple example showing how examples are defined and referenced"
+msgstr "Un ejemplo sencillo que muestra cómo se definen y referencian los ejemplos"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Library"
+msgstr "Ejemplo de biblioteca"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test example Library"
+msgstr "Un ejemplo de prueba Biblioteca"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Questionnaire"
+msgstr "Ejemplo de cuestionario"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test Questionnaire"
+msgstr "Cuestionario de prueba"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Concept Map"
+msgstr "Ejemplo de mapa conceptual"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test ConceptMap"
+msgstr "Un ConceptMap de prueba"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Structure Map"
+msgstr "Ejemplo de mapa de estructura"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test StructureMap"
+msgstr "Un StructureMap de prueba"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Operation Definition"
+msgstr "Ejemplo Definición de la operación"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test OperationDefinition"
+msgstr "Una prueba OperationDefinition"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "ExampleExampleScenario"
+msgstr "EjemploEjemploEscenario"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test ExampleScenario"
+msgstr "Una prueba EjemploEscenario"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Actor Definition"
+msgstr "Ejemplo de definición de actor"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test ActorDefinition"
+msgstr "Una ActorDefinition de prueba"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Requirements"
+msgstr "Ejemplos de requisitos"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test Requirements"
+msgstr "Una prueba Requisitos"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Capability Statement"
+msgstr "Ejemplo de declaración de capacidades"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test CapabilityStatement"
+msgstr "Una declaración de capacidad de prueba"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "ExampleSearchParameter"
+msgstr "ExampleSearchParameter"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test SearchParameter"
+msgstr "Un SearchParameter de prueba"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Observation patient example"
+msgstr "Ejemplo de paciente en observación"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "1st Observation example"
+msgstr "1er ejemplo de observación"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example binary"
+msgstr "Ejemplo binario"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example showing binary content"
+msgstr "Ejemplo de contenido binario"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "null (Bundle)"
+msgstr "cero (Bundle)"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Extension Structure Definition"
+msgstr "Ejemplo de definición de estructura de ampliación"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example Extension Structure Definition Instance"
+msgstr "Ejemplo de extensión Estructura Definición Instancia"
+
+# A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
+#: ImplementationGuide.definition.resource.name
+msgid "Example Logical Structure Definition"
+msgstr "Ejemplo de estructura lógica Definición"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example Logical Structure Definition Instance"
+msgstr "Ejemplo de definición de estructura lógica Instancia"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Table of Contents"
+msgstr "Índice"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Test IG Home Page"
+msgstr "Página de inicio de Test IG"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Translated"
+msgstr "Traducido"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Not Translated"
+msgstr "No traducido"
+
