@@ -11,9 +11,9 @@
   <a name="root"> </a>
   <h2 id="root">{{modelType}}:
 {% if site.data.structuredefinitions["{{[id]}}"].abstract == true %}
-    <i>{{site.data.pages[localPage].titlelang["{{[lang]}}"] | escape_once}}</i>
+    <i> {{site.data.resources[resource_].titlelang['{{[lang]}}']}}</i>
 {% else %}
-    {{site.data.pages[localPage].titlelang["{{[lang]}}"]}}
+    {{site.data.resources[resource_].titlelang['{{[lang]}}']}}
 {% endif %}
 {% if site.data.resources[resource_].experimental == true or site.data.structuredefinitions["{{[id]}}"].abstract == true %}({% endif %}
 {% if site.data.structuredefinitions["{{[id]}}"].abstract == true %}{{site.data.stringsBase['{{[lang]}}']['Abstract']}}{% endif %}
