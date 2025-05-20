@@ -1,9 +1,9 @@
-# en -> pt
+# en -> nl
 
 # Plain text narrative that identifies the resource in addition to the resource reference.
 #: Reference.display
 msgid "Acme Healthcare"
-msgstr "Cuidados de saúde Acme"
+msgstr "Acme Gezondheidszorg"
 
 # The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
 #: HumanName.family
@@ -13,12 +13,12 @@ msgstr "Chalmers"
 # Given name.
 #: HumanName.given
 msgid "Peter"
-msgstr "Pedro"
+msgstr "Peter"
 
 # Given name.
 #: HumanName.given
 msgid "James"
-msgstr "Tiago"
+msgstr "James"
 
 # Given name.
 #: HumanName.given
@@ -48,7 +48,7 @@ msgstr "PleasantVille"
 # The name of the administrative area (county).
 #: Address.district
 msgid "Rainbow"
-msgstr "Arco-íris"
+msgstr "Regenboog"
 
 # Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes).
 #: Address.state

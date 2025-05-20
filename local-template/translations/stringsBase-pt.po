@@ -207,12 +207,12 @@ msgstr "Exemplos para o perfil %ID%."
 # FormatProfile
 #: FormatProfile
 msgid "%FMT% Profile"
-msgstr "Perfil %FMT"
+msgstr "Perfil %FMT%"
 
 # FormatRep
 #: FormatRep
 msgid "%FMT% representation of the %ID% %TYPE%."
-msgstr "Representação %FMG de %ID% %TYPE%."
+msgstr "Representação %FMG% de %ID% %TYPE%."
 
 # Mappings
 #: Mappings
