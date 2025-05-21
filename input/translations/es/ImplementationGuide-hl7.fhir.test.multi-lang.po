@@ -8,7 +8,7 @@ msgstr "MultiLanguageTestIG"
 # A short, descriptive, user-friendly title for the implementation guide.
 #: ImplementationGuide.title
 msgid "Multi-Language Test IG"
-msgstr "Prueba multilingüe IG"
+msgstr "IG de Prueba Multilingüe"
 
 # The name of the organization or individual that published the implementation guide.
 #: ImplementationGuide.publisher
@@ -18,7 +18,7 @@ msgstr "Grupo de herramientas HL7"
 # A free text natural language description of the implementation guide from a consumer's perspective.
 #: ImplementationGuide.description
 msgid "This IG exists to test out the generation of multi-language IGs. Primary language is en, also does nl, pt, and ar (rtl test)"
-msgstr "Este IG existe para probar la generación de IGs multilingües. El idioma principal es el en, pero también funciona en nl, pt y ar (prueba de rtl)."
+msgstr "Este IG existe para probar la generación de IGs multilingües. El idioma principal es el inglés, pero también funciona en nl, pt y ar (prueba de rtl)."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
