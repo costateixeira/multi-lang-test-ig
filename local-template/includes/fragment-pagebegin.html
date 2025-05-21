@@ -98,7 +98,7 @@
             </button>
             <a class="navbar-brand hidden" href="{{site.data.fhir.path}}index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              {% include en/menu.xml %}
+              {% include {{ include.lang }}/menu.xml %}
               {% include fragment-language.html lang=include.lang %}
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
