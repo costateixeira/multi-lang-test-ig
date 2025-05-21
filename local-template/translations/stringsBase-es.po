@@ -111,8 +111,8 @@ msgstr "Estadísticas/Referencias"
 msgid "All"
 msgstr "Todos"
 
-# Derive
-#: Derive
+# Derived
+#: Derived
 msgid "This structure is derived from %ARTIFACT%"
 msgstr "Esta estructura se deriva de %ARTIFACT%."
 

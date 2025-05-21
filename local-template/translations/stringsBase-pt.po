@@ -115,6 +115,11 @@ msgstr "Todas"
 msgid "This structure is derived from %ARTIFACT%"
 msgstr "Esta estrutura deriva de %ARTIFACT%"
 
+# Derived
+#: Derived
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "Esta estrutura deriva de %ARTIFACT%"
+
 # KeyElementsView
 #: KeyElementsView
 msgid "Key Elements View"

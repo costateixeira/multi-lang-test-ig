@@ -111,8 +111,8 @@ msgstr "الإحصائيات/المراجع"
 msgid "All"
 msgstr "الكل"
 
-# Derive
-#: Derive
+# Derived
+#: Derived
 msgid "This structure is derived from %ARTIFACT%"
 msgstr "هذا التركيب مشتق من %ARTIFACT%"
 
