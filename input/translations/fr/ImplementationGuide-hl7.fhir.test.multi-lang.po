@@ -9,7 +9,7 @@ msgstr "MultiLanguageTestIG"
 # A short, descriptive, user-friendly title for the implementation guide.
 #: ImplementationGuide.title
 msgid "Multi-Language Test IG"
-msgstr "Test IG multilingue"
+msgstr "IG de Test multilingue"
 
 # The name of the organization or individual that published the implementation guide.
 #: ImplementationGuide.publisher
