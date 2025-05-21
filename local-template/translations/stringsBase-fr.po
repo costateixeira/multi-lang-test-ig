@@ -111,7 +111,7 @@ msgid "All"
 msgstr "Tous"
 
 # Derived
-#: Derive
+#: Derived
 msgid "This structure is derived from %ARTIFACT%"
 msgstr "Cette structure est dérivée de %ARTIFACT%"
 
