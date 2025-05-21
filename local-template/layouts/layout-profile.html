@@ -37,6 +37,9 @@
 {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
 
 {% include StructureDefinition-{{[id]}}-sd-xref{{[langsuffix]}}.xhtml %}
+{% capture sdlink %}
+  <a href="site.data.structuredefinitions['{{[id]}}'].basepath">site.data.structuredefinitions['{{[id]}}'].basename</a>
+{% endcapture %}
 
   <!-- no uri -->
   <a name="profile"> </a>
@@ -100,8 +103,7 @@
     <a name="tabs-diff"> </a>
     <div id="tabs-diff">
       <div id="tbl-diff">
-        <p>This structure is derived from <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
-        </p>
+        <p>{{site.data.stringsBase['{{[lang]}}']['Derived'] | replace: "%ARTIFACT%", sdlink}}</p>
         <div id="tbl-diff-inner">
           {% include StructureDefinition-{{[id]}}-diff{{[langsuffix]}}.xhtml %}
           <a name="tx"> </a>
@@ -170,9 +172,6 @@
       </div>
     </div>-->
 {% endunless %}
-    {% capture sdlink %}
-      <a href="site.data.structuredefinitions['{{[id]}}'].basepath">site.data.structuredefinitions['{{[id]}}'].basename</a>
-    {% endcapture %}
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
       <div id="tbl-summ">

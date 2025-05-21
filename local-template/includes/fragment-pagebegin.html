@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
-<html xml:lang="{{include.lang}}" xmlns="http://www.w3.org/1999/xhtml" lang="{{include.lang}}">
+{% if include.lang=='ar' %}
+{% assign dir = 'rtl' %}
+{% else %}
+{% assign dir = 'ltr' %}
+{% endif %}
+<html xml:lang="{{include.lang}}" xmlns="http://www.w3.org/1999/xhtml" lang="{{include.lang}}" dir="{{dir}}">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>{{site.data.pages[localPage].titlelang[include.lang] | escape_once}} - {{site.data.fhir.ig.title | escape_once}} v{{site.data.fhir.ig.version | escape_once}}</title>
