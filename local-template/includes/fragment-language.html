@@ -3,10 +3,12 @@
   <label for="langselect" style="color:white;font-weight:normal">{{}}Language:</label>
   <select name="langselect" id="langselect" onchange="location.href='../' + langselect.value + '/{{page.name}}';">
     {% for alang in site.data.languages.langs %}
+      {% assign key = "display-" | append: alang.code %}
+      {% assign label = alang[key] %}
       {% if alang.code == include.lang %}
-        <option value="{{alang.code}}" selected="selected">{{alang.display}}</option>
+        <option value="{{alang.code}}" selected="selected">{{label}}</option>
       {% else %}
-        <option value="{{alang.code}}">{{alang.display}}</option>
+        <option value="{{alang.code}}">{{label}}</option>
       {% endif %}
     {% endfor %}
   </select>
