@@ -1,0 +1,502 @@
+# en -> ru
+
+# NO_TRANS
+#: NO_TRANS
+msgid "There is no translation page available for the current page, so it has been rendered in the default language"
+msgstr ""
+
+# TRANS_HLP
+#: TRANS_HLP
+msgid "This page includes translations from the original source language in which the guide was authored.  Information on these translations and instructions on how to provide feedback on the translations can be found [here](translationinfo.html)."
+msgstr ""
+
+# Experimental
+#: Experimental
+msgid "Experimental"
+msgstr ""
+
+# Swagger
+#: Swagger
+msgid "Raw OpenAPI-Swagger Definition file"
+msgstr ""
+
+# Download
+#: Download
+msgid "Download"
+msgstr ""
+
+# NoTestPlan
+#: NoTestPlan
+msgid "No test plans are currently available for the %ARTIFACT%."
+msgstr ""
+
+# NoTestScript
+#: NoTestScript
+msgid "No test scripts are currently available for the %ARTIFACT%."
+msgstr ""
+
+# ChangeHistory
+#: ChangeHistory
+msgid "Change History"
+msgstr ""
+
+# HistoryOfChange
+#: HistoryOfChange
+msgid "History of changes for %ARTIFACT%."
+msgstr ""
+
+# CodeSystemValuesets
+#: CodeSystemValuesets
+msgid "This Code system is referenced in the definition of the following value sets:"
+msgstr ""
+
+# Contained
+#: Contained
+msgid "Contained resources"
+msgstr ""
+
+# FormalExtension
+#: FormalExtension
+msgid "Formal Views of Extension Content"
+msgstr ""
+
+# FormalProfile
+#: FormalProfile
+msgid "Formal Views of Profile Content"
+msgstr ""
+
+# ReadingStructures
+#: ReadingStructures
+msgid "Description of Profiles, Differentials, Snapshots, and their representations"
+msgstr ""
+
+# KeyElementsTable
+#: KeyElementsTable
+msgid "Key Elements Table"
+msgstr ""
+
+# DifferentialTable
+#: DifferentialTable
+msgid "Differential Table"
+msgstr ""
+
+# SnapshotTable
+#: SnapshotTable
+msgid "Snapshot Table"
+msgstr ""
+
+# PseudoXML
+#: PseudoXML
+msgid "Pseudo XML"
+msgstr ""
+
+# PseudoJSON
+#: PseudoJSON
+msgid "Pseudo JSON"
+msgstr ""
+
+# PseudoTTL
+#: PseudoTTL
+msgid "Pseudo TTL"
+msgstr ""
+
+# StatisticsReferences
+#: StatisticsReferences
+msgid "Statistics/References"
+msgstr ""
+
+# AllTables
+#: AllTables
+msgid "All"
+msgstr ""
+
+# Derive
+#: Derive
+msgid "This structure is derived from %ARTIFACT%"
+msgstr ""
+
+# Derived
+#: Derived
+msgid "This structure is derived from %ARTIFACT%"
+msgstr ""
+
+# KeyElementsView
+#: KeyElementsView
+msgid "Key Elements View"
+msgstr ""
+
+# DifferentialView
+#: DifferentialView
+msgid "Differential View"
+msgstr ""
+
+# SnapshotView
+#: SnapshotView
+msgid "Snapshot View"
+msgstr ""
+
+# XMLTemplate
+#: XMLTemplate
+msgid "XML Template"
+msgstr ""
+
+# JSONTemplate
+#: JSONTemplate
+msgid "JSON Template"
+msgstr ""
+
+# TTLTemplate
+#: TTLTemplate
+msgid "TTL Template"
+msgstr ""
+
+# OtherReps
+#: OtherReps
+msgid "Other representations of profile:"
+msgstr ""
+
+# CSV
+#: CSV
+msgid "CSV"
+msgstr ""
+
+# Excel
+#: Excel
+msgid "Excel"
+msgstr ""
+
+# Schematron
+#: Schematron
+msgid "Schematron"
+msgstr ""
+
+# Example
+#: Example
+msgid "Example"
+msgstr ""
+
+# Examples
+#: Examples
+msgid "Examples"
+msgstr ""
+
+# Raw
+#: Raw
+msgid "Raw %FMT%"
+msgstr ""
+
+# Abstract
+#: Abstract
+msgid "Abstract"
+msgstr ""
+
+# DetailedDescriptions
+#: DetailedDescriptions
+msgid "Detailed Descriptions"
+msgstr ""
+
+# DefinitionsFor
+#: DefinitionsFor
+msgid "Definitions for the %MODEL%"
+msgstr ""
+
+# NoExamples
+#: NoExamples
+msgid "No examples are currently available for the %ID% Profile."
+msgstr ""
+
+# ExamplesForProfile
+#: ExamplesForProfile
+msgid "Examples for the %ID% Profile."
+msgstr ""
+
+# FormatProfile
+#: FormatProfile
+msgid "%FMT% Profile"
+msgstr ""
+
+# FormatRep
+#: FormatRep
+msgid "%FMT% representation of the %ID% %TYPE%."
+msgstr ""
+
+# Mappings
+#: Mappings
+msgid "Mappings"
+msgstr ""
+
+# MappingsFor
+#: MappingsFor
+msgid "Mappings for the %ID% %TYPE%."
+msgstr ""
+
+# ChangesIn
+#: ChangesIn
+msgid "Changes in the %ID% %TYPE%."
+msgstr ""
+
+# Testing
+#: Testing
+msgid "Testing"
+msgstr ""
+
+# TestScripts
+#: TestScripts
+msgid "Test Scripts"
+msgstr ""
+
+# Expansion
+#: Expansion
+msgid "Expansion"
+msgstr ""
+
+# Content
+#: Content
+msgid "Content"
+msgstr ""
+
+# XML
+#: XML
+msgid "XML"
+msgstr ""
+
+# JSON
+#: JSON
+msgid "JSON"
+msgstr ""
+
+# TTL
+#: TTL
+msgid "TTL"
+msgstr ""
+
+# History
+#: History
+msgid "History"
+msgstr ""
+
+# Extension
+#: Extension
+msgid "Extension"
+msgstr ""
+
+# LogicalModel
+#: LogicalModel
+msgid "Logical Model"
+msgstr ""
+
+# ResourceProfile
+#: ResourceProfile
+msgid "Resource Profile"
+msgstr ""
+
+# DataTypeProfile
+#: DataTypeProfile
+msgid "Data Type Profile"
+msgstr ""
+
+# Links
+#: Links
+msgid "Links"
+msgstr ""
+
+# Notes
+#: Notes
+msgid "Notes"
+msgstr ""
+
+# VisitFCP
+#: VisitFCP
+msgid "Visit the FHIR Community Process Specification Registry"
+msgstr ""
+
+# CountryFlag
+#: CountryFlag
+msgid "flag"
+msgstr ""
+
+# PrevPage
+#: PrevPage
+msgid "< prev"
+msgstr ""
+
+# NextPage
+#: NextPage
+msgid "next >"
+msgstr ""
+
+# PageBottom
+#: PageBottom
+msgid "bottom"
+msgstr ""
+
+# PageTop
+#: PageTop
+msgid "top"
+msgstr ""
+
+# IGCopyright
+#: IGCopyright
+msgid "IG © %YEAR%"
+msgstr ""
+
+# IGPackage
+#: IGPackage
+msgid "Package %PKG% based on %FHIRVER%."
+msgstr ""
+
+# GeneratedDate
+#: GeneratedDate
+msgid "Generated %DATE%"
+msgstr ""
+
+# PageStandardsStatus
+#: PageStandardsStatus
+msgid "Page standards status"
+msgstr ""
+
+# StandardsStatus
+#: StandardsStatus
+msgid "Standards Status"
+msgstr ""
+
+# FromNormative
+#: FromNormative
+msgid "from v%NORMVER%"
+msgstr ""
+
+# MaturityLevel
+#: MaturityLevel
+msgid "Maturity Level"
+msgstr ""
+
+# OfficialURL
+#: OfficialURL
+msgid "Official URL"
+msgstr ""
+
+# CopyURL
+#: CopyURL
+msgid "Click to copy URL"
+msgstr ""
+
+# CopyVersioned
+#: CopyVersioned
+msgid "Click to copy versioned URL"
+msgstr ""
+
+# Version
+#: Version
+msgid "Version"
+msgstr ""
+
+# ResourceDate
+#: ResourceDate
+msgid "as of %RESDATE%"
+msgstr ""
+
+# Responsible
+#: Responsible
+msgid "Responsible"
+msgstr ""
+
+# Realm
+#: Realm
+msgid "Realm"
+msgstr ""
+
+# ComputableName
+#: ComputableName
+msgid "Computable Name"
+msgstr ""
+
+# OtherIdentifiers
+#: OtherIdentifiers
+msgid "Other Identifiers"
+msgstr ""
+
+# Keywords
+#: Keywords
+msgid "Keywords"
+msgstr ""
+
+# Usage
+#: Usage
+msgid "Usage"
+msgstr ""
+
+# CopyrightLegal
+#: CopyrightLegal
+msgid "Copyright/Legal"
+msgstr ""
+
+# NarrativeContent
+#: NarrativeContent
+msgid "Narrative Content"
+msgstr ""
+
+# TableOfContents
+#: TableOfContents
+msgid "Table of Contents"
+msgstr ""
+
+# QAReport
+#: QAReport
+msgid "QA Report"
+msgstr ""
+
+# ReadingTerminology
+#: ReadingTerminology
+msgid "Description of the above table(s)"
+msgstr ""
+
+# TestPlans
+#: TestPlans
+msgid "Test Plans"
+msgstr ""
+
+# Actors
+#: Actors
+msgid "Actors"
+msgstr ""
+
+# Diagram
+#: Diagram
+msgid "Diagram"
+msgstr ""
+
+# Processes
+#: Processes
+msgid "Processes"
+msgstr ""
+
+# Instances
+#: Instances
+msgid "Instances"
+msgstr ""
+
+# WorkInProgress
+#: WorkInProgress
+msgid "The content in this section has not undergone work group review and may be significantly revised prior to the next ballot."
+msgstr ""
+
+# Contents
+#: Contents
+msgid "Contents"
+msgstr ""
+
+# Globals
+#: Globals
+msgid "Globals"
+msgstr ""
+
+# GlobalProfiles
+#: GlobalProfiles
+msgid "Global Profiles"
+msgstr ""
+
+# ArtifactsIntro
+#: ArtifactsIntro
+msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
+msgstr ""
+
