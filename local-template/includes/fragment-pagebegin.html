@@ -19,14 +19,15 @@
     <link href="{{site.data.info.assets}}assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
     <!-- Project extras -->
-    <link href="{{site.data.info.assets}}assets/css/project.css" rel="stylesheet"/>
     <link href="{{site.data.info.assets}}assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="{{site.data.info.assets}}assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="{{site.data.info.assets}}assets/css/prism.css" rel="stylesheet" />
+    <link href="{{site.data.info.assets}}assets/css/project.css" rel="stylesheet"/>
   	<link href="{{site.data.info.assets}}assets/css/cqf.css" rel="stylesheet" />
     {% include fragment-css.html lang=include.lang %}
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="{{site.data.info.assets}}assets/js/direction-management.js"> </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -98,8 +99,13 @@
             </button>
             <a class="navbar-brand hidden" href="{{site.data.fhir.path}}index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              {% include {{ include.lang }}/menu.xml %}
+{% if include.lang=="ar" %}
               {% include fragment-language.html lang=include.lang %}
+{% endif %}
+              {% include {{ include.lang }}/menu.xml %}
+{% if include.lang!="ar" %}
+              {% include fragment-language.html lang=include.lang %}
+{% endif %}
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
         </nav>  <!-- /.navbar -->
@@ -113,7 +119,7 @@
         <ul class="breadcrumb">
           {{site.data.pages[localPage].breadcrumblang[include.lang]}}
 {% if shownav == 'y' %}
-          <span style="float:right;">
+          <span style="float: var(--ig-right);">
 {% if site.data.pages[localPage].previous %}
             <a href="{{site.data.pages[localPage].previous}}">{{site.data.stringsBase[include.lang]['PrevPage'] | escape_once}}</a> | 
 {% endif %}

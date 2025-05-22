@@ -17,7 +17,7 @@
         <table style="width:100%">
           <tbody>
             <tr>
-              <td style="text-align:left">&#xA0;
+              <td style="text-align:var(--ig-left);">&#xA0;
 {% if site.data.pages[localPage].previous %}
                 <a href="{{site.data.pages[localPage].previous}}">{{site.data.stringsBase[include.lang]['PrevPage'] | escape_once}}</a>
 {% else %}
@@ -27,7 +27,7 @@
               <td style="text-align:center">
                 <a href="#top">{{site.data.stringsBase[include.lang]['PageTop']}}</a>
               </td>
-              <td style="text-align:right">&#xA0;
+              <td style="text-align:var(--ig-right);">&#xA0;
 {% if site.data.pages[localPage].next %}
                 <a href="{{site.data.pages[localPage].next}}">{{site.data.stringsBase[include.lang]['NextPage']}}</a>
 {% else %}
