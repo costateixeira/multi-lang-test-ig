@@ -1,0 +1,22 @@
+# A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
+#: Library.name
+msgid "ExampleLibrary"
+msgstr "مكتبة الأمثلة"
+
+# A short, descriptive, user-friendly title for the library.
+#: Library.title
+msgid "Example Library"
+msgstr "مثال على المكتبة"
+
+# The name of the organization or individual that published the library.
+#: Library.publisher
+msgid "HL7 Tooling group"
+msgstr "مجموعة أدوات HL7"
+
+# A free text natural language description of the library from a consumer's perspective.
+#: Library.description
+msgid "Example Library Instance"
+msgstr "مثال على مثيل المكتبة"

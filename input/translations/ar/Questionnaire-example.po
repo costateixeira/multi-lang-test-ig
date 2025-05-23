@@ -1,0 +1,72 @@
+# A natural language name identifying the questionnaire. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
+#: Questionnaire.name
+msgid "ExampleQuestionnaire"
+msgstr "مثالالاستبيان"
+
+# A short, descriptive, user-friendly title for the questionnaire.
+#: Questionnaire.title
+msgid "Example Questionnaire"
+msgstr "مثال على الاستبيان"
+
+# The name of the organization or individual that published the questionnaire.
+#: Questionnaire.publisher
+msgid "HL7 Tooling group"
+msgstr "مجموعة أدوات HL7"
+
+# A free text natural language description of the questionnaire from a consumer's perspective.
+#: Questionnaire.description
+msgid "Example Questionnaire Instance"
+msgstr "مثال على مثيل الاستبيان"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.item.prefix
+msgid "1"
+msgstr "1"
+
+# The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.
+#: Questionnaire.item.enableWhen.question
+msgid "1.1"
+msgstr "1.1"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.item.prefix
+msgid "1.1"
+msgstr "1.1"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Angina Pectoris"
+msgstr "الذبحة الصدرية الصدرية"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Angina (disorder)"
+msgstr "الذبحة الصدرية (اضطراب)"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.item.prefix
+msgid "1.1.1"
+msgstr "1.1.1"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Myocardial infarction (disorder)"
+msgstr "احتشاء عضلة القلب (اضطراب)"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.item.prefix
+msgid "1.1.2"
+msgstr "1.1.2"
+
+# A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+#: Questionnaire.item.prefix
+msgid "1.2"
+msgstr "1.2"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "pT category"
+msgstr "فئة pT"
