@@ -150,17 +150,18 @@
         <generation value="markdown"/>
       </page>
     </page>
-
     <parameter>
       <code value="copyrightyear"/>
       <value value="2024+"/>
     </parameter>
-
     <parameter>
       <code value="releaselabel"/>
       <value value="Test Build"/>
     </parameter>
-
+<!--    <parameter>
+      <code value="shownav"/>
+      <value value="true"/>
+    </parameter>-->
     <parameter>
       <code value="i18n-default-lang"/>
       <value value="en"/>
@@ -168,6 +169,14 @@
     <parameter>
       <code value="i18n-lang"/>
       <value value="nl"/>
+    </parameter>
+    <parameter>
+      <code value="i18n-lang"/>
+      <value value="es"/>
+    </parameter>
+    <parameter>
+      <code value="i18n-lang"/>
+      <value value="fr"/>
     </parameter>
     <parameter>
       <code value="i18n-lang"/>
@@ -179,15 +188,19 @@
     </parameter>
     <parameter>
       <code value="translation-sources"/>
-      <value value="input/translations-nl"/>
+      <value value="input/translations/nl"/>
     </parameter>
     <parameter>
       <code value="translation-sources"/>
-      <value value="input/translations-pt"/>
+      <value value="input/translations/pt"/>
     </parameter>
     <parameter>
       <code value="translation-sources"/>
-      <value value="input/translations-ar"/>
+      <value value="input/translations/ar"/>
+    </parameter>
+    <parameter>
+      <code value="translation-sources"/>
+      <value value="input/translations/es"/>
     </parameter>
   </definition>
 </ImplementationGuide>

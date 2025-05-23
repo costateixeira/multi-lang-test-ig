@@ -3,6 +3,7 @@
 temp
 template
 output
+output2
 fsh-generated
 
 # Don't commit this because it's so large #
@@ -25,8 +26,15 @@ Thumbs.db
 
 input-cache/schemas/
 
-translations/
-
 input-cache/txcache/
 
-local-template/
+# Ignore all files in the 'translations' directory
+/translations/*
+
+# Exclude 'input/translations' from being ignored
+!input/translations/
+!input/translations/**
+
+input/translations/.DS_Store
+
+input/translations/pt/.DS_Store

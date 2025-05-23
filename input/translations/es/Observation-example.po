@@ -1,0 +1,42 @@
+# en -> es
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Vital Signs"
+msgstr "Signos vitales"
+
+# A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.
+#: CodeableConcept.text
+msgid "Vital Signs"
+msgstr "Signos vitales"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Oxygen saturation in Arterial blood"
+msgstr "Saturación de oxígeno en sangre arterial"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Oxygen saturation in Arterial blood by Pulse oximetry"
+msgstr "Saturación de oxígeno en sangre arterial mediante pulsioximetría"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "MDC_PULS_OXIM_SAT_O2"
+msgstr "MDC_PULS_OXIM_SAT_O2"
+
+# A human-readable form of the unit.
+#: Quantity.unit
+msgid "%"
+msgstr "%"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Normal"
+msgstr "Normal"
+
+# A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.
+#: CodeableConcept.text
+msgid "Normal (applies to non-numeric results)"
+msgstr "Normal (se aplica a los resultados no numéricos)"
+

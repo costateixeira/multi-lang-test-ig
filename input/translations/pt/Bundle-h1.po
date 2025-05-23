@@ -1,0 +1,17 @@
+# en -> pt
+
+# A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.
+#: CodeableConcept.text
+msgid "Some random edit"
+msgstr "Willekeurige bewerking"
+
+# Plain text narrative that identifies the resource in addition to the resource reference.
+#: Reference.display
+msgid "Rob Hausam"
+msgstr "Rob Hausam"
+
+# Plain text narrative that identifies the resource in addition to the resource reference.
+#: Reference.display
+msgid "Vocab"
+msgstr "Vocab"
+

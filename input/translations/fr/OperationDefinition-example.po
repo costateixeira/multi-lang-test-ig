@@ -1,0 +1,57 @@
+# A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
+#: OperationDefinition.name
+msgid "ExampleOperationDefinition"
+msgstr "Exemple de définition d'opération"
+
+# A short, descriptive, user-friendly title for the operation definition.
+#: OperationDefinition.title
+msgid "Example Operation Definition"
+msgstr "Exemple Opération Définition"
+
+# The name of the organization or individual that published the operation definition.
+#: OperationDefinition.publisher
+msgid "HL7 Tooling group"
+msgstr "Groupe d'outils HL7"
+
+# A free text natural language description of the operation definition from a consumer's perspective.
+#: OperationDefinition.description
+msgid "Example Operation Definition Instance"
+msgstr "Exemple Opération Définition Instance"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Clinical Venue"
+msgstr "Lieu clinique"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "inpatient encounter"
+msgstr "rencontre avec un patient hospitalisé"
+
+# Additional information about how to use this operation or named query.
+#: OperationDefinition.comment
+msgid "Only implemented for Labs and Medications so far"
+msgstr "Pour l'instant, seuls les laboratoires et les médicaments sont concernés."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "The resource that is to be the *QuestionnaireResponse.subject*. The [[[QuestionnaireResponse]]]      instance will reference the provided subject.  In addition, if the *local* parameter is      set to true, server information about the specified subject will be used to populate the      instance."
+msgstr "La ressource qui doit être le *sujet de la réponse au questionnaire*. L'instance [[[QuestionnaireResponse]] fera référence au sujet fourni.  En outre, si le paramètre *local* est défini sur true, les informations du serveur sur le sujet spécifié seront utilisées pour remplir l'instance."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "If the *local* parameter is set to true, server information about the specified subject will be used to populate the instance."
+msgstr "Si le paramètre *local* a la valeur \"true\", les informations du serveur concernant le sujet spécifié seront utilisées pour remplir l'instance."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "The partially (or fully)-populated set of answers for the specified Questionnaire"
+msgstr "L'ensemble des réponses partiellement (ou totalement) renseignées pour le questionnaire spécifié."
+
+# Comments to go on overload.
+#: OperationDefinition.overload.comment
+msgid "local defaults to false when not passed as a parameter"
+msgstr "local prend par défaut la valeur false lorsqu'il n'est pas passé en paramètre"
