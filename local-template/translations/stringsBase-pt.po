@@ -440,6 +440,11 @@ msgstr "Conteúdo narrativo"
 msgid "Table of Contents"
 msgstr "Índice"
 
+# ArtifactsSummary
+#: ArtifactsSummary
+msgid "Artifacts Summary"
+msgstr "Resumen de Artefactos"
+
 # QAReport
 #: QAReport
 msgid "QA Report"

@@ -33,6 +33,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|f:id|f:extension|f:modifierExtension|f:grouping|comment()[not(preceding-sibling::f:resource|preceding-sibling::f:page)]"/>
       <!-- This is a placeholder that will be replaced with the list of groups from this template.  (We use a separate file so they're easier to override/translate.) -->
+      <xsl:comment>TRANSLATIONS_HERE</xsl:comment>
       <groups xmlns="http://hl7.org/fhir">
         <xsl:comment>TEMPLATE_GROUPS_HERE</xsl:comment>
       </groups>

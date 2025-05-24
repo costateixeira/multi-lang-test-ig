@@ -60,10 +60,20 @@
             <tr>
               <td style="column-width:30%">
                 <a href="{f:extension[@url='http://hl7.org/fhir/StructureDefinition/implementationguide-page']/f:valueUri/@value}" title="{f:reference/f:reference/@value}">
-<!--                  <xsl:text>&#160;&#160;&#x2022;&#160;&#160;</xsl:text>-->
                   <xsl:choose>
                     <xsl:when test="f:name">
-                      <xsl:value-of select="f:name/@value"/>
+                      <span title="{f:reference/f:reference/@value}">
+                        <xsl:text>{% if false %}</xsl:text>
+                        <xsl:for-each select="f:name/f:extension[@url='http://hl7.org/fhir/StructureDefinition/translation']">
+                          <xsl:text>&#xa;{% elsif lang=='</xsl:text>
+                          <xsl:value-of select="f:extension[@url='lang']/f:valueCode/@value"/>
+                          <xsl:text>' %}</xsl:text>
+                          <xsl:value-of select="f:extension[@url='content']/f:valueString/@value"/>
+                        </xsl:for-each>
+                        <xsl:text>&#xa;{% else %}</xsl:text>
+                        <xsl:value-of select="f:name/@value"/>
+                        <xsl:text>&#xa;{% endif %}</xsl:text>
+                      </span>
                     </xsl:when>
                     <xsl:otherwise>
                       <xsl:value-of select="f:reference/f:reference/@value"/>
@@ -74,7 +84,16 @@
               <xsl:if test="$showDescriptions">
                 <td>
                   <xsl:text>{% capture desc %}</xsl:text>
-                  <xsl:value-of select="f:description/@value" disable-output-escaping="no"/>
+                  <xsl:text>{% if false %}</xsl:text>
+                  <xsl:for-each select="f:description/f:extension[@url='http://hl7.org/fhir/StructureDefinition/translation']">
+                    <xsl:text>&#xa;{% elsif lang=='</xsl:text>
+                    <xsl:value-of select="f:extension[@url='lang']/f:valueCode/@value"/>
+                    <xsl:text>' %}</xsl:text>
+                    <xsl:value-of select="f:extension[@url='content']/f:valueString/@value"/>
+                  </xsl:for-each>
+                  <xsl:text>&#xa;{% else %}</xsl:text>
+                  <xsl:value-of select="f:description/@value"/>
+                  <xsl:text>&#xa;{% endif %}</xsl:text>
                   <xsl:text>{% endcapture %}
 {{ desc | markdownify}}</xsl:text>
                 </td>
