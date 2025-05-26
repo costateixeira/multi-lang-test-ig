@@ -86,8 +86,8 @@ var(--publish-box-border); */
   --dragon-background-color: #fffbf7; /* 29. Dragon background color */
   --dragon-text-color: #101020; /* 30. Dragon font color */
 
-  --translation-background-color: whitesmoke; /* 31. Translation box background color */
-  --translation-box-border: 1px solid #000000; /*32. Translation box border */
+  --translation-background-color: #f0f0f0; /* 31. Translation box background color */
+  --translation-text-color: black; /* 32. Translation text color */
 }
 
 
@@ -171,7 +171,7 @@ body {
   margin-top: 4px;
   margin-bottom: 20px;
 }
-/* SCAFFOlDING OBJECTS
+/* SCAFFOLDING OBJECTS
 ----------------------------------------------------------------------------------------*/
 #logo {
   float: var(--ig-left);
@@ -289,10 +289,31 @@ body {
 blockquote.stu-note {
 	margin: 5px;
 	padding:10px;
-    background-color: var(--stu-note-background-color);
-    border-left-color: var(--stu-note-border-left-color);
+  background-color: var(--stu-note-background-color);
+  border-left-color: var(--stu-note-border-left-color);
 }
 
+div.flaglist {
+  cursor: pointer;
+  width: 150px;
+  padding: 1px 10px;
+  margin: 0;
+  float: right;
+  color: var(--translation-text-color);
+  background-position: 133px 3px;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 6px #888;
+  background-color: var(--translation-background-color);
+  margin-right: 10px;
+}
+
+img.flag {
+  vertical-align: middle;
+  border: 0;
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
 
 /* GENERIC OBJECTS
 ----------------------------------------------------------------------------------------*/

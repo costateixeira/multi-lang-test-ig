@@ -1,16 +1,14 @@
 {% if site.data.languages.langs.size() != 1 %}
-<div id="language" style="float: var(--ig-right);padding: 8px 8px;">
-  <label for="langselect" style="color:white;font-weight:normal">{{}}Language:</label>
-  <select name="langselect" id="langselect" onchange="location.href='../' + langselect.value + '/{{page.name}}';">
-    {% for alang in site.data.languages.langs %}
-      {% assign key = "display-" | append: alang.code %}
-      {% assign label = alang[key] %}
-      {% if alang.code == include.lang %}
-        <option value="{{alang.code}}" selected="selected">{{label}}</option>
-      {% else %}
-        <option value="{{alang.code}}">{{label}}</option>
-      {% endif %}
-    {% endfor %}
-  </select>
+{% assign currlang = site.data.languages.langs | find: 'code', include.lang %}
+<div style="float: var(--ig-right);padding: 8px 0px;" id="language">
+  <div id="select_flg" class="flaglist" style="background-image: url({{site.data.info.assets}}assets/images/icon_arrow_down.png);">
+    <div><img class="flag" alt="flag en" src="{{site.data.info.assets}}assets/images/lang-{{include.lang}}.png"/>{{currlang.display}}</div>
+  </div>
+  <div style="float: right; margin: 2px 0px; padding: 1px 5px;color: var(--btn-text-color);font-size:12px">Language:</div>
+ 	<div id="flaglist" class="flaglist" style="display: none;position: absolute;right: 0;z-index: 100;background-image: url({{site.data.info.assets}}assets/images/icon_arrow_up.png);">
+    <div><img class="flag" alt="flag {{include.lang}}" src="{{site.data.info.assets}}assets/images/lang-{{include.lang}}.png"/>{{currlang.display}}</div>
+{% for alang in site.data.languages.langs %}{% if alang.code != include.lang %}
+    <div><a href="../{{alang.code}}/{{page.name}}"><img class="flag" src="{{site.data.info.assets}}assets/images/lang-{{alang.code}}.png" alt="flag {{alang.code}}"/>{{alang.display}}</a></div>
+{% endif %}{% endfor %}
 </div>
 {% endif %}
