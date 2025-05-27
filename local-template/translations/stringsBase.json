@@ -102,6 +102,14 @@
     "ArtifactsSummary": "Artifacts Summary",
     "Language": "Language",
     "UMLDiagram": "UML Diagram",
-    "Obligations": "Obligations"
+    "Obligations": "Obligations",
+    "OpenEHR": "openEHR View",
+    "QuestionnaireTree": "Tree view",
+    "QuestionnaireSample": "Sample Rendering",
+    "QuestionnaireLogic": "Form Logic",
+    "QuestionnaireResponses": "Sample completed form",
+    "TestQuestionnaire": "Test this Questionnaire",
+    "ResponsesQuestionnaire": "Responses for this Questionnaire",
+    "NoQuestionnaireResponses": "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
   }
 }

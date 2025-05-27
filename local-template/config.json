@@ -301,7 +301,7 @@
       "change-history": "{{[type]}}-{{[id]}}.change.history.html"
     },
     "Questionnaire": {
-      "template-base": "template/layouts/layout-canonical.html",
+      "template-base": "template/layouts/layout-questionnaire.html",
       "template-format": "template/layouts/layout-instance-format.html",
       "template-testing": "template/layouts/layout-canonical-testing.html",
       "template-change-history": "template/layouts/layout-changehistory.html",

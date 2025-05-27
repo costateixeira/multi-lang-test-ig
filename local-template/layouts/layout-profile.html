@@ -68,6 +68,11 @@
         <a href="#tabs-uml">{{site.data.stringsBase['{{[lang]}}']['UMLDiagram']}}</a>
       </li>
 {% endif %}
+{% if openehr == 'y' %}
+      <li>
+        <a href="#tabs-openehr">{{site.data.stringsBase['{{[lang]}}']['OpenEHR']}}</a>
+      </li>
+{% endif %}
 {% unless excludexml == 'y' %}
 <!--      <li>
         <a href="#tabs-xml">{{site.data.stringsBase['{{[lang]}}']['PseudoXML']}}</a>
@@ -169,6 +174,16 @@
         <div id="tbl-uml-inner">
           {% include StructureDefinition-{{[id]}}-uml.xhtml %}
 <!--          {% include StructureDefinition-{{[id]}}-uml{{[langsuffix]}}.xhtml %}-->
+        </div>
+      </div>
+    </div>
+{% endif %}
+{% if openehr == 'y' %}
+    <a name="tabs-openehr"> </a>
+    <div id="tabs-openehr">
+      <div id="openehr">
+        <div id="openehr-inner">
+          {% include StructureDefinition-{{[id]}}-eview{{[langsuffix]}}.xhtml %}
         </div>
       </div>
     </div>
@@ -288,6 +303,16 @@
         <div id="all-tbl-uml-inner">
           {% include StructureDefinition-{{[id]}}-uml-all.xhtml %}
 <!--          {% include StructureDefinition-{{[id]}}-uml-all{{[langsuffix]}}.xhtml %}-->
+        </div>
+      </div>
+{% endif %}
+{% if openehr == 'y' %}
+      <div id="all-openehr">
+        <p>
+          <b>{{site.data.stringsBase['{{[lang]}}']['OpenEHR']}}</b>
+        </p>
+        <div id="all-openehr-inner">
+          {% include StructureDefinition-{{[id]}}-eview{{[langsuffix]}}.xhtml %}
         </div>
       </div>
 {% endif %}

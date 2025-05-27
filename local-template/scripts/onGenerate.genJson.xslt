@@ -53,6 +53,11 @@
         <xsl:with-param name="property" select="'shownav'"/>
       </xsl:call-template>
     </xsl:variable>
+    <xsl:variable name="openehr">
+      <xsl:call-template name="getBoolean">
+        <xsl:with-param name="property" select="'openehr'"/>
+      </xsl:call-template>
+    </xsl:variable>
     <xsl:variable name="fcp">
       <xsl:call-template name="getParameter">
         <xsl:with-param name="name" select="'fcp-approved-specification'"/>
@@ -73,6 +78,7 @@
     '  &quot;excludelogbinaryformat&quot;:&quot;', $excludelogbinaryformat, '&quot;,&#xa;',
     '  &quot;excludemap&quot;:&quot;', $excludemap, '&quot;,&#xa;',
     '  &quot;excludeflags&quot;:&quot;', $excludeflags, '&quot;,&#xa;',
+    '  &quot;openehr&quot;:&quot;', $openehr, '&quot;,&#xa;',
     '  &quot;fcpspec&quot;:&quot;', $fcp, '&quot;,&#xa;',
     '  &quot;fmm-definition&quot;:&quot;', $fmm, '&quot;&#xa;}')"/>
   </xsl:template>
