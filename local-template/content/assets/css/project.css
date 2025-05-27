@@ -296,11 +296,10 @@ blockquote.stu-note {
 div.flaglist {
   cursor: pointer;
   width: 150px;
-  padding: 1px 10px;
+  padding: 1px 2px 1px 2px;
   margin: 0 10px 0 10px;
   float: var(--ig-right);
   color: var(--translation-text-color);
-  background-position: 133px 3px;
   background-repeat: no-repeat;
   box-shadow: 0 0 6px #888;
   background-color: var(--translation-background-color);
@@ -311,7 +310,7 @@ img.flag {
   border: 0;
   height: 16px;
   width: 16px;
-  margin-right: 5px;
+  margin: 0px 2px 0px 2px;
 }
 
 /* GENERIC OBJECTS
