@@ -151,6 +151,14 @@
       </page>
     </page>
     <parameter>
+      <code value="excludeflags"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-uml"/>
+      <value value="all"/>
+    </parameter>
+    <parameter>
       <code value="copyrightyear"/>
       <value value="2024+"/>
     </parameter>

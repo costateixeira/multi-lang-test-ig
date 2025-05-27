@@ -58,6 +58,11 @@
       <li>
         <a href="#tabs-snap">{{site.data.stringsBase['{{[lang]}}']['SnapshotTable']}}</a>
       </li>
+{% if site.data.structuredefinitions["{{[id]}}"].uml %}
+      <li>
+        <a href="#tabs-uml">{{site.data.stringsBase['{{[lang]}}']['UMLDiagram']}}</a>
+      </li>
+{% endif %}
 {% unless excludexml == 'y' %}
 <!--      <li>
         <a href="#tabs-xml">{{site.data.stringsBase['{{[lang]}}']['PseudoXML']}}</a>
@@ -142,6 +147,17 @@
         </div>
       </div>
     </div>
+{% if site.data.structuredefinitions["{{[id]}}"].uml %}
+    <a name="tabs-uml"> </a>
+    <div id="tabs-uml">
+      <div id="tbl-uml">
+        <div id="tbl-uml-inner">
+          {% include StructureDefinition-{{[id]}}-uml.xhtml %}
+<!--          {% include StructureDefinition-{{[id]}}-uml{{[langsuffix]}}.xhtml %}-->
+        </div>
+      </div>
+    </div>
+{% endif %}
 {% unless excludexml == 'y' %}
 <!--    <a name="tabs-xml"> </a>
     <div id="tabs-xml">
@@ -245,6 +261,14 @@
           {% endunless%}
         </div>
       </div>
+{% if site.data.structuredefinitions["{{[id]}}"].uml %}
+      <div id="all-tbl-uml">
+        <div id="all-tbl-uml-inner">
+          {% include StructureDefinition-{{[id]}}-uml-all.xhtml %}
+<!--          {% include StructureDefinition-{{[id]}}-uml-all{{[langsuffix]}}.xhtml %}-->
+        </div>
+      </div>
+{% endif %}
 {% unless excludexml == 'y' %}
       <!--<div id="all-xml">
         <p>

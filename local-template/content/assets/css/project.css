@@ -297,14 +297,13 @@ div.flaglist {
   cursor: pointer;
   width: 150px;
   padding: 1px 10px;
-  margin: 0;
-  float: right;
+  margin: 0 10px 0 10px;
+  float: var(--ig-right);
   color: var(--translation-text-color);
   background-position: 133px 3px;
   background-repeat: no-repeat;
   box-shadow: 0 0 6px #888;
   background-color: var(--translation-background-color);
-  margin-right: 10px;
 }
 
 img.flag {
@@ -426,6 +425,10 @@ img.flag {
   border: 1px solid #955159;
   border-bottom-color: transparent;
   cursor: default;
+}
+
+ul.navbar-nav {
+  float: var(--ig-left);
 }
 
 .navbar-inverse .navbar-nav > .open > a,

@@ -43,6 +43,11 @@
         <xsl:with-param name="property" select="'excludemap'"/>
       </xsl:call-template>
     </xsl:variable>
+    <xsl:variable name="excludeflags">
+      <xsl:call-template name="getParameter">
+        <xsl:with-param name="name" select="'excludeflags'"/>
+      </xsl:call-template>
+    </xsl:variable>
     <xsl:variable name="shownav">
       <xsl:call-template name="getBoolean">
         <xsl:with-param name="property" select="'shownav'"/>
@@ -67,6 +72,7 @@
     '  &quot;excludettl&quot;:&quot;', $excludettl, '&quot;,&#xa;',
     '  &quot;excludelogbinaryformat&quot;:&quot;', $excludelogbinaryformat, '&quot;,&#xa;',
     '  &quot;excludemap&quot;:&quot;', $excludemap, '&quot;,&#xa;',
+    '  &quot;excludeflags&quot;:&quot;', $excludeflags, '&quot;,&#xa;',
     '  &quot;fcpspec&quot;:&quot;', $fcp, '&quot;,&#xa;',
     '  &quot;fmm-definition&quot;:&quot;', $fmm, '&quot;&#xa;}')"/>
   </xsl:template>
