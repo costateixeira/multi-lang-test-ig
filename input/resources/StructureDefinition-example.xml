@@ -16,6 +16,14 @@
   <derivation value="constraint"/> 
   <differential> 
     <element id="Patient.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:populate"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://hl7.org/fhir/test/multi-lang/ActorDefinition/example"/>
+        </extension>
+      </extension>
       <path value="Patient.identifier"/> 
       <min value="1"/> 
       <mustSupport value="true"/> 

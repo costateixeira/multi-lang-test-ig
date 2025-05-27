@@ -58,6 +58,11 @@
       <li>
         <a href="#tabs-snap">{{site.data.stringsBase['{{[lang]}}']['SnapshotTable']}}</a>
       </li>
+{% if site.data.structuredefinitions["{{[id]}}"].obligations %}
+      <li>
+        <a href="#tabs-obligations">{{site.data.stringsBase['{{[lang]}}']['Obligations']}}</a>
+      </li>
+{% endif %}
 {% if site.data.structuredefinitions["{{[id]}}"].uml %}
       <li>
         <a href="#tabs-uml">{{site.data.stringsBase['{{[lang]}}']['UMLDiagram']}}</a>
@@ -147,6 +152,16 @@
         </div>
       </div>
     </div>
+{% if site.data.structuredefinitions["{{[id]}}"].obligations %}
+    <a name="tabs-obligations"> </a>
+    <div id="tabs-obligations">
+      <div id="tbl-obligations">
+        <div id="tbl-obligations-inner">
+          {% include StructureDefinition-{{[id]}}-obligations{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>
+{% endif %}
 {% if site.data.structuredefinitions["{{[id]}}"].uml %}
     <a name="tabs-uml"> </a>
     <div id="tabs-uml">
@@ -261,6 +276,13 @@
           {% endunless%}
         </div>
       </div>
+{% if site.data.structuredefinitions["{{[id]}}"].obligations %}
+      <div id="all-tbl-obligations">
+        <div id="all-tbl-obligations-inner">
+          {% include StructureDefinition-{{[id]}}-obligations-all{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+{% endif %}
 {% if site.data.structuredefinitions["{{[id]}}"].uml %}
       <div id="all-tbl-uml">
         <div id="all-tbl-uml-inner">
