@@ -6,7 +6,7 @@
   "name": "ExampleQuestionnaire",
   "title": "Example Questionnaire",
   "status": "draft",
-  "publisher": "HL7 Tooling group",
+  "experimental": true,
   "description": "Example Questionnaire Instance",
 
   "subjectType": [

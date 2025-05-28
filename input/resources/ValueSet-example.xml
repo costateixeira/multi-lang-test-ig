@@ -6,8 +6,7 @@
   <name value="ExampleValueSet"/>
   <title value="Example Value Set"/>
   <status value="draft"/>
-  <experimental value="false"/>
-  <publisher value="HL7 Tooling group"/>
+  <experimental value="true"/>
   <description value="Example ValueSet Instance"/>
 
 

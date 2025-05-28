@@ -1,6 +1,10 @@
 {
   "resourceType": "Patient",
   "id": "example",
+  "extension": [{
+    "url": "http://hl7.org/fhir/test/multi-lang/StructureDefinition/extension-example",
+    "valueBoolean": true
+  }],
   "identifier": [
     {
       "use": "usual",
@@ -12,7 +16,7 @@
           }
         ]
       },
-      "system": "urn:oid:1.2.36.146.595.217.0.1",
+      "system": "http://example.org/NamingSystem/1.2.36.146.595.217.0.1",
       "value": "12345",
       "period": {
         "start": "2001-05-06"

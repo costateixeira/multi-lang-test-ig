@@ -6,7 +6,7 @@
   "name": "ExampleRequirements",
   "title": "Example Requirements",
   "status": "draft",
-  "publisher": "HL7 Tooling group",
+  "experimental": true,
   "description": "Example Requirements Instance",
 
   "actor" : ["http://hl7.org/fhir/test/multi-lang/ActorDefinition/example"],

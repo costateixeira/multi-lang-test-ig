@@ -6,7 +6,7 @@
   "name" : "ExampleActorDefinition",
   "title" : "Example Actor Definition",
   "status" : "draft",
-  "publisher" : "HL7 Tooling group",
+  "experimental": true,
   "description" : "Client Actor",
   
   "type" : "system"

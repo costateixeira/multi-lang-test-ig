@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><Observation xmlns="http://hl7.org/fhir">
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
 	<id value="example"/>
 	<identifier>
-		<system value="http://goodcare.org/observation/id"/>
+		<system value="http://example.org/NamingSystem/observation-id"/>
 		<value value="o1223435-10"/>
 	</identifier>
 	<status value="final"/>
@@ -21,14 +22,14 @@
 			<display value="Oxygen saturation in Arterial blood"/>
 		</coding>
 		<!--   Example of a translation to a more specific code  to the vitals profile LOINC code   -->
-    <coding>
+		<coding>
 			<system value="http://loinc.org"/>
 			<!--   LOINC   -->
 			<code value="59408-5"/>
 			<display value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
 		</coding>
-    <!--   Example of a translation to a more specific code  to the vitals profile LOINC code   -->
-    <coding>
+		<!--   Example of a translation to a more specific code  to the vitals profile LOINC code   -->
+		<coding>
 			<system value="urn:iso:std:iso:11073:10101"/>
 			<!--      mdc      -->
 			<code value="150456"/>
@@ -39,6 +40,9 @@
 		<reference value="Patient/example"/>
 	</subject>
 	<effectiveDateTime value="2014-12-05T09:30:10+01:00"/>
+	<performer>
+    <display value="Dr. Jones"/>
+	</performer>
 	<valueQuantity>
 		<value value="95"/>
 		<unit value="%"/>

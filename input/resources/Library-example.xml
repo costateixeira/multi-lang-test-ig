@@ -6,8 +6,7 @@
   <name value="ExampleLibrary"/>
   <title value="Example Library"/>
   <status value="draft"/>
-  <publisher value="HL7 Tooling group"/>
-  <description value="Example Library Instance"/>
+  <experimental value="true"/>
   
   <type>
     <coding>
@@ -16,6 +15,7 @@
     </coding>
   </type>
   <date value="2020-05-15T00:00:00.000+10:00"/>
+  <description value="Example Library Instance"/>
   <content>
     <contentType value="text/x-sql"/>
     <data value="U0VMRUNUIEN1c3RvbWVycy5DdXN0b21lck5hbWUsIE9yZGVycy5PcmRlcklEDQpGUk9NIEN1c3RvbWVycw0KTEVGVCBKT0lOIE9yZGVycw0KT04gQ3VzdG9tZXJzLkN1c3RvbWVySUQ9T3JkZXJzLkN1c3RvbWVySUQNCk9SREVSIEJZIEN1c3RvbWVycy5DdXN0b21lck5hbWU7DQo="/>
