@@ -1,6 +1,9 @@
 # en -> fr
 
 # NO_TRANS
+msgid ""
+msgstr ""
+
 #: NO_TRANS
 msgid "There is no translation page available for the current page, so it has been rendered in the default language"
 msgstr "Il n'y a pas de page de traduction disponible pour la page actuelle, qui a donc été rendue dans la langue par défaut."
@@ -495,3 +498,67 @@ msgstr "Profils mondiaux"
 msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
 msgstr "Cette page fournit une liste des artefacts FHIR définis dans le cadre de ce guide de mise en œuvre."
 
+# Derive
+#: Derive
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "Cette structure est dérivée de %ARTIFACT%"
+
+# ArtifactsSummary
+#: ArtifactsSummary
+msgid "Artifacts Summary"
+msgstr "Résumé des artefacts"
+
+# Language
+#: Language
+msgid "Language"
+msgstr "Langue"
+
+# UMLDiagram
+#: UMLDiagram
+msgid "UML Diagram"
+msgstr "Diagramme UML"
+
+# Obligations
+#: Obligations
+msgid "Obligations"
+msgstr "Obligations"
+
+# OpenEHR
+#: OpenEHR
+msgid "openEHR View"
+msgstr "Vue de l'openEHR"
+
+# QuestionnaireTree
+#: QuestionnaireTree
+msgid "Tree view"
+msgstr "Vue de l'arbre"
+
+# QuestionnaireSample
+#: QuestionnaireSample
+msgid "Sample Rendering"
+msgstr "Exemple de rendu"
+
+# QuestionnaireLogic
+#: QuestionnaireLogic
+msgid "Form Logic"
+msgstr "Logique des formes"
+
+# QuestionnaireResponses
+#: QuestionnaireResponses
+msgid "Sample completed form"
+msgstr "Exemple de formulaire rempli"
+
+# TestQuestionnaire
+#: TestQuestionnaire
+msgid "Test this Questionnaire"
+msgstr "Test this Questionnaire"
+
+# ResponsesQuestionnaire
+#: ResponsesQuestionnaire
+msgid "Responses for this Questionnaire"
+msgstr "Réponses à ce questionnaire"
+
+# NoQuestionnaireResponses
+#: NoQuestionnaireResponses
+msgid "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
+msgstr "Il n'y a actuellement aucune instance de QuestionnaireResponse pour ce questionnaire défini dans cet IG."

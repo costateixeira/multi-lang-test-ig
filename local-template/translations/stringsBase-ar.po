@@ -495,3 +495,68 @@ msgstr "الملامح العالمية"
 #: ArtifactsIntro
 msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
 msgstr "توفر هذه الصفحة قائمة بأدوات FHIR المحددة كجزء من دليل التنفيذ هذا."
+
+# Derive
+#: Derive
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "هذا التركيب مشتق من %ARTIFACT%"
+
+# ArtifactsSummary
+#: ArtifactsSummary
+msgid "Artifacts Summary"
+msgstr "ملخص القطع الأثرية"
+
+# Language
+#: Language
+msgid "Language"
+msgstr "اللغة"
+
+# UMLDiagram
+#: UMLDiagram
+msgid "UML Diagram"
+msgstr "مخطط UML البياني"
+
+# Obligations
+#: Obligations
+msgid "Obligations"
+msgstr "الالتزامات"
+
+# OpenEHR
+#: OpenEHR
+msgid "openEHR View"
+msgstr "طريقة عرض OpenEHR"
+
+# QuestionnaireTree
+#: QuestionnaireTree
+msgid "Tree view"
+msgstr "عرض الشجرة"
+
+# QuestionnaireSample
+#: QuestionnaireSample
+msgid "Sample Rendering"
+msgstr "نموذج العرض"
+
+# QuestionnaireLogic
+#: QuestionnaireLogic
+msgid "Form Logic"
+msgstr "منطق الشكل"
+
+# QuestionnaireResponses
+#: QuestionnaireResponses
+msgid "Sample completed form"
+msgstr "نموذج نموذج مكتمل"
+
+# TestQuestionnaire
+#: TestQuestionnaire
+msgid "Test this Questionnaire"
+msgstr "اختبر هذا الاستبيان"
+
+# ResponsesQuestionnaire
+#: ResponsesQuestionnaire
+msgid "Responses for this Questionnaire"
+msgstr "الردود على هذا الاستبيان"
+
+# NoQuestionnaireResponses
+#: NoQuestionnaireResponses
+msgid "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
+msgstr "لا توجد حاليًا أي مثيلات استبيان استبيانات محددة لهذا الاستبيان في هذا الدليل."

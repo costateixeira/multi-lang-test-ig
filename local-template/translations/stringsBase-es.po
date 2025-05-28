@@ -495,3 +495,68 @@ msgstr "Perfiles mundiales"
 #: ArtifactsIntro
 msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
 msgstr "Esta página proporciona una lista de los artefactos FHIR definidos como parte de esta guía de implementación."
+
+# Derive
+#: Derive
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "Esta estructura se deriva de %ARTIFACT%."
+
+# ArtifactsSummary
+#: ArtifactsSummary
+msgid "Artifacts Summary"
+msgstr "Resumen de artefactos"
+
+# Language
+#: Language
+msgid "Language"
+msgstr "Idioma"
+
+# UMLDiagram
+#: UMLDiagram
+msgid "UML Diagram"
+msgstr "Diagrama UML"
+
+# Obligations
+#: Obligations
+msgid "Obligations"
+msgstr "Obligaciones"
+
+# OpenEHR
+#: OpenEHR
+msgid "openEHR View"
+msgstr "openEHR Ver"
+
+# QuestionnaireTree
+#: QuestionnaireTree
+msgid "Tree view"
+msgstr "Vista del árbol"
+
+# QuestionnaireSample
+#: QuestionnaireSample
+msgid "Sample Rendering"
+msgstr "Ejemplo de renderización"
+
+# QuestionnaireLogic
+#: QuestionnaireLogic
+msgid "Form Logic"
+msgstr "Lógica de formas"
+
+# QuestionnaireResponses
+#: QuestionnaireResponses
+msgid "Sample completed form"
+msgstr "Ejemplo de formulario cumplimentado"
+
+# TestQuestionnaire
+#: TestQuestionnaire
+msgid "Test this Questionnaire"
+msgstr "Pruebe este cuestionario"
+
+# ResponsesQuestionnaire
+#: ResponsesQuestionnaire
+msgid "Responses for this Questionnaire"
+msgstr "Respuestas a este cuestionario"
+
+# NoQuestionnaireResponses
+#: NoQuestionnaireResponses
+msgid "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
+msgstr "Actualmente no hay instancias QuestionnaireResponse para este cuestionario definidas en este IG."
