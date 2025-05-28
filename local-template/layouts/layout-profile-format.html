@@ -1,7 +1,7 @@
 ---
 ---
 {% assign localPage = page.path | split: "/" | last %}
-{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
 {% assign format = page.path | split: '.html'| first | split: '.' | last %}
 <!-- layouts\layout-profile-format -->
 {% if format == 'xml' %}
@@ -19,7 +19,8 @@
 
 <a name="root"> </a>
 {% assign formatUpper = format | upcase %}
-<h2 id="root">{{modelType}}: {{site.data.resources[resource_].titlelang['{{[lang]}}']}} - {{site.data.stringsBase['{{[lang]}}']['FormatProfile'] | replace: "%FMT%", formatUpper}}</h2>
+{% assign respath = site.data.resources[resource_].path %}
+<h2 id="root">{{modelType}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}} - {{site.data.stringsBase['{{[lang]}}']['FormatProfile'] | replace: "%FMT%", formatUpper}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
 {% assign modelLower = modelType | downcase %}

@@ -1,7 +1,7 @@
 ---
 ---
 {% assign localPage = page.path | split: "/" | last %}
-{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
 {% include fragment-pagebegin.html lang="{{[lang]}}" %}
 <!-- layouts\layout-profile-mappings -->
 <div style="counter-reset: section 5" class="col-12">
@@ -9,7 +9,8 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='mapping' lang="{{[lang]}}" %}
 
 <a name="root"> </a>
-<h2 id="root">{{modelType}}: {{site.data.resources[resource_].titlelang['{{[lang]}}']}} - {{site.data.stringsBase['{{[lang]}}']['Mappings']}}</h2>
+{% assign respath = site.data.resources[resource_].path %}
+<h2 id="root">{{modelType}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}} - {{site.data.stringsBase['{{[lang]}}']['Mappings']}}</h2>
 {% include fragment-simpletable.html lang="{{[lang]}}" %}
 
 {% assign modelTypeLower = modelType | downcase %}

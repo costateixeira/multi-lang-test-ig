@@ -1,7 +1,7 @@
 ---
 ---
 {% assign localPage = page.path | split: "/" | last %}
-{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
 {% include fragment-pagebegin.html lang="{{[lang]}}" %}
 <!-- layouts\layout-examplescenario -->
 <div class="col-12">
@@ -9,7 +9,8 @@
   {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
   <a name="root"> </a>
 
-  <h2 id="root">{{modelType}}: {{site.data.resources[resource_].titlelang['{{[lang]}}'] | escape_once}}
+{% assign respath = site.data.resources[resource_].path %}
+  <h2 id="root">{{modelType}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}}
 {% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
   </h2>
 

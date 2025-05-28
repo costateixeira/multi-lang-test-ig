@@ -1,7 +1,7 @@
 ---
 ---
 {% assign localPage = page.path | split: "/" | last %}
-{% include fragment-modelType.html id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
 {% include fragment-pagebegin.html lang="{{[lang]}}" %}
 <!-- layouts\layout-profile -->
 <div class="col-12">
@@ -9,11 +9,12 @@
   {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
 
   <a name="root"> </a>
+{% assign respath = site.data.resources[resource_].path %}
   <h2 id="root">{{modelType}}:
 {% if site.data.structuredefinitions["{{[id]}}"].abstract == true %}
-<i> {{site.data.resources[resource_].titlelang['{{[lang]}}'] | escape_once}}</i>
+<i> {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}}</i>
 {% else %}
-{{site.data.resources[resource_].titlelang['{{[lang]}}']}}
+{{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}}
 {% endif %}
 {% if site.data.resources[resource_].experimental == true or site.data.structuredefinitions["{{[id]}}"].abstract == true %}({% endif %}
 {% if site.data.structuredefinitions["{{[id]}}"].abstract == true %}{{site.data.stringsBase['{{[lang]}}']['Abstract']}}{% endif %}
@@ -356,7 +357,7 @@
     </div>
   </div>
   <p>&#160;</p>
-  <p>{{site.data.stringsBase['{{[lang]}}']['OtherReps']}} <a href="{{[type]}}-{{[id]}}.csv">{{site.data.stringsBase['{{[lang]}}']['CSV']}}</a>, <a href="{{[type]}}-{{[id]}}.xlsx">{{site.data.stringsBase['{{[lang]}}']['Excel']}}</a>{% unless modelType == 'Logical Model' %}, <a href="{{[type]}}-{{[id]}}.sch">{{site.data.stringsBase['{{[lang]}}']['Schematron']}}</a>
+  <p>{{site.data.stringsBase['{{[lang]}}']['OtherReps']}} <a href="../{{[type]}}-{{[id]}}.csv">{{site.data.stringsBase['{{[lang]}}']['CSV']}}</a>, <a href="../{{[type]}}-{{[id]}}.xlsx">{{site.data.stringsBase['{{[lang]}}']['Excel']}}</a>{% unless modelType == 'Logical Model' %}, <a href="../{{[type]}}-{{[id]}}.sch">{{site.data.stringsBase['{{[lang]}}']['Schematron']}}</a>
 {% endunless %} 
   </p>
 
