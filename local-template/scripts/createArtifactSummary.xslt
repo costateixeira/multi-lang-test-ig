@@ -30,7 +30,8 @@
           <xsl:value-of select="' '"/>
         </a>
         <h3>{{site.data.stringsBase[lang]['GlobalProfiles']}}</h3>
-        {% include globals-table.xhtml %}
+        {% assign globals = "globals-table-" | append: lang | append: ".xhtml" %}
+        {% include {{globals}} %}
       </xsl:if>
       <xsl:for-each select="f:definition/f:grouping">
         <xsl:variable name="relevantResources">

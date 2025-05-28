@@ -2,6 +2,15 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
   <id value="hl7.fhir.test.multi-lang"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
   <url value="http://hl7.org/fhir/test/multi-lang/ImplementationGuide/hl7.fhir.test.multi-lang"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
@@ -9,7 +18,13 @@
   <title value="Multi-Language Test IG"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="HL7 Tooling group"/>
+  <publisher value="HL7 International / FHIR Infrastructure"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
   <description value="This IG exists to test out the generation of multi-language IGs. Primary language is en, also does nl, pt, and ar (rtl test)"/>
   <jurisdiction>
     <coding>
@@ -165,6 +180,14 @@
     <parameter>
       <code value="releaselabel"/>
       <value value="Test Build"/>
+    </parameter>
+    <parameter>
+      <code value="openehr"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="globals-in-artifacts"/>
+      <value value="true"/>
     </parameter>
 <!--    <parameter>
       <code value="shownav"/>

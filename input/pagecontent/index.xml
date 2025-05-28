@@ -17,4 +17,20 @@
   <p>
     <a href="not-translated.html">Page that does not have translations</a>
   </p>
+  
+  <a name="dependencies"> </a>
+  <h3>Dependencies</h3>
+  <p>
+    This guide also relies on a number of parent implementation guides:
+  </p>
+ 
+  {% include dependency-table-nontech-en.xhtml %}
+
+  <a name="ip"> </a>
+  <h3>IP Considerations</h3>
+  {% include ip-statements-en.xhtml %}
+  
+  <a name="cross-version"> </a>
+	{% include cross-version-analysis-inline-en.xhtml %}
+
 </div>
