@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Observation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
 	<id value="example"/>
+	<contained>
+    <Practitioner>
+      <id value="pract"/>
+      <name>
+        <text value="Dr. Smith"/>
+      </name>
+    </Practitioner>
+  </contained>
 	<identifier>
 		<system value="http://example.org/NamingSystem/observation-id"/>
 		<value value="o1223435-10"/>
@@ -41,7 +49,7 @@
 	</subject>
 	<effectiveDateTime value="2014-12-05T09:30:10+01:00"/>
 	<performer>
-    <display value="Dr. Jones"/>
+    <reference value="#pract"/>
 	</performer>
 	<valueQuantity>
 		<value value="95"/>
