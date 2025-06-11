@@ -1,6 +1,6 @@
 # sample-ig
 
-A sample, template-driven implementation guide that provides a test environment for multi-language IGs
+A sample, template-driven implementation guide that provides a test environment for multi-language IGs. [See documentation](https://build.fhir.org/ig/FHIR/ig-guidance/languages.html) on how to set one up for yourself.
 
 ## FHIR Foundation Project Statement
 
