@@ -158,7 +158,7 @@
         }
       ],
       "compartment": [
-        "http://hl7.org/fhir/CompartmentDefinition/patient"
+        "http://hl7.org/fhir/CompartmentDefinition/Patient"
       ]
     }
   ],
