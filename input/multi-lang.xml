@@ -110,7 +110,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Requirements/example"/>
+        <reference value="Requirements/example2"/>
       </reference>
       <description value="A test Requirements"/>
     </resource>

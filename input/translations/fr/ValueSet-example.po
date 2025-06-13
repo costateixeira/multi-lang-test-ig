@@ -13,8 +13,8 @@ msgstr "Exemple de jeu de valeurs"
 
 # The name of the organization or individual that published the value set.
 #: ValueSet.publisher
-msgid "HL7 Tooling group"
-msgstr "Groupe d'outils HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / Infrastructure FHIR"
 
 # A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.
 #: ValueSet.description

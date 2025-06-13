@@ -14,4 +14,4 @@ msgstr "TRT2مثال تعريف الهيكلية"
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
 #: StructureDefinition.publisher
 msgid "TRT3 HL7 Tooling group"
-msgstr "مجموعة أدوات HL7"
+msgstr "البنية التحتية لـ HL7 الدولية/FHIR"

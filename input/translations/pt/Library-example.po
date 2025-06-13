@@ -12,8 +12,8 @@ msgstr "Biblioteca de exemplo"
 
 # The name of the organization or individual that published the library.
 #: Library.publisher
-msgid "HL7 Tooling group"
-msgstr "Grupo de ferramentas HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 Internacional / Infraestrutura FHIR"
 
 # A free text natural language description of the library from a consumer's perspective.
 #: Library.description

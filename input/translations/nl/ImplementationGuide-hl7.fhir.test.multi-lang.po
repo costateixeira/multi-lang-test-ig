@@ -12,8 +12,8 @@ msgstr "Meertalige Test-IG"
 
 # The name of the organization or individual that published the implementation guide.
 #: ImplementationGuide.publisher
-msgid "HL7 Tooling group"
-msgstr "HL7 Tooling groep"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / FHIR-infrastructuur"
 
 # A free text natural language description of the implementation guide from a consumer's perspective.
 #: ImplementationGuide.description

@@ -7,8 +7,8 @@ msgstr "VoorbeeldZoekParameter"
 
 # The name of the organization or individual that published the search parameter.
 #: SearchParameter.publisher
-msgid "HL7 Tooling group"
-msgstr "HL7 Tooling groep"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / FHIR-infrastructuur"
 
 # The name of an individual to contact.
 #: ContactDetail.name

@@ -13,5 +13,5 @@ msgstr "Exemple de structure d'extension Définition"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
 #: StructureDefinition.publisher
-msgid "HL7 Tooling group"
-msgstr "Groupe d'outils HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / Infrastructure FHIR"

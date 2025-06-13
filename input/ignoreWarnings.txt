@@ -17,9 +17,12 @@ Most code systems defined in HL7 IGs will need to move to THO later during the p
 The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 The extension http://hl7.org/fhir/StructureDefinition/regex|5.2.0 is deprecated with the note This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
 
-
 # This is an example and is not expected to resolve
 WARNING: CapabilityStatement/example: CapabilityStatement.messaging[0].endpoint[0].address: No definition could be found for URL value 'mllp:10.1.1.10:9234'
 
 # This is auto-injected by the tools and isn't defined in the Obligation extension
 INFORMATION: StructureDefinition/example: StructureDefinition.snapshot.element[9].extension[0].extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/obligation|5.2.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+# These are examples and there aren't actual types we're using
+WARNING: StructureMap/example: StructureMap.group[0].input[0]: Group Examples parameter Source has no type, so the paths cannot be validated
+WARNING: StructureMap/example: StructureMap.group[0].input[1]: Group Examples parameter Destination has no type, so the paths cannot be validated

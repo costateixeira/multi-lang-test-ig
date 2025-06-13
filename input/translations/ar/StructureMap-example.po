@@ -13,8 +13,8 @@ msgstr "مثال على خريطة الهيكلية"
 
 # The name of the organization or individual that published the structure map.
 #: StructureMap.publisher
-msgid "HL7 Tooling group"
-msgstr "مجموعة أدوات HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
 
 # A free text natural language description of the structure map from a consumer's perspective.
 #: StructureMap.description

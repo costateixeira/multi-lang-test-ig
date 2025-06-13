@@ -1,7 +1,7 @@
 {
   "resourceType" : "Requirements",
-  "id" : "example",
-  "url": "http://hl7.org/fhir/test/multi-lang/Requirements/example",
+  "id" : "example2",
+  "url": "http://hl7.org/fhir/test/multi-lang/Requirements/example2",
 
   "name": "ExampleRequirements",
   "title": "Example Requirements",

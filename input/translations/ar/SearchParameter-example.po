@@ -8,8 +8,8 @@ msgstr "مثال على معيار البحث"
 
 # The name of the organization or individual that published the search parameter.
 #: SearchParameter.publisher
-msgid "HL7 Tooling group"
-msgstr "مجموعة أدوات HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
 
 # The name of an individual to contact.
 #: ContactDetail.name

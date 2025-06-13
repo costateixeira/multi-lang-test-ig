@@ -12,8 +12,12 @@
 		<typeMode value="none"/>
 		<documentation value="test -&gt; testValue"/>
 		<input>
-			<name value="test"/>
+			<name value="Source"/>
 			<mode value="source"/>
+		</input>
+		<input>
+			<name value="Destination"/>
+			<mode value="target"/>
 		</input>
 		<rule>
 			<name value="rule1"/>

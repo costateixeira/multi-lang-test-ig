@@ -13,8 +13,8 @@ msgstr "Exemple Opération Définition"
 
 # The name of the organization or individual that published the operation definition.
 #: OperationDefinition.publisher
-msgid "HL7 Tooling group"
-msgstr "Groupe d'outils HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / Infrastructure FHIR"
 
 # A free text natural language description of the operation definition from a consumer's perspective.
 #: OperationDefinition.description

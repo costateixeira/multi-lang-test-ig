@@ -13,8 +13,8 @@ msgstr "مثال على الاستبيان"
 
 # The name of the organization or individual that published the questionnaire.
 #: Questionnaire.publisher
-msgid "HL7 Tooling group"
-msgstr "مجموعة أدوات HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
 
 # A free text natural language description of the questionnaire from a consumer's perspective.
 #: Questionnaire.description

@@ -13,5 +13,5 @@ msgstr "مثال على تعريف بنية التمديد"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
 #: StructureDefinition.publisher
-msgid "HL7 Tooling group"
-msgstr "مجموعة أدوات HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"

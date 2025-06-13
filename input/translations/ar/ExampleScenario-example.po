@@ -8,8 +8,8 @@ msgstr "مثالمثالمثال على السيناريو"
 
 # The name of the organization or individual that published the example scenario.
 #: ExampleScenario.publisher
-msgid "HL7 Tooling group"
-msgstr "مجموعة أدوات HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
 
 # What the example scenario resource is created for. This should not be used to show the business purpose of the scenario itself, but the purpose of documenting a scenario.
 #: ExampleScenario.purpose

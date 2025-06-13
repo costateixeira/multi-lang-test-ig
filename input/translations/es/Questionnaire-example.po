@@ -12,8 +12,8 @@ msgstr "Ejemplo de cuestionario"
 
 # The name of the organization or individual that published the questionnaire.
 #: Questionnaire.publisher
-msgid "HL7 Tooling group"
-msgstr "Grupo de herramientas HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / Infraestructura FHIR"
 
 # A free text natural language description of the questionnaire from a consumer's perspective.
 #: Questionnaire.description
