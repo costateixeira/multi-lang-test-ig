@@ -1,12 +1,28 @@
 {
   "resourceType" : "Questionnaire",
   "id" : "example",
+  "contained": [
+    {
+      "resourceType" : "ValueSet",
+      "id" : "vs1",
+      "status": "active",
+      "compose" : {
+        "include" : [{
+          "system" : "http://hl7.org/fhir/test/multi-lang/CodeSystem/example",
+          "concept" : [{
+            "code" : "01",
+            "display" : "VS1"
+          }]
+        }]
+      }
+    }
+  ],
   "url" : "http://hl7.org/fhir/test/multi-lang/Questionnaire/example",
   
   "name": "ExampleQuestionnaire",
   "title": "Example Questionnaire",
   "status": "draft",
-  "publisher": "HL7 Tooling group",
+  "experimental": true,
   "description": "Example Questionnaire Instance",
 
   "subjectType": [
@@ -148,7 +164,8 @@
                   "display": "pT category"
                 }
               ],
-              "type": "choice"
+              "type": "choice",
+              "answerValueSet": "#vs1"
             }
           ]
         }

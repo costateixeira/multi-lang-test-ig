@@ -5,7 +5,7 @@
   
   "name": "ExampleSearchParameter",
   "status": "draft",
-  "publisher": "HL7 Tooling group",
+  "experimental": true,
   "description" : "Example Search Parameter Instance",
 
   "contact": [
@@ -54,7 +54,7 @@
     "Resource"
   ],
   "type": "token",
-  "expression": "id",
+  "expression": "Resource.id",
   "xpath": "f:*/f:id",
   "xpathUsage": "normal",
   "comparator": [

@@ -1,0 +1,72 @@
+# Plain text narrative that identifies the resource in addition to the resource reference.
+msgid ""
+msgstr ""
+
+#: Reference.display
+msgid "Acme Healthcare"
+msgstr "أكمي للرعاية الصحية"
+
+# The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
+#: HumanName.family
+msgid "Chalmers"
+msgstr "تشالمرز"
+
+# Given name.
+#: HumanName.given
+msgid "Peter"
+msgstr "بيتر"
+
+# Given name.
+#: HumanName.given
+msgid "James"
+msgstr "جيمس"
+
+# Given name.
+#: HumanName.given
+msgid "Jim"
+msgstr "جيم"
+
+# The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
+#: HumanName.family
+msgid "Windsor"
+msgstr "ويندسور"
+
+# Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts.
+#: Address.text
+msgid "534 Erewhon St PeasantVille, Rainbow, Vic  3999"
+msgstr "534 شارع إريوهون بيسانتفيل، رينبو، فيك 3999"
+
+# This component contains the house number, apartment number, street name, street direction,  P.O. Box number, delivery hints, and similar address information.
+#: Address.line
+msgid "534 Erewhon St"
+msgstr "534 شارع إيروهون"
+
+# The name of the city, town, suburb, village or other community or delivery center.
+#: Address.city
+msgid "PleasantVille"
+msgstr "بليزانتفيل"
+
+# The name of the administrative area (county).
+#: Address.district
+msgid "Rainbow"
+msgstr "قوس قزح"
+
+# Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes).
+#: Address.state
+msgid "Vic"
+msgstr "فيك"
+
+# A postal code designating a region defined by the postal service.
+#: Address.postalCode
+msgid "3999"
+msgstr "3999"
+
+# The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
+#: HumanName.family
+msgid "du Marché"
+msgstr "دو مارشيه"
+
+# Given name.
+#: HumanName.given
+msgid "Bénédicte"
+msgstr "بينيديكت"

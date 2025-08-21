@@ -1,0 +1,27 @@
+# A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
+#: SearchParameter.name
+msgid "ExampleSearchParameter"
+msgstr "مثال على معيار البحث"
+
+# The name of the organization or individual that published the search parameter.
+#: SearchParameter.publisher
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
+
+# The name of an individual to contact.
+#: ContactDetail.name
+msgid "[string]"
+msgstr "[سلسلة]"
+
+# And how it used.
+#: SearchParameter.description
+msgid "Example Search Parameter Instance"
+msgstr "مثال على مثيل معلمة البحث"
+
+# Explanation of why this search parameter is needed and why it has been designed as it has.
+#: SearchParameter.purpose
+msgid "Need to search by identifier for various infrastructural cases - mainly retrieving packages, and matching as part of a chain"
+msgstr "الحاجة إلى البحث حسب المعرّف لمختلف حالات البنية التحتية - استرجاع الحزم بشكل أساسي والمطابقة كجزء من سلسلة"

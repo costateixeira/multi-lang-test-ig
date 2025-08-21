@@ -17,4 +17,20 @@
   <p>
     <a href="not-translated.html">Página sin traducción</a>
   </p>
+  
+  <a name="dependencies"> </a>
+  <h3>Dependencias</h3>
+  <p>
+    Esta guía depende de otras:
+  </p>
+ 
+  {% include dependency-table-nontech-en.xhtml %}
+
+  <a name="ip"> </a>
+  <h3>Consideraciones IP</h3>
+  {% include ip-statements-en.xhtml %}
+  
+  <a name="cross-version"> </a>
+	{% include cross-version-analysis-inline-en.xhtml %}
+
 </div>

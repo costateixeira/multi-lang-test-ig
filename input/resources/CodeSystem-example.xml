@@ -6,8 +6,7 @@
   <name value="ExampleCodeSystem"/>
   <title value="Example Code System"/>
   <status value="draft"/>
-  <experimental value="false"/>
-  <publisher value="HL7 Tooling group"/>
+  <experimental value="true"/>
   <description value="Example Code System Instance"/>
   
   <caseSensitive value="true"/>
@@ -15,7 +14,12 @@
   <concept>
     <code value="01"/>
     <display value="CS1"/>
+    <definition value="Made-up code"/>
     <designation>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
       <value value="CS2"/>
     </designation>
   </concept>

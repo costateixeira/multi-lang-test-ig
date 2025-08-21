@@ -6,8 +6,7 @@
   "name": "ExampleConceptMap",
   "title": "Example Concept Map",
   "status": "draft",
-  "experimental" : false,
-  "publisher": "HL7 Tooling group",
+  "experimental" : true,
   "description": "Example Concept Map Instance",
 
   "contact": [
@@ -57,7 +56,7 @@
           "target": [
             {
               "code": "H",
-              "display": "home",
+              "display": "home address",
               "equivalence": "equivalent"
             }
           ]
@@ -75,7 +74,7 @@
         },
         {
           "code": "temp",
-          "display": "temp",
+          "display": "Temporary",
           "target": [
             {
               "code": "TMP",
@@ -86,7 +85,7 @@
         },
         {
           "code": "old",
-          "display": "old",
+          "display": "Old / Incorrect",
           "target": [
             {
               "code": "BAD",

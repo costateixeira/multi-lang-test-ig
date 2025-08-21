@@ -1,36 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><StructureMap xmlns="http://hl7.org/fhir">
-  <id value="example"/>
-  <url value="http://hl7.org/fhir/test/multi-lang/StructureMap/example"/>
-  
-  <name value="ExampleStructureMap"/>
-  <title value="Example Structure Map"/>
-  <status value="draft"/>
-  <publisher value="HL7 Tooling group"/> 
-  <description value="Example Structure Map Instance"/>
-
-  <group>
-    <name value="Examples"/>
-    <typeMode value="none"/>
-    <documentation value="test -&gt; testValue"/>
-    <input>
-      <name value="test"/>
-      <mode value="source"/>
-    </input>
-    <rule>
-      <name value="rule1"/>
-      <source>
-        <context value="Source"/>
-        <type value="SourceClassA"/>
-        <element value="test"/>
-        <variable value="t"/>
-      </source>
-      <target>
-        <context value="Destination"/>
-        <contextType value="variable"/>
-        <element value="testValue"/>
-        <transform value="copy"/>
-      </target>
-    </rule>
-  </group>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureMap xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+	<id value="example"/>
+	<url value="http://hl7.org/fhir/test/multi-lang/StructureMap/example"/>
+	<name value="ExampleStructureMap"/>
+	<title value="Example Structure Map"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<description value="Example Structure Map Instance"/>
+	<group>
+		<name value="Examples"/>
+		<typeMode value="none"/>
+		<documentation value="test -&gt; testValue"/>
+		<input>
+			<name value="Source"/>
+			<mode value="source"/>
+		</input>
+		<input>
+			<name value="Destination"/>
+			<mode value="target"/>
+		</input>
+		<rule>
+			<name value="rule1"/>
+			<source>
+				<context value="Source"/>
+				<type value="SourceClassA"/>
+				<element value="test"/>
+				<variable value="t"/>
+			</source>
+			<target>
+				<context value="Destination"/>
+				<contextType value="variable"/>
+				<element value="testValue"/>
+				<transform value="copy"/>
+			</target>
+		</rule>
+	</group>
 </StructureMap>

@@ -13,8 +13,8 @@ msgstr "Exemple de code Système"
 
 # The name of the organization or individual that published the code system.
 #: CodeSystem.publisher
-msgid "HL7 Tooling group"
-msgstr "Groupe d'outils HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / Infrastructure FHIR"
 
 # A free text natural language description of the code system from a consumer's perspective.
 #: CodeSystem.description

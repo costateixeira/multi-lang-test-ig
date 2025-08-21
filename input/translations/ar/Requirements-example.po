@@ -1,0 +1,12 @@
+# Plain text narrative that identifies the resource in addition to the resource reference.
+msgid ""
+msgstr ""
+
+#: Reference.display
+msgid "Lloyd Mackenzie"
+msgstr "لويد ماكنزي"
+
+# Plain text narrative that identifies the resource in addition to the resource reference.
+#: Reference.display
+msgid "Robert Hausam"
+msgstr "روبرت هاوسام"

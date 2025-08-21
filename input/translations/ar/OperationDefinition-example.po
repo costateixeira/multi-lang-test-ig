@@ -1,0 +1,57 @@
+# A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
+#: OperationDefinition.name
+msgid "ExampleOperationDefinition"
+msgstr "مثال على تعريف العملية"
+
+# A short, descriptive, user-friendly title for the operation definition.
+#: OperationDefinition.title
+msgid "Example Operation Definition"
+msgstr "مثال على تعريف العملية"
+
+# The name of the organization or individual that published the operation definition.
+#: OperationDefinition.publisher
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
+
+# A free text natural language description of the operation definition from a consumer's perspective.
+#: OperationDefinition.description
+msgid "Example Operation Definition Instance"
+msgstr "مثال على مثيل تعريف العملية"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "Clinical Venue"
+msgstr "المكان السريري"
+
+# A representation of the meaning of the code in the system, following the rules of the system.
+#: Coding.display
+msgid "inpatient encounter"
+msgstr "لقاء المرضى الداخليين"
+
+# Additional information about how to use this operation or named query.
+#: OperationDefinition.comment
+msgid "Only implemented for Labs and Medications so far"
+msgstr "تم تنفيذ ذلك فقط بالنسبة للمختبرات والأدوية حتى الآن"
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "The resource that is to be the *QuestionnaireResponse.subject*. The [[[QuestionnaireResponse]]]      instance will reference the provided subject.  In addition, if the *local* parameter is      set to true, server information about the specified subject will be used to populate the      instance."
+msgstr "المورد الذي سيكون *QuestionnaireResponse.subject*. سيشير مثيل [[[QuestionnaireResponse]]] إلى الموضوع المقدم.  بالإضافة إلى ذلك، إذا تم تعيين المعلمة *المحلي* على صواب، فسيتم استخدام معلومات الخادم حول الموضوع المحدد لتعبئة المثيل."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "If the *local* parameter is set to true, server information about the specified subject will be used to populate the instance."
+msgstr "إذا تم تعيين المعلمة *محلي* على صواب، فسيتم استخدام معلومات الخادم حول الموضوع المحدد لتعبئة المثيل."
+
+# Describes the meaning or use of this parameter.
+#: OperationDefinition.parameter.documentation
+msgid "The partially (or fully)-populated set of answers for the specified Questionnaire"
+msgstr "مجموعة الإجابات التي تمت تعبئتها جزئياً (أو كلياً) للاستبيان المحدد"
+
+# Comments to go on overload.
+#: OperationDefinition.overload.comment
+msgid "local defaults to false when not passed as a parameter"
+msgstr "المحلية افتراضيًا إلى خطأ عند عدم تمريرها كمتغير"

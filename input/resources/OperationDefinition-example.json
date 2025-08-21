@@ -6,7 +6,7 @@
   "name": "ExampleOperationDefinition",
   "title": "Example Operation Definition",
   "status": "draft",
-  "publisher": "HL7 Tooling group",
+  "experimental": true,
   "description" : "Example Operation Definition Instance",
 
   "kind": "operation",
@@ -14,7 +14,7 @@
   "useContext": [
     {
       "code": {
-        "system": "http://build.fhir.org/codesystem-usage-context-type",
+        "system": "http://terminology.hl7.org/ValueSet/usage-context-type",
         "code": "venue",
         "display": "Clinical Venue"
       },
@@ -42,51 +42,51 @@
   ],
   "code": "populate",
   "comment": "Only implemented for Labs and Medications so far",
-  "base": "http://hl7.org/fhir/OperationDefinition/Questionnaire-populate",
+  "base": "http://hl7.org/fhir/OperationDefinition/Composition-document",
   "resource": [
-    "Questionnaire"
+    "Composition"
   ],
   "system": false,
   "type": false,
   "instance": true,
   "parameter": [
     {
-      "name": "subject",
+      "name": "persist",
       "use": "in",
       "min": 1,
       "max": "1",
-      "documentation": "The resource that is to be the *QuestionnaireResponse.subject*. The [[[QuestionnaireResponse]]]      instance will reference the provided subject.  In addition, if the *local* parameter is      set to true, server information about the specified subject will be used to populate the      instance.",
+      "documentation": "Indicates whether the produced document should be persisted",
       "type": "Reference"
     },
     {
-      "name": "local",
+      "name": "graph",
       "use": "in",
       "min": 0,
       "max": "1",
-      "documentation": "If the *local* parameter is set to true, server information about the specified subject will be used to populate the instance.",
-      "type": "Reference"
+      "documentation": "Canonical reference to a GraphDefinition. If a URL is provided, it is the canonical reference to a GraphDefinition that it controls what resources are to be added to the bundle when building the document. The GraphDefinition can also specify profiles that apply to the various resources",
+      "type": "uri"
     },
     {
       "name": "return",
       "use": "out",
       "min": 1,
       "max": "1",
-      "documentation": "The partially (or fully)-populated set of answers for the specified Questionnaire",
-      "type": "QuestionnaireResponse"
+      "documentation": "The bundle containing the composition and resources associated with it. See FHIR Documents for information on resources that may be included in the bundle.",
+      "type": "Bundle"
     }
   ],
   "overload": [
     {
       "parameterName": [
-        "subject",
-        "local"
+        "persist",
+        "graph"
       ]
     },
     {
       "parameterName": [
-        "subject"
+        "persist"
       ],
-      "comment": "local defaults to false when not passed as a parameter"
+      "comment": "Graph is presumed to only be direct references if not specified"
     }
   ]
 }

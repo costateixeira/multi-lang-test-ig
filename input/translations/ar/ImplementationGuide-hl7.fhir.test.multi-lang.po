@@ -1,0 +1,132 @@
+# A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
+#: ImplementationGuide.name
+msgid "MultiLanguageTestIG"
+msgstr "MultLanguageTestIG"
+
+# A short, descriptive, user-friendly title for the implementation guide.
+#: ImplementationGuide.title
+msgid "Multi-Language Test IG"
+msgstr "اختبار IG متعدد اللغات"
+
+# The name of the organization or individual that published the implementation guide.
+#: ImplementationGuide.publisher
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
+
+# A free text natural language description of the implementation guide from a consumer's perspective.
+#: ImplementationGuide.description
+msgid "This IG exists to test out the generation of multi-language IGs. Primary language is en, also does nl, pt, and ar (rtl test)"
+msgstr "يوجد هذا الفريق المستقل لاختبار توليد الفريق المستقل متعدد اللغات. اللغة الأساسية هي اللغة الإنجليزية، وكذلك اللغة الإنجليزية، واللغة الإنجليزية، واللغة البرتغالية، واللغة العربية (اختبار rtl)"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example Code System Instance"
+msgstr "مثال على مثيل نظام التعليمات البرمجية"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example ValueSet Instance"
+msgstr "مثال على مثيل مجموعة القيم"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Test Patient Profile"
+msgstr "اختبار الملف الشخصي للمريض"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A simple example showing how examples are defined and referenced"
+msgstr "مثال بسيط يوضح كيفية تعريف الأمثلة والإشارة إليها"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test example Library"
+msgstr "مثال اختبار المكتبة"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test Questionnaire"
+msgstr "استبيان اختباري"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test ConceptMap"
+msgstr "خريطة مفهوم الاختبار"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test StructureMap"
+msgstr "خريطة هيكلية اختبارية"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test OperationDefinition"
+msgstr "اختبار العملية الاختباريةتعريف العملية"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test ExampleScenario"
+msgstr "مثال للاختبارالسيناريو"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test ActorDefinition"
+msgstr "اختبار تعريف الممثل الاختباري"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test Requirements"
+msgstr "متطلبات الاختبار"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test CapabilityStatement"
+msgstr "بيان قدرة الاختبار"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "A test SearchParameter"
+msgstr "اختبار معيار البحث عن معلمة البحث"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "1st Observation example"
+msgstr "1 مثال على الملاحظة الأولى"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example showing binary content"
+msgstr "مثال يوضح المحتوى الثنائي"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example Extension Structure Definition Instance"
+msgstr "مثال على مثيل تعريف بنية الامتداد"
+
+# A description of the reason that a resource has been included in the implementation guide.
+#: ImplementationGuide.definition.resource.description
+msgid "Example Logical Structure Definition Instance"
+msgstr "مثال على مثيل تعريف البنية المنطقية"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Table of Contents"
+msgstr "جدول المحتويات"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Test IG Home Page"
+msgstr "الصفحة الرئيسية لاختبار IG"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Translated"
+msgstr "مترجم"
+
+# A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
+#: ImplementationGuide.definition.page.title
+msgid "Not Translated"
+msgstr "غير مترجم"

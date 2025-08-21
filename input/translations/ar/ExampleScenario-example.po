@@ -1,0 +1,339 @@
+# A natural language name identifying the example scenario. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+
+#: ExampleScenario.name
+msgid "ExampleExampleScenario"
+msgstr "مثالمثالمثال على السيناريو"
+
+# The name of the organization or individual that published the example scenario.
+#: ExampleScenario.publisher
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "البنية التحتية لـ FHIR / HL7 الدولية"
+
+# What the example scenario resource is created for. This should not be used to show the business purpose of the scenario itself, but the purpose of documenting a scenario.
+#: ExampleScenario.purpose
+msgid "Purpose: this serves to demonstrate the performing of medication administration, by using remote / mobile devices to a) Get the planned medication administrations and b) Record the performing of these administrations without a permanent connection to the EHR."
+msgstr "الغرض: يعمل هذا على إظهار أداء إعطاء الدواء، باستخدام الأجهزة البعيدة/المحمولة من أجل (أ) الحصول على الأدوية المخطط لها و(ب) تسجيل أداء هذه الأدوية دون اتصال دائم بالسجلات الصحية الإلكترونية."
+
+# The name of the actor as shown in the page.
+#: ExampleScenario.actor.name
+msgid "Nurse"
+msgstr "ممرضة"
+
+# The description of the actor.
+#: ExampleScenario.actor.description
+msgid "The Nurse"
+msgstr "الممرضة"
+
+# The name of the actor as shown in the page.
+#: ExampleScenario.actor.name
+msgid "Nurse's Tablet"
+msgstr "قرص الممرضة"
+
+# The description of the actor.
+#: ExampleScenario.actor.description
+msgid "The entity that receives the Administration Requests to show the nurse to perform them"
+msgstr "الجهة التي تتلقى طلبات الإدارة لعرضها على الممرضة لتنفيذها"
+
+# The name of the actor as shown in the page.
+#: ExampleScenario.actor.name
+msgid "MAR / Scheduler"
+msgstr "م.م.م. / المجدول"
+
+# The description of the actor.
+#: ExampleScenario.actor.description
+msgid "The Medication Administration Order Placer"
+msgstr "واضع أوامر إدارة الدواء"
+
+# The name of the actor as shown in the page.
+#: ExampleScenario.actor.name
+msgid "MAR / EHR"
+msgstr "الرنين المغناطيسي/السجل الصحي الإلكتروني"
+
+# The description of the actor.
+#: ExampleScenario.actor.description
+msgid "The entity that receives the Medication Administration reports"
+msgstr "الجهة التي تتلقى تقارير إدارة الأدوية"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Initial Prescription"
+msgstr "الوصفة الطبية الأولية"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The initial prescription which describes \"medication X, 3 times per day\" - the exact scheduling is not   in the initial prescription (it is left for the care teams to decide on the schedule)."
+msgstr "الوصفة الطبية الأولية التي تصف \"الدواء X، 3 مرات في اليوم\" - لا يوجد الجدول الزمني الدقيق في الوصفة الطبية الأولية (يُترك الأمر لفرق الرعاية لتقرر الجدول الزمني)."
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Request for day 1, morning"
+msgstr "طلب اليوم 1، صباحاً"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The administration request for day 1, morning"
+msgstr "طلب الإدارة لليوم الأول، صباحاً"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Request for day 1, lunch"
+msgstr "طلب اليوم 1، الغداء"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The administration request for day 1, lunch"
+msgstr "طلب الإدارة لليوم الأول، الغداء"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Request for day 1, evening"
+msgstr "طلب اليوم الأول، مساءً"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The administration request for day 1, evening"
+msgstr "طلب الإدارة لليوم الأول، مساءً"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Request for day 2, morning"
+msgstr "طلب اليوم 2، صباحاً"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The administration request for day 2, morning"
+msgstr "طلب الإدارة لليوم الثاني، صباح اليوم الثاني"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Request for day 2, lunch"
+msgstr "طلب اليوم 2، الغداء"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The administration request for day 2, lunch"
+msgstr "طلب الإدارة لليوم 2، الغداء"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Request for day 2, evening"
+msgstr "طلب اليوم الثاني، مساءً"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The administration request for day 2, evening"
+msgstr "طلب الإدارة لليوم الثاني، مساء اليوم الثاني"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Morning meds - taken"
+msgstr "أدوية الصباح - تم تناولها"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "Administration report for day 1, morning: Taken"
+msgstr "التقرير الإداري لليوم الأول، صباحاً: مأخوذة"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Morning meds - not taken"
+msgstr "أدوية الصباح - لم يتم تناولها"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "Administration report for day 1, morning: NOT Taken"
+msgstr "التقرير الإداري لليوم الأول، صباحاً غير مأخوذ"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Bundle of Medication Requests"
+msgstr "حزمة طلبات الأدوية"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "All the medication Requests for Day 1"
+msgstr "جميع طلبات الأدوية لليوم الأول"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Lunch meds - taken"
+msgstr "أدوية الغداء - تم تناولها"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "Administration report for day 1, lunch: Taken"
+msgstr "التقرير الإداري لليوم الأول، الغداء مأخوذة"
+
+# The description of the resource version.
+#: ExampleScenario.instance.version.description
+msgid "Medication just taken"
+msgstr "الدواء الذي تم تناوله للتو"
+
+# The description of the resource version.
+#: ExampleScenario.instance.version.description
+msgid "Medication rejected"
+msgstr "الأدوية المرفوضة"
+
+# A short name for the resource instance.
+#: ExampleScenario.instance.name
+msgid "Search query1"
+msgstr "استعلام البحث1"
+
+# Human-friendly description of the resource instance.
+#: ExampleScenario.instance.description
+msgid "The search administration request for day 1, morning"
+msgstr "طلب إدارة البحث لليوم 1، الصباح"
+
+# The diagram title of the group of operations.
+#: ExampleScenario.process.title
+msgid "Mobile Medication Administration"
+msgstr "إدارة الأدوية المتنقلة"
+
+# A longer description of the group of operations.
+#: ExampleScenario.process.description
+msgid "This scenario demonstrates the process of getting the relevant medication instructions for a patient visit and reporting the results of administration. The scenario is as follows: After the prescription is issued, the institution schedules each individual administration event in the Medication Administration Record (MAR). When preparing for a visit, the nurse queries the MAR for the scheduled administrations, obtaining a bundle of records. The nurse then performs the care activities and registers the results in the device. Upon synchronization of the device and the institution, the results of administration are uploaded to the EHR, thus updating the MAR."
+msgstr "يوضح هذا السيناريو عملية الحصول على تعليمات الدواء ذات الصلة لزيارة المريض والإبلاغ عن نتائج تناوله. السيناريو على النحو التالي: بعد إصدار الوصفة الطبية، تقوم المؤسسة بجدولة كل حدث إعطاء فردي في سجل إدارة الدواء (MAR). عند التحضير للزيارة، تستفسر الممرضة عن سجل إدارة الدواء (MAR) عن عمليات الإعطاء المجدولة، وتحصل على حزمة من السجلات. تقوم الممرضة بعد ذلك بتنفيذ أنشطة الرعاية وتسجيل النتائج في الجهاز. عند مزامنة الجهاز والمؤسسة، يتم تحميل نتائج الإعطاء إلى السجل الصحي الإلكتروني، وبالتالي تحديث السجل الطبي الإلكتروني."
+
+# Description of initial status before the process starts.
+#: ExampleScenario.process.preConditions
+msgid "Medication administration requests are in the EHR / MAR, scheduled for each individual intake."
+msgstr "طلبات إعطاء الدواء موجودة في السجلات الصحية الإلكترونية/سجل الأدوية الطبي، ومجدولة لكل تناول فردي."
+
+# Description of final status after the process ends.
+#: ExampleScenario.process.postConditions
+msgid "Medication administration Reports are submitted, EHR is updated."
+msgstr "يتم تقديم تقارير إدارة الأدوية وتحديث السجلات الصحية الإلكترونية."
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "1. Get today's schedule"
+msgstr "1. احصل على جدول اليوم"
+
+# The diagram title of the group of operations.
+#: ExampleScenario.process.title
+msgid "P1. Query Administration Requests"
+msgstr "P1. طلبات إدارة الاستعلامات"
+
+# A longer description of the group of operations.
+#: ExampleScenario.process.description
+msgid ""
+"Query for medication administration orders,\n"
+"- For today's shifts\n"
+"- For today's patients"
+msgstr ""
+"الاستعلام عن أوامر إعطاء الأدوية\n"
+"- لمناوبات اليوم\n"
+"- لمرضى اليوم"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid ""
+"2.Query for medication administration orders,\n"
+"- For today's shifts\n"
+"- For today's patients"
+msgstr ""
+"2- الاستعلام عن أوامر إعطاء الأدوية,\n"
+"- لمناوبات اليوم\n"
+"- لمرضى اليوم"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Notify (alert)"
+msgstr "إعلام (تنبيه)"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Read orders"
+msgstr "قراءة الطلبات"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Ask if patient took meds"
+msgstr "اسأل عما إذا كان المريض قد تناول الأدوية"
+
+# The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
+#: ExampleScenario.process.step.alternative.title
+msgid "Patient took drugs"
+msgstr "تناول المريض المخدرات"
+
+# A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
+#: ExampleScenario.process.step.alternative.description
+msgid "Invoke if patient took medications"
+msgstr "الاستدعاء إذا تناول المريض الأدوية"
+
+# The diagram title of the group of operations.
+#: ExampleScenario.process.title
+msgid "Register Meds taken"
+msgstr "تسجيل الأدوية التي تم تناولها"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Register Meds taken"
+msgstr "تسجيل الأدوية التي تم تناولها"
+
+# The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
+#: ExampleScenario.process.step.alternative.title
+msgid "No drugs"
+msgstr "لا مخدرات"
+
+# A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
+#: ExampleScenario.process.step.alternative.description
+msgid "No, patient did not take drugs"
+msgstr "لا، لم يتعاطى المريض المخدرات"
+
+# The diagram title of the group of operations.
+#: ExampleScenario.process.title
+msgid "Register Meds NOT taken"
+msgstr "تسجيل الأدوية التي لم يتم تناولها"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Register Meds NOT taken"
+msgstr "تسجيل الأدوية التي لم يتم تناولها"
+
+# The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
+#: ExampleScenario.process.step.alternative.title
+msgid "Not clear"
+msgstr "غير واضح"
+
+# A human-readable description of the alternative explaining when the alternative should occur rather than the base step.
+#: ExampleScenario.process.step.alternative.description
+msgid "Unknown whether patient took medications or not"
+msgstr "غير معروف ما إذا كان المريض تناول الأدوية أم لا"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Administer drug"
+msgstr "إدارة الدواء"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Register administration"
+msgstr "إدارة السجل"
+
+# The diagram title of the group of operations.
+#: ExampleScenario.process.title
+msgid "P2. Update administration reports"
+msgstr "P2. تحديث التقارير الإدارية"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Nurse updates administration report"
+msgstr "تقرير إدارة تحديثات الممرضات"
+
+# The diagram title of the group of operations.
+#: ExampleScenario.process.title
+msgid "P3. Upload administration reports"
+msgstr "P3. تحميل تقارير الإدارة"
+
+# A longer description of the group of operations.
+#: ExampleScenario.process.description
+msgid "The nurse's system uploads the administration results to the server"
+msgstr "يقوم نظام الممرضة بتحميل نتائج الإدارة إلى الخادم"
+
+# The human-friendly name of the interaction.
+#: ExampleScenario.process.step.operation.name
+msgid "Refresh"
+msgstr "تحديث"

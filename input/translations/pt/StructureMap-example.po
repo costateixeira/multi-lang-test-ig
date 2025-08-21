@@ -12,8 +12,8 @@ msgstr "Exemplo de mapa de estrutura"
 
 # The name of the organization or individual that published the structure map.
 #: StructureMap.publisher
-msgid "HL7 Tooling group"
-msgstr "Grupo de ferramentas HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 Internacional / Infraestrutura FHIR"
 
 # A free text natural language description of the structure map from a consumer's perspective.
 #: StructureMap.description

@@ -4,44 +4,25 @@
 # instructions for ignoreWarnings.txt https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints
 # (And include comments like this justifying why)
 
-# We expect that all of the 'structural' resources will only be validated against their respective 'core' resource definitions
-Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-Validate resource against profile http://hl7.org/fhir/StructureDefinition/Library
-Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+# This was erroneously deprecated and will be coming back
+Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
 
-# Have verified that these examples are being checked against the expected profiles/resources.
-INFORMATION: Binary/example: Binary: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
-INFORMATION: Bundle/h1: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
-INFORMATION: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Provenance
-INFORMATION: Patient/example: Patient: Validate resource against profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient
+# This shouldn't be marked as deprecated and will be fixed in THO
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/variant-state|1.0.0
 
-# This is inherited from the base resource
-WARNING: StructureDefinition/myObservation: StructureDefinition.snapshot.element[15].mapping[3].map: value should not start or finish with whitespace
+# This is an example code system, so THO rules don't apply
+Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 
-# These examples are fake code systems - they're not expected to be checked
-Code System URI 'http://example.org/some-id-type-system' is unknown so the code cannot be validated
-Code System URI 'http://example.org/some-system' is unknown so the code cannot be validated
+# This is inherited from the core specification
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.2.0 is deprecated with the note This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
 
-# We're expecting these to not match the slice - we're showing how you can use slicing to define the one repetition you want even when many repetitions might be present
-INFORMATION: Patient/example: Patient.name[0]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient
-INFORMATION: Patient/example: Patient.name[1]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient
+# This is an example and is not expected to resolve
+WARNING: CapabilityStatement/example: CapabilityStatement.messaging[0].endpoint[0].address: No definition could be found for URL value 'mllp:10.1.1.10:9234'
 
-# If this was a real IG, there should be examples for these profiles too.  But it's not, and I'm lazy...
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner'): The Implementation Guide contains no examples for this profile
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation'): The Implementation Guide contains no examples for this profile
+# This is auto-injected by the tools and isn't defined in the Obligation extension
+INFORMATION: StructureDefinition/example: StructureDefinition.snapshot.element[9].extension[0].extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/obligation|5.2.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
-# The objective is to show a reference to an unknown code system, so these warnings are expected
-WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknown System/Version specified, so Concepts and Filters can''t be checked
-WARNING: ValueSet.where(id = 'valueset-no-codesystem'): Error from server: Unable to provide support for code system http://not-a-known-code-system
-
-# We don't want a code for the change reason (and this binding shouldn't be extensible anyhow)
-WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set 'PurposeOfUse' (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse)
-WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set 'PurposeOfUse' (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse)
-
-# This error is intentional to demonstrate that CQL files not included in a Library resource in the IG are an error:
-ERROR: sample-ig\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
-
-# These errors are intentional to demonstrate that specifying the canonical URL for value sets in the CQL is expected
-ERROR: Library/example: Library.relatedArtifact[7].resource: Canonical URLs must be absolute URLs if they are not fragment references (TBD)
-ERROR: Library/example: Library.dataRequirement[4].codeFilter[0].valueSet: Canonical URLs must be absolute URLs if they are not fragment references (TBD)
+# These are examples and there aren't actual types we're using
+WARNING: StructureMap/example: StructureMap.group[0].input[0]: Group Examples parameter Source has no type, so the paths cannot be validated
+WARNING: StructureMap/example: StructureMap.group[0].input[1]: Group Examples parameter Destination has no type, so the paths cannot be validated

@@ -6,7 +6,7 @@
   "name": "ExampleCapabilityStatement",
   "title": "Example Capability Statement",
   "status": "draft",
-  "publisher": "HL7 Tooling group",
+  "experimental": true,
   "description": "Example Capability Statement Instance",
 
   "contact": [
@@ -51,7 +51,7 @@
   "copyright": "Copyright © Acme Healthcare and GoodCorp EHR Systems",
   "kind": "instance",
   "instantiates": [
-    "http://ihe.org/fhir/CapabilityStatement/pixm-client"
+    "http://example.org/fhir/CapabilityStatement/pixm-client"
   ],
   "software": {
     "name": "EHR",
@@ -60,7 +60,7 @@
   },
   "implementation": {
     "description": "main EHR at ACME",
-    "url": "http://10.2.3.4/fhir"
+    "url": "http://example.org/fhir"
   },
   "fhirVersion": "4.0.1",
   "format": [
@@ -95,9 +95,9 @@
       "resource": [
         {
           "type": "Patient",
-          "profile": "http://registry.fhir.org/r4/StructureDefinition/7896271d-57f6-4231-89dc-dcc91eab2416",
+          "profile": "http://example.org/r4/StructureDefinition/7896271d-57f6-4231-89dc-dcc91eab2416",
           "supportedProfile": [
-            "http://registry.fhir.org/r4/StructureDefinition/00ab9e7a-06c7-4f77-9234-4154ca1e3347"
+            "http://example.org/r4/StructureDefinition/00ab9e7a-06c7-4f77-9234-4154ca1e3347"
           ],
           "documentation": "This server does not let the clients create identities.",
           "interaction": [
@@ -158,7 +158,7 @@
         }
       ],
       "compartment": [
-        "http://hl7.org/fhir/CompartmentDefinition/patient"
+        "http://hl7.org/fhir/CompartmentDefinition/Patient"
       ]
     }
   ],
@@ -187,7 +187,7 @@
     {
       "mode": "consumer",
       "documentation": "Basic rules for all documents in the EHR system",
-      "profile": "http://fhir.hl7.org/base/Profilebc054d23-75e1-4dc6-aca5-838b6b1ac81d/_history/b5fdd9fc-b021-4ea1-911a-721a60663796"
+      "profile": "http://example.org/base/Profilebc054d23-75e1-4dc6-aca5-838b6b1ac81d/_history/b5fdd9fc-b021-4ea1-911a-721a60663796"
     }
   ]
 }

@@ -12,6 +12,6 @@ msgstr "Exemplo de definição de estrutura de extensão"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
 #: publisher
-msgid "HL7 Tooling group"
-msgstr "Grupo de ferramentas HL7"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 Internacional / Infraestrutura FHIR"
 

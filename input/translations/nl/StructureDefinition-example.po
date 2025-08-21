@@ -12,6 +12,6 @@ msgstr "Voorbeeld Structuurdefinitie"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
 #: publisher
-msgid "HL7 Tooling group"
-msgstr "HL7 Tooling groep"
+msgid "HL7 International / FHIR Infrastructure"
+msgstr "HL7 International / FHIR-infrastructuur"
 
